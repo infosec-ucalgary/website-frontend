@@ -12,7 +12,7 @@ export default class Router {
 		let regexPath = route.path.replace(/([:*])(\w+)/g, (full, colon, name) => {
 			paramNames.push(name);
 			return '([^\/]+)';
-		}) + '(?:\/|+)';
+		}) + '(?:\/|$)';
 
 		let params = {};
 
