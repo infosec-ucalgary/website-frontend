@@ -5,7 +5,7 @@ To make a simple web app to help manage club operations, such as: member managem
 - - -
 ## Tech Stack
 ### Frontend
-![HTML & CSS](https://www.w3.org/html/logo/badge/html5-badge-h-css3.png) and vanilla JavaScript
+![HTML & CSS](https://www.w3.org/html/logo/badge/html5-badge-h-css3.png) and vanilla JavaScript  
 [Pure CSS](https://purecss.io/) for styling
 ### Backend
 * [Click here](https://github.com/jdjnovak/uofc-infosec-club-backend) to see the repo for the backend
