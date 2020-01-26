@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Calendar from '../views/Calendar.vue'
 import Resources from '../views/Resources.vue'
+import NotFound from '../views/NotFound.vue'
 
 Vue.use(VueRouter)
 
@@ -21,6 +22,11 @@ const routes = [
     path: '/resources',
     name: 'resources',
     component: Resources
+  },
+  {
+    path: '*',
+    name: 'notfound',
+    component: NotFound
   }
 ]
 
