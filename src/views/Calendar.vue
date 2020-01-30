@@ -24,7 +24,7 @@
               <th scope="row">2020/01/27</th><td>Virtual Machines and Terminal Commands</td><td>Jeremy and Braydon</td><td>ICT 102</td>
             </tr>
             <tr>
-              <th scope="row">2020/02/03</th><td>Intro to Web Exploitation</td><td>Alex</td><td>TBD</td>
+              <th scope="row">2020/02/03</th><td>Intro to Web Exploitation</td><td>Alex</td><td>ENG 60</td>
             </tr>
             <tr>
               <th scope="row">2020/02/10</th><td>Intro to Binary Exploitation - Buffer Overflows</td><td>Jeremy</td><td>TBD</td>
