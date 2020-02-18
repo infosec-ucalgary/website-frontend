@@ -33,7 +33,7 @@
               <th scope="row">2020/02/24</th><td>Intro to Crypto and Modular Arithmatic</td><td>Himika</td><td>ENG 60</td>
             </tr>
             <tr>
-              <th scope="row">2020/03/02</th><td>Intro to Reverse Engineering</td><td>Gagan</td><td>ENG 60</td>
+              <th scope="row">2020/03/02</th><td>Intro to Reverse Engineering</td><td>Jeremy</td><td>ENG 60</td>
             </tr>
             <tr>
               <th scope="row">2020/03/09</th><td>Intro to Forensics</td><td>Braydon</td><td>ENG 60</td>
