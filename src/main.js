@@ -5,13 +5,18 @@ import App from './App.vue'
 import './registerServiceWorker'
 import router from './router'
 import store from './store'
-import VueCarousel from 'vue-carousel'
 import FunctionalCalendar from 'vue-functional-calendar'
+
+// import '@inkline/inkline/src/inkline.scss'
+// import * as components from '@inkline/inkline/src/components'
+
+// import VueCarousel from 'vue-carousel'
 
 Vue.config.productionTip = false
 
+// Vue.use(Inkline, { components })
 Vue.use(Inkline)
-Vue.use(VueCarousel)
+// Vue.use(VueCarousel)
 Vue.use(FunctionalCalendar, {
   dayNames: ['Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa', 'Su']
 })

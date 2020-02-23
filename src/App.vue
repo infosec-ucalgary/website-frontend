@@ -1,6 +1,6 @@
 <template>
   <div class="_position-relative _width-100" id="outer-container">
-    <i-navbar variant="light">
+    <i-navbar variant="dark">
       <i-navbar-brand>UofC InfoSec Club</i-navbar-brand>
       <i-navbar-items class="_justify-content-end">
         <i-nav>

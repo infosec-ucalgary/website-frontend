@@ -1,8 +1,8 @@
 <template>
-  <div id="outer">
+  <div id="outer" class="">
     <div style="" class="_text-center _display-block">
       <img src="@/assets/official-logo-transparent.png" style="max-height: 600px;" class="image -responsive _position-relative" /><br>
-      <span class="h1 _text-center">UofC Information Security Club</span>
+      <span class="h1 _text-center _vw-100">UofC Information Security Club</span>
     </div>
     <br>
     <div class="home _display-block" style="margin-top: 50px;">
@@ -16,7 +16,7 @@
 
         <i-row center-xs>
           <i-column xs="9" sm="6">
-            <p class="lead _text-justify">The Information Security Club (InfoSec Club) is devoted to the art and science of information security.  We focus on helping students translate the knowledge they learn in courses into skills they can apply in the field of information security.  We also work to train students to compete in capture the flag competitions and represent the University of Calgary in international competition.  Working to develop connections to industry professionals, we also strive to connect students to the world of information security outside the university and help the transition into the real world of infosec.</p>
+            <p class="lead _text-center">The Information Security Club is devoted to the art and science of information security.  We focus on helping students translate the knowledge they learn in courses into skills they can apply in the field of information security.  We are working to train students to compete in capture the flag (CTF) competitions and are working towards representing the University of Calgary on an international stage. We are also working to develop connections to industry professionals with the goal of connecting students to the world of information security outside the university in order to help them transition from the world of academics to a career information security.</p>
           </i-column>
         </i-row>
 
@@ -28,13 +28,12 @@
 
         <i-row>
           <i-column xs="12">
-            <h4 class="_text-center inline-block _align-middle">Join us for our first meeting:</h4><br>
-            <p class="lead _text-center inline-block _align-middle">Our first meeting is happening on <b><u>January 27, 2020 at 6:00 PM to 8:00 PM</u></b>. Come find us in <b><u>ICT 102</u></b>.</p>
+            <h4 class="_text-center inline-block _align-middle">Join us every Monday from 6PM to 8PM in ENG60:</h4><br>
           </i-column>
         </i-row>
         <i-row>
           <i-column xs="12" class="_text-center">
-            <img src="@/assets/ICT102.png" class="_width-50 image -responsive" />
+            <img src="@/assets/ENG60.png" class="_width-75 image -responsive" />
           </i-column>
         </i-row>
 
