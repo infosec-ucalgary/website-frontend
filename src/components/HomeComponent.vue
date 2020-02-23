@@ -1,11 +1,11 @@
 <template>
   <div id="outer">
-    <div style="height: 65vh;" class="_text-center">
-      <img src="@/assets/logo.jpg" class="image -responsive _position-relative _height-100" /><br>
+    <div style="" class="_text-center _display-block">
+      <img src="@/assets/official-logo-transparent.png" style="max-height: 600px;" class="image -responsive _position-relative" /><br>
       <span class="h1 _text-center">UofC Information Security Club</span>
     </div>
     <br>
-    <div class="home" style="margin-top: 50px;">
+    <div class="home _display-block" style="margin-top: 50px;">
       <i-container>
 
         <i-row>
@@ -15,7 +15,7 @@
         </i-row>
 
         <i-row center-xs>
-          <i-column xs="9">
+          <i-column xs="9" sm="6">
             <p class="lead _text-justify">The Information Security Club (InfoSec Club) is devoted to the art and science of information security.  We focus on helping students translate the knowledge they learn in courses into skills they can apply in the field of information security.  We also work to train students to compete in capture the flag competitions and represent the University of Calgary in international competition.  Working to develop connections to industry professionals, we also strive to connect students to the world of information security outside the university and help the transition into the real world of infosec.</p>
           </i-column>
         </i-row>
