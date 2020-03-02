@@ -1,0 +1,242 @@
+{
+	"data": [
+		{
+			"id": 0,
+			"category": "Tools", 
+			"title": "Pwntools",
+			"link": "https://github.com/Gallopsled/pwntools",
+			"desc": "A set of tools used extensively for CTFs"
+		},
+		{
+			"id": 1,
+			"category": "Tools", 
+			"title": "Cutter",
+			"link": "https://github.com/radareorg/cutter",
+			"desc": "A GUI overlay for radare2, excellent for reverse engineering."
+		},
+		{
+			"id": 2,
+			"category": "Tools", 
+			"title": "Ghidra",
+			"link": "https://ghidra-sre.org/",
+			"desc": "A reverse engineering tool developed by the NSA."
+		},
+		{
+			"id": 3,
+			"category": "Tools", 
+			"title": "Binwalk",
+			"link": "https://tools.kali.org/forensics/binwalk",
+			"desc": "A very helpful forensics and reverse engineering tool for finding markers for what kinds of files are contained in a file."
+		},
+		{
+			"id": 4,
+			"category": "Tools", 
+			"title": "Stegosuite",
+			"link": "https://stegosuite.org/",
+			"desc": "Tool for hiding information in image files."
+		},
+		{
+			"id": 5,
+			"category": "Tools", 
+			"title": "Linux Subsystem For Windows",
+			"link": "https://www.howtogeek.com/265900/everything-you-can-do-with-windows-10s-new-bash-shell/",
+			"desc": "A good tool for getting a linux terminal in any Windows 10 machine"
+		},
+		{
+			"id": 6,
+			"category": "Tools", 
+			"title": "Kali Linux",
+			"link": "https://www.kali.org/",
+			"desc": "A linux build designed for information security and penetration testing with lots of tools already installed."
+		},
+		{
+			"id": 7,
+			"category": "Guides", 
+			"title": "AwesomeCTF",
+			"link": "https://github.com/apsdehal/awesome-ctf",
+			"desc": "A long list of resources, guides, and CTFs for practice."
+		},
+		{
+			"id": 8,
+			"category": "Guides", 
+			"title": "CTF101",
+			"link": "https://ctf101.org/",
+			"desc": "A wiki and guidebook that serves as a good introduction to the categories in CTFs."
+		},
+		{
+			"id": 9,
+			"category": "Guides", 
+			"title": "CTF Wiki",
+			"link": "https://ctf-wiki.github.io/ctf-wiki/",
+			"desc": "Another wiki for helpful CTF information."
+		},
+		{
+			"id": 10,
+			"category": "Guides", 
+			"title": "CTF Field Guide",
+			"link": "https://trailofbits.github.io/ctf/index.html",
+			"desc": "A few useful guides for some of the more basic skills needed in CTFs."
+		},
+		{
+			"id": 11,
+			"category": "Guides", 
+			"title": "String Format Vulnerabilities",
+			"link": "https://cs155.stanford.edu/papers/formatstring-1.2.pdf",
+			"desc": "An excellent written guide to string vulnerabilities."
+		},
+		{
+			"id": 12,
+			"category": "Guides", 
+			"title": "LiveOverflow",
+			"link": "https://www.liveoverflow.com",
+			"desc": "A guy who started a youtube channel devoted to hacking/pen testing/CTFs, now a great site and resource for learning about infosec skills"
+		},
+		{
+			"id": 13,
+			"category": "Courses", 
+			"title": "Network Academy",
+			"link": "https://www.netacad.com/courses/security",
+			"desc": "Created by Cisco, this has a lot of courses in various areas of information security."
+		},
+		{
+			"id": 14,
+			"category": "Practice Sites", 
+			"title": "Penetration Testing Practice Lab",
+			"link": "https://www.amanhardikar.com/mindmaps/Practice.html",
+			"desc": "A looong list of sites and machines to practice penetration testing."
+		},
+		{
+			"id": 15,
+			"category": "Practice Sites", 
+			"title": "HackTheBox",
+			"link": "https://www.hackthebox.eu/",
+			"desc": "A site known for the challenge it provides"
+		},
+		{
+			"id": 16,
+			"category": "CTF Practice", 
+			"title": "PicoCTF",
+			"link": "https://picoctf.com/",
+			"desc": "The site we use to practice in our workshops.  A beginner friendly CTF site, and the largest CTF in the world"
+		},
+		{
+			"id": 17,
+			"category": "CTF Practice", 
+			"title": "CTFLearn",
+			"link": "https://ctflearn.com/",
+			"desc": "A long list of challenges and problems to try"
+		},
+		{
+			"id": 18,
+			"category": "CTF Practice", 
+			"title": "Practice CTF List",
+			"link": "https://captf.com/practice-ctf/",
+			"desc": "a list of sites that host practice CTF challenges"
+		},
+		{
+			"id": 19,
+			"category": "CTF Practice", 
+			"title": "HackMe",
+			"link": "https://hack.me/",
+			"desc": "CTF practice problems"
+		},
+		{
+			"id": 20,
+			"category": "CTF Practice", 
+			"title": "RootMe",
+			"link": "https://www.root-me.org/?lang=en",
+			"desc": "CTF practice problems"
+		},
+		{
+			"id": 21,
+			"category": "CTF Practice", 
+			"title": "OverTheWire",
+			"link": "https://overthewire.org",
+			"desc": "Network and computer security challenges."
+		},
+		{
+			"id": 22,
+			"category": "CTF Tracking", 
+			"title": "CTFtime",
+			"link": "https://ctftime.org/",
+			"desc": "Create a profile and track your progress as you compete in CTFs.  It also tracks upcoming CTFs, teams, and has an archive of past CTFs and writeups for many previous CTFs."
+		},
+		{
+			"id": 23,
+			"category": "CTF Tracking", 
+			"title": "Major League Cyber",
+			"link": "https://www.majorleaguecyber.org/",
+			"desc": "Another great site for creating a profile and tracking your progress as you compete in CTFS."
+		},
+		{
+			"id": 24,
+			"category": "CTF Tracking", 
+			"title": "WeChall",
+			"link": "https://www.wechall.net/",
+			"desc": "Another tracking site for CTFs."
+		},
+		{
+			"id": 25,
+			"category": "Assembly", 
+			"title": "Guide to x86 Assembly",
+			"link": "https://www.cs.yale.edu/flint/cs421/papers/x86-asm/asm.html",
+			"desc": "A good overall guide to assembly, but not an easy or accessible read!"
+		},
+		{
+			"id": 26,
+			"category": "Assembly", 
+			"title": "Jump Guide",
+			"link": "http://www.unixwiz.net/techtips/x86-jumps.html",
+			"desc": "A list of the jump codes for AT&T assembly."
+		},
+		{
+			"id": 27,
+			"category": "Assembly", 
+			"title": "X86 Assembly Wiki",
+			"link": "https://en.wikibooks.org/wiki/X86_Assembly",
+			"desc": "A good book/resource for instructions."
+		},
+		{
+			"id": 28,
+			"category": "Forensics", 
+			"title": "File Signatures List",
+			"link": "https://www.garykessler.net/library/file_sigs.html",
+			"desc": "A good list of the hex signatures"
+		},
+		{
+			"id": 29,
+			"category": "Bug Bounties", 
+			"title": "HackerOne",
+			"link": "https://www.hackerone.com/internet-bug-bounty",
+			"desc": "A site dedicated to providing bug bounties for security vulnerabilities found in popular programming languages."
+		},
+		{
+			"id": 30,
+			"category": "Cryptography", 
+			"title": "Learn Cryptography",
+			"link": "https://privacycanada.net/learn-cryptography-acquired-privacy-canada/",
+			"desc": "A good site for learning cryptography from the ground up"
+		},
+		{
+			"id": 31,
+			"category": "Cryptography", 
+			"title": "Cryptopals",
+			"link": "https://cryptopals.com/",
+			"desc": "A site with a lot of hands on practice for learning basic cryptography"
+		},
+		{
+			"id": 32,
+			"category": "Youtube Channels", 
+			"title": "LiveOverflow",
+			"link": "https://www.youtube.com/channel/UClcE-kVhqyiHCcjYwcpfj9w",
+			"desc": "The youtube side of LiveOverflow.com"
+		},
+		{
+			"id": 33,
+			"category": "Youtube Channels", 
+			"title": "John Hammond",
+			"link": "https://www.youtube.com/channel/UCVeW9qkBjo3zosnqUbG7CFw",
+			"desc": "Some really great beginner guides for CTFs.  John does a great job at taking his time to explain what is happening and how it works."
+		}
+	]
+}

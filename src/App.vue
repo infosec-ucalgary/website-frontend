@@ -10,7 +10,9 @@
         </i-nav>
       </i-navbar-items>
     </i-navbar>
-
+    <i-alert dismissible :show="visible" variant="primary" class="_text-center">
+      <p><i class="inkline-icon -info"></i> Having trouble with a challenge or want to know more about a topic we discussed at a meeting? Come see us every friday from 12 PM to 2PM for our office hours in MS 119!</p>
+    </i-alert>
     <router-view />
 
     <div id="footer" class="_text-center">
@@ -20,20 +22,30 @@
 </template>
 
 <style>
-body {
-  width: 100%;
-}
-
-#app {
-  /* font-family: 'avenir', helvetica, arial, sans-serif; */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  /* color: #2c3e50; */
+ body {
+   width: 100%;
  }
 
-#footer {
-  height: 10vh;
-}
+ #app {
+   /* font-family: 'avenir', helvetica, arial, sans-serif; */
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+   text-align: center;
+   /* color: #2c3e50; */
+ }
+
+ #footer {
+   height: 10vh;
+ }
 
 </style>
+
+<script>
+export default {
+  data () {
+    return {
+      visible: true
+    }
+  }
+}
+</script>

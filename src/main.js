@@ -7,19 +7,22 @@ import router from './router'
 import store from './store'
 import FunctionalCalendar from 'vue-functional-calendar'
 
-// import '@inkline/inkline/src/inkline.scss'
-// import * as components from '@inkline/inkline/src/components'
-
-// import VueCarousel from 'vue-carousel'
+import Calendar from 'primevue/calendar'
+import DataTable from 'primevue/datatable'
+import Column from 'primevue/column'
+import ColumnGroup from 'primevue/columngroup'
 
 Vue.config.productionTip = false
 
-// Vue.use(Inkline, { components })
 Vue.use(Inkline)
-// Vue.use(VueCarousel)
 Vue.use(FunctionalCalendar, {
   dayNames: ['Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa', 'Su']
 })
+
+Vue.component('Calendar', Calendar)
+Vue.component('DataTable', DataTable)
+Vue.component('Column', Column)
+Vue.component('ColumnGroup', ColumnGroup)
 
 new Vue({
   router,

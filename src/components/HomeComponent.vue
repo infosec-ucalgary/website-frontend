@@ -4,10 +4,8 @@
       <img src="@/assets/official-logo-transparent.png" style="max-height: 600px;" class="image -responsive _position-relative" /><br>
       <span class="h1 _text-center _vw-100">UofC Information Security Club</span>
     </div>
-    <br>
     <div class="home _display-block" style="margin-top: 50px;">
       <i-container>
-
         <i-row>
           <i-column :xs="true">
             <h2 class="_text-center">Who We Are</h2>
@@ -19,7 +17,6 @@
             <p class="lead _text-center">The Information Security Club is devoted to the art and science of information security.  We focus on helping students translate the knowledge they learn in courses into skills they can apply in the field of information security.  We are working to train students to compete in capture the flag (CTF) competitions and are working towards representing the University of Calgary on an international stage. We are also working to develop connections to industry professionals with the goal of connecting students to the world of information security outside the university in order to help them transition from the world of academics to a career information security.</p>
           </i-column>
         </i-row>
-
         <i-row>
           <i-column xs="12">
             <h2 class="_text-center">Where We Meet</h2>

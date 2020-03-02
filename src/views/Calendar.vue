@@ -7,13 +7,14 @@
     </i-row>
     <i-row center-xs>
       <i-column xs="12">
-        <CalendarComponent/>
+        <!-- <CalendarComponent/> -->
+        <!-- <Calendar v-model="value" :inline="true" showButtonsBar="true" /> -->
         <br>
       </i-column>
     </i-row>
     <i-row>
-      <i-column xs="12">
-        <i-table striped>
+      <i-column xs="12" class="_text-center">
+        <i-table striped style="margin: auto; width: 500px;">
           <thead>
             <tr>
               <th>Date</th><th>Topic</th><th>Presenter</th><th>Location</th>
@@ -58,12 +59,14 @@
 </template>
 
 <script>
-import CalendarComponent from '@/components/CalendarComponent.vue'
+// import CalendarComponent from '@/components/CalendarComponent.vue'
 
 export default {
   name: 'calendar',
-  components: {
-    CalendarComponent
+  data () {
+    return {
+      value: null
+    }
   }
 }
 </script>
