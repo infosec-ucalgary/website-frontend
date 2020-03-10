@@ -40,7 +40,7 @@
               <th scope="row">2020/03/09</th><td>Intro to Forensics</td><td>Braydon</td><td>ENG 60</td>
             </tr>
             <tr>
-              <th scope="row">2020/03/16</th><td>Scripting with Bash and Python</td><td>Josh</td><td>ENG 60</td>
+              <th scope="row">2020/03/16</th><td>Cross Site Scripting (XSS)</td><td>Josh</td><td>ENG 60</td>
             </tr>
             <tr>
               <th scope="row">2020/03/23</th><td>SQL and SQL Injections</td><td>Alex</td><td>ENG 60</td>
