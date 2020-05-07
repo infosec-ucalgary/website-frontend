@@ -1,0 +1,52 @@
+@tailwind base;
+
+.bg-bar {
+  --bg-opacity: 1;
+  background-color: #12418f;
+  background-color: rgba(18, 65, 143, var(--bg-opacity));
+}
+
+.bg-accent-1 {
+  --bg-opacity: 1;
+  background-color: #497fe7;
+  background-color: rgba(73, 127, 231, var(--bg-opacity));
+}
+
+.bg-accent-2 {
+  --bg-opacity: 1;
+  background-color: #78afde;
+  background-color: rgba(120, 175, 222, var(--bg-opacity));
+}
+
+.bg-accent-3 {
+  --bg-opacity: 1;
+  background-color: #9289b8;
+  background-color: rgba(146, 137, 184, var(--bg-opacity));
+}
+
+.bg-grey {
+  --bg-opacity: 1;
+  background-color: #90929b;
+  background-color: rgba(144, 146, 155, var(--bg-opacity));
+}
+
+@font-face {
+	font-family: Lato;
+	font-weight: 400;
+	src: url('../fonts/Lato-Regular.ttf') format('ttf');
+}
+
+@font-face {
+	font-family: Lato;
+	font-weight: 300;
+	src: url('../fonts/Lato-Thin.ttf') format('ttf');
+}
+
+@font-face {
+	font-family: Lato;
+	font-weight: 500;
+	src: url('../fonts/Lato-Bold.ttf') format('ttf');
+}
+
+@tailwind components;
+@tailwind utilities;

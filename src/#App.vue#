@@ -2,7 +2,7 @@
   <div class="_position-relative _width-100" id="outer-container">
   <div class="bg-bar w-auto h-16">
     <div class="bg-accent-1 w-1/2 m-auto h-full">
-      <span class="text-white font-display inline-block align-middle">UofC InfoSec Club</span>
+      <span class="text-white font-display ">UofC InfoSec Club</span>
     </div>
   </div>
   <!--
