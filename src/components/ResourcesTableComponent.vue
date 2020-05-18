@@ -1,5 +1,27 @@
 <template>
-  <div id="cal">
+  <section id="resources">
+    <table class="table-auto">
+      <thead>
+        <tr>
+          <th @click="currentSort = 'category'; sort('category')">Category</th>
+          <th @click="currentSort = 'title'; sort('title')">Title</th>
+          <th @click="currentSort = 'link'; sort('link')">Link</th>
+          <th @click="currentSort = 'desc'; sort('desc')">Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr v-for="(item, idx) in rows"
+            v-bind:key="idx"
+            v-on:click="gotoLink(item.link)">
+          <td>{{ item.category }}</td>
+          <td>{{ item.title }}</td>
+          <td>{{ item.link }}</td>
+          <td>{{ item.desc }}</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!--
     <DataTable :value="rows"
                :resizableColumns="true"
                :autoLayout="true"
@@ -18,7 +40,6 @@
       <template #footer>
       </template>
     </DataTable>
-    <!--
     <table>
       <thead>
       </thead>
@@ -26,14 +47,14 @@
       </tbody>
     </table>
     -->
-  </div>
+  </section>
 </template>
 <style>
-#cal thead {
+#resources thead {
   background-color: #343A40 !important;
   color: #FFF !important;
 }
-#cal tbody {
+#resources tbody {
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -45,13 +66,23 @@ export default {
   data () {
     return {
       rows: JSON.parse(JSON.stringify(resourcesJson['data'])),
-      selectedItem: null
+      currentSort: 'category',
+      currentSortDir: 'asc',
+      reverse: false
     }
   },
   methods: {
-    gotoLink: function () {
-      window.open(this.selectedItem.link)
+    gotoLink: function (itm) {
+      window.open(itm)
+    },
+    sort: function (k) {
+      this.reverse = (this.currentSort === k) ? !this.reverse : false
+      this.currentSort = k
     }
+  },
+  computed: {
+  },
+  watch: {
   }
 }
 </script>
