@@ -1,22 +1,14 @@
 <template>
-  <div class="_position-relative _width-100" id="outer-container">
-  <div class="bg-bar w-auto h-16">
-    <div class="bg-accent-1 w-1/2 m-auto h-full">
-      <span class="text-white font-display inline-block align-middle">UofC InfoSec Club</span>
+  <!-- <div class="_position-relative _width-100" id="outer-container"> -->
+  <div class="relative w-full" id="outer-container">
+    <div class="bg-bar w-auto h-16">
+      <div class="relative w-2/3 m-auto p-4">
+        <span class="pr-8 text-white font-display text-xl inline-block align-middle">UofC InfoSec Club</span>
+        <router-link class="pr-8 text-gray-300 font-display text-md inline-block align-middle" to="/">Home</router-link>
+        <router-link class="pr-8 text-gray-300 font-display text-md inline-block align-middle" to="/calendar">Calendar</router-link>
+        <router-link class="pr-8 text-gray-300 font-display text-md inline-block align-middle" to="/resources">Resources</router-link>
+      </div>
     </div>
-  </div>
-  <!--
-    <i-navbar variant="dark">
-      <i-navbar-brand>UofC InfoSec Club</i-navbar-brand>
-      <i-navbar-items class="_justify-content-end">
-        <i-nav>
-          <i-nav-item><router-link to="/">Home</router-link></i-nav-item>
-          <i-nav-item><router-link to="/calendar">Calendar</router-link></i-nav-item>
-          <i-nav-item><router-link to="/resources">Resources</router-link></i-nav-item>
-        </i-nav>
-      </i-navbar-items>
-    </i-navbar>
-    -->
     <i-alert dismissible :show="visible" variant="primary" class="_text-center">
       <p><i class="inkline-icon -info"></i> Having trouble with a challenge or want to know more about a topic we discussed at a meeting? Come see us every friday from 12 PM to 2PM for our office hours in MS 119!</p>
     </i-alert>
