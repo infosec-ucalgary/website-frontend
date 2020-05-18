@@ -10,6 +10,7 @@ module.exports = {
     extend: {},
     fontFamily: {
       'display': ['Lato'],
+      'mono': ['FiraCode'],
     },
   },
   variants: {},
