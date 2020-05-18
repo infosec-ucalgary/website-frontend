@@ -3,15 +3,19 @@
   <div class="relative w-full" id="outer-container">
     <div class="bg-bar w-auto h-16">
       <div class="relative w-2/3 m-auto p-4">
-        <span class="pr-8 text-white font-display text-xl inline-block align-middle">UofC InfoSec Club</span>
+        <router-link to="/"><span class="pr-8 text-white font-display text-xl inline-block align-middle">UofC InfoSec Club</span></router-link>
         <router-link class="pr-8 text-gray-300 font-display text-md inline-block align-middle" to="/">Home</router-link>
         <router-link class="pr-8 text-gray-300 font-display text-md inline-block align-middle" to="/calendar">Calendar</router-link>
         <router-link class="pr-8 text-gray-300 font-display text-md inline-block align-middle" to="/resources">Resources</router-link>
       </div>
     </div>
+
+    <!--
     <i-alert dismissible :show="visible" variant="primary" class="_text-center">
       <p><i class="inkline-icon -info"></i> Having trouble with a challenge or want to know more about a topic we discussed at a meeting? Come see us every friday from 12 PM to 2PM for our office hours in MS 119!</p>
     </i-alert>
+    -->
+
     <router-view />
 
     <div id="footer" class="_text-center">
