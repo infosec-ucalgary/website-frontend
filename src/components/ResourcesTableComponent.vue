@@ -1,57 +1,37 @@
 <template>
-  <section id="resources">
-    <table class="table-auto">
-      <thead>
-        <tr>
-          <th @click="currentSort = 'category'; sort('category')">Category</th>
-          <th @click="currentSort = 'title'; sort('title')">Title</th>
-          <th @click="currentSort = 'link'; sort('link')">Link</th>
-          <th @click="currentSort = 'desc'; sort('desc')">Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr v-for="(item, idx) in rows"
-            v-bind:key="idx"
-            v-on:click="gotoLink(item.link)">
-          <td>{{ item.category }}</td>
-          <td>{{ item.title }}</td>
-          <td>{{ item.link }}</td>
-          <td>{{ item.desc }}</td>
-        </tr>
-      </tbody>
-    </table>
-
-    <!--
-    <DataTable :value="rows"
-               :resizableColumns="true"
-               :autoLayout="true"
-               :selection.sync="selectedItem"
-               columnResizeMovde="fit"
-               selectionMode="single"
-               v-on:row-select="gotoLink"
-    >
-      <template #empty>
-        Unable to retrieve any records...
-      </template>
-      <Column field="category" header="Category" :sortable="true"></Column>
-      <Column field="title" header="Title" :sortable="true"></Column>
-      <Column field="link" header="Link"></Column>
-      <Column field="desc" header="Description"></Column>
-      <template #footer>
-      </template>
-    </DataTable>
-    <table>
-      <thead>
-      </thead>
-      <tbody>
-      </tbody>
-    </table>
-    -->
+  <section class="py-8 w-full">
+    <div class="shadow overflow-x-auto scrolling-touch rounded border-b border-gray-200">
+      <table id="resources" class="min-w-full">
+        <thead class="bg-bar text-white">
+          <tr>
+            <th class="hidden md:table-cell w-1/6 text-left py-3 px-4 uppercase font-semibold text-sm">Category</th>
+            <th class="w-1/6 text-left py-3 px-4 uppercase font-semibold text-sm">Title</th>
+            <th class="hidden md:table-cell w-1/3 text-left py-3 px-4 uppercase font-semibold text-sm">Link</th>
+            <th class="hidden md:table-cell w-1/3 text-left py-3 px-4 uppercase font-semibold text-sm">Description</th>
+          </tr>
+        </thead>
+        <tbody class="text-gray-700 font-display">
+          <tr v-for="(item, idx) in rows"
+              v-bind:key="idx"
+              v-on:click="gotoLink(item.link)"
+              :class="idx % 2 == 1 ? 'bg-gray-100' : 'bg-white'">
+            <td class="hidden md:table-cell w-1/6 text-left py-3 px-4">{{ item.category }}</td>
+            <td class="w-1/6 text-left py-3 px-4">{{ item.title }}</td>
+            <td class="hidden md:table-cell w-1/3 text-left py-3 px-4">{{ item.link }}</td>
+            <td class="hidden md:table-cell w-1/3 text-left py-3 px-4">{{ item.desc }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
   </section>
 </template>
 <style>
+tbody tr:hover {
+  background-color: #89c0e9;
+}
+
 #resources thead {
-  background-color: #343A40 !important;
+  background-color: #12418f !important;
   color: #FFF !important;
 }
 #resources tbody {
