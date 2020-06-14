@@ -231,7 +231,11 @@ export default mixins<options &
       immediate: true,
       handler () {
         this.$nextTick(() => {
-          if (!this.autoDraw || this.type === 'bar') return
+          if (
+            !this.autoDraw ||
+            this.type === 'bar' ||
+            !this.$refs.path
+          ) return
 
           const path = this.$refs.path
           const length = path.getTotalLength()
@@ -271,7 +275,7 @@ export default mixins<options &
         this.$createElement('stop', {
           attrs: {
             offset: index / len,
-            'stop-color': color || this.color || 'currentColor',
+            'stop-color': color || 'currentColor',
           },
         })
       )
@@ -294,7 +298,7 @@ export default mixins<options &
           fontSize: '8',
           textAnchor: 'middle',
           dominantBaseline: 'mathematical',
-          fill: this.color || 'currentColor',
+          fill: 'currentColor',
         } as object, // TODO: TS 3.5 is too eager with the array type here
       }, children)
     },
@@ -303,7 +307,6 @@ export default mixins<options &
 
       return this.$createElement('path', {
         attrs: {
-          id: this._uid,
           d: genPath(points, this._radius, this.fill, this.parsedHeight),
           fill: this.fill ? `url(#${this._uid})` : 'none',
           stroke: this.fill ? 'none' : `url(#${this._uid})`,

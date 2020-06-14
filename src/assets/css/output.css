@@ -563,7 +563,7 @@ pre,
 code,
 kbd,
 samp {
-  font-family: FiraCode;
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
 /**
@@ -599,10 +599,10 @@ video {
   height: auto;
 }
 
-.bg-bar {
+.bg-primary {
   --bg-opacity: 1;
-  background-color: #12418f;
-  background-color: rgba(18, 65, 143, var(--bg-opacity));
+  background-color: #06239F;
+  background-color: rgba(6, 35, 159, var(--bg-opacity));
 }
 
 .bg-accent-1 {
@@ -625,56 +625,40 @@ video {
 
 .bg-grey {
   --bg-opacity: 1;
-  background-color: #90929b;
-  background-color: rgba(144, 146, 155, var(--bg-opacity));
+  background-color: #B7B7B7;
+  background-color: rgba(183, 183, 183, var(--bg-opacity));
+}
+
+.bg-green {
+  -bg-opacity: 1;
+  background-color: #3D645F;
+  background-color: rgba(61, 100, 95, var(--bg-opacity));
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open%20Sans');
+
+@import url('https://fonts.googleapis.com/css2?family=Open%20Sans:wght@300');
+
+@import url('https://fonts.googleapis.com/css2?family=Open%20Sans:wght@700');
+
+@font-face {
+  font-family: "Trebuchet-MS";
+
+  src: url("../fonts/Trebuchet-MS.woff") format("woff");
+
+  font-weight: normal;
+
+  font-style: normal;
 }
 
 @font-face {
-  font-family: Lato;
+  font-family: "Trebuchet-MS";
 
-  font-weight: 400;
+  src: url("../fonts/Trebuchet-MS-Italic.woff") format("woff");
 
-  src: url('../fonts/Lato-Regular.ttf') format('ttf');
-}
+  font-weight: normal;
 
-@font-face {
-  font-family: Lato;
-
-  font-weight: 300;
-
-  src: url('../fonts/Lato-Thin.ttf') format('ttf');
-}
-
-@font-face {
-  font-family: Lato;
-
-  font-weight: 500;
-
-  src: url('../fonts/Lato-Bold.ttf') format('ttf');
-}
-
-@font-face {
-  font-family: FiraCode;
-
-  font-weight: 400;
-
-  src: url('../fonts/FiraCode-Regular.ttf') format('ttf');
-}
-
-@font-face {
-  font-family: FiraCode;
-
-  font-weight: 300;
-
-  src: url('../fonts/FiraCode-Light.ttf') format('ttf');
-}
-
-@font-face {
-  font-family: FiraCode;
-
-  font-weight: 500;
-
-  src: url('../fonts/FiraCode-Bold.ttf') format('ttf');
+  font-style: italic;
 }
 
 .container {
@@ -6232,11 +6216,11 @@ video {
 }
 
 .font-display {
-  font-family: Lato;
+  font-family: Trebuchet-MS;
 }
 
-.font-mono {
-  font-family: FiraCode;
+.font-body {
+  font-family: Open Sans, sans-serif;
 }
 
 .font-hairline {
@@ -24837,11 +24821,11 @@ video {
   }
 
   .sm\:font-display {
-    font-family: Lato;
+    font-family: Trebuchet-MS;
   }
 
-  .sm\:font-mono {
-    font-family: FiraCode;
+  .sm\:font-body {
+    font-family: Open Sans, sans-serif;
   }
 
   .sm\:font-hairline {
@@ -43443,11 +43427,11 @@ video {
   }
 
   .md\:font-display {
-    font-family: Lato;
+    font-family: Trebuchet-MS;
   }
 
-  .md\:font-mono {
-    font-family: FiraCode;
+  .md\:font-body {
+    font-family: Open Sans, sans-serif;
   }
 
   .md\:font-hairline {
@@ -62049,11 +62033,11 @@ video {
   }
 
   .lg\:font-display {
-    font-family: Lato;
+    font-family: Trebuchet-MS;
   }
 
-  .lg\:font-mono {
-    font-family: FiraCode;
+  .lg\:font-body {
+    font-family: Open Sans, sans-serif;
   }
 
   .lg\:font-hairline {
@@ -80655,11 +80639,11 @@ video {
   }
 
   .xl\:font-display {
-    font-family: Lato;
+    font-family: Trebuchet-MS;
   }
 
-  .xl\:font-mono {
-    font-family: FiraCode;
+  .xl\:font-body {
+    font-family: Open Sans, sans-serif;
   }
 
   .xl\:font-hairline {

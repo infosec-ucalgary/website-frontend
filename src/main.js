@@ -1,5 +1,5 @@
 import Vue from 'vue'
-import './assets/css/index.css'
+import './assets/css/output.css'
 import '@inkline/inkline/dist/inkline.css'
 import Inkline from '@inkline/inkline'
 import App from './App.vue'

@@ -1,15 +1,24 @@
 <template>
+  <section class="py-8 md:w-1/2 mx-auto text-center">
+    <h1>Events Calendar</h1>
+    <div class="inline lg:overflow-x-auto lg:mx-0 lg:flex lg:scrolling-touch">
+      <CalendarCard title="TBA" date="??/??/2020" desc="Stay tuned for Fall 2020!" />
+      <CalendarCard title="TBA" date="??/??/2020" desc="Stay tuned for Fall 2020!" />
+      <CalendarCard title="TBA" date="??/??/2020" desc="Stay tuned for Fall 2020!" />
+      <CalendarCard title="TBA" date="??/??/2020" desc="Stay tuned for Fall 2020!" />
+      <CalendarCard title="TBA" date="??/??/2020" desc="Stay tuned for Fall 2020!" />
+      <CalendarCard title="TBA" date="??/??/2020" desc="Stay tuned for Fall 2020!" />
+      <CalendarCard title="TBA" date="??/??/2020" desc="Stay tuned for Fall 2020!" />
+      <CalendarCard title="TBA" date="??/??/2020" desc="Stay tuned for Fall 2020!" />
+      <CalendarCard title="TBA" date="??/??/2020" desc="Stay tuned for Fall 2020!" />
+    </div>
+  </section>
+
+  <!--
   <i-container class="_text-center">
     <i-row>
       <i-column xs="12">
         <h1>Events Calendar</h1>
-      </i-column>
-    </i-row>
-    <i-row center-xs>
-      <i-column xs="12">
-        <!-- <CalendarComponent/> -->
-        <!-- <Calendar v-model="value" :inline="true" showButtonsBar="true" /> -->
-        <br>
       </i-column>
     </i-row>
     <i-row>
@@ -56,13 +65,17 @@
       </i-column>
     </i-row>
   </i-container>
+  -->
 </template>
 
 <script>
-// import CalendarComponent from '@/components/CalendarComponent.vue'
+import CalendarCard from '@/components/CalendarCard.vue'
 
 export default {
   name: 'calendar',
+  components: {
+    CalendarCard
+  },
   data () {
     return {
       value: null

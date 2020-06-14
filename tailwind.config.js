@@ -9,8 +9,8 @@ module.exports = {
   theme: {
     extend: {},
     fontFamily: {
-      'display': ['Lato'],
-      'mono': ['FiraCode'],
+      'display': ['Trebuchet-MS'],
+      'body': ['Open Sans', 'sans-serif'],
     },
   },
   variants: {},

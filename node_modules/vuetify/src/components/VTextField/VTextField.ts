@@ -11,6 +11,7 @@ import VLabel from '../VLabel'
 // Mixins
 import Intersectable from '../../mixins/intersectable'
 import Loadable from '../../mixins/loadable'
+import Validatable from '../../mixins/validatable'
 
 // Directives
 import ripple from '../../directives/ripple'
@@ -30,6 +31,7 @@ const baseMixins = mixins(
       'setLabelWidth',
       'setPrefixWidth',
       'setPrependWidth',
+      'tryAutofocus',
     ],
   }),
   Loadable,
@@ -116,11 +118,24 @@ export default baseMixins.extend<options>().extend({
         'v-text-field--shaped': this.shaped,
       }
     },
+    computedColor (): string | undefined {
+      const computedColor = Validatable.options.computed.computedColor.call(this)
+
+      if (!this.soloInverted || !this.isFocused) return computedColor
+
+      return this.color || 'primary'
+    },
     computedCounterValue (): number {
       if (typeof this.counterValue === 'function') {
         return this.counterValue(this.internalValue)
       }
       return (this.internalValue || '').toString().length
+    },
+    hasCounter (): boolean {
+      return this.counter !== false && this.counter != null
+    },
+    hasDetails (): boolean {
+      return VInput.options.computed.hasDetails.call(this) || this.hasCounter
     },
     internalValue: {
       get (): any {
@@ -213,7 +228,7 @@ export default baseMixins.extend<options>().extend({
   },
 
   mounted () {
-    this.autofocus && this.onFocus()
+    this.autofocus && this.tryAutofocus()
     this.setLabelWidth()
     this.setPrefixWidth()
     this.setPrependWidth()
@@ -285,17 +300,14 @@ export default baseMixins.extend<options>().extend({
     genClearIcon () {
       if (!this.clearable) return null
 
-      const icon = this.isDirty ? 'clear' : ''
+      const data = this.isDirty ? undefined : { attrs: { disabled: true } }
 
       return this.genSlot('append', 'inner', [
-        this.genIcon(
-          icon,
-          this.clearableCallback
-        ),
+        this.genIcon('clear', this.clearableCallback, data),
       ])
     },
     genCounter () {
-      if (this.counter === false || this.counter == null) return null
+      if (!this.hasCounter) return null
 
       const max = this.counter === true ? this.attrs$.maxlength : this.counter
 
@@ -307,6 +319,9 @@ export default baseMixins.extend<options>().extend({
           value: this.computedCounterValue,
         },
       })
+    },
+    genControl () {
+      return VInput.options.methods.genControl.call(this)
     },
     genDefaultSlot () {
       return [
@@ -334,7 +349,7 @@ export default baseMixins.extend<options>().extend({
           absolute: true,
           color: this.validationState,
           dark: this.dark,
-          disabled: this.disabled,
+          disabled: this.isDisabled,
           focused: !this.isSingle && (this.isFocused || !!this.validationState),
           for: this.computedId,
           left: this.labelPosition.left,
@@ -365,15 +380,15 @@ export default baseMixins.extend<options>().extend({
       return this.$createElement('input', {
         style: {},
         domProps: {
-          value: this.lazyValue,
+          value: (this.type === 'number' && Object.is(this.lazyValue, -0)) ? '-0' : this.lazyValue,
         },
         attrs: {
           ...this.attrs$,
           autofocus: this.autofocus,
-          disabled: this.disabled,
+          disabled: this.isDisabled,
           id: this.computedId,
           placeholder: this.placeholder,
-          readonly: this.readonly,
+          readonly: this.isReadonly,
           type: this.type,
         },
         on: Object.assign(listeners, {
@@ -386,12 +401,10 @@ export default baseMixins.extend<options>().extend({
       })
     },
     genMessages () {
-      if (this.hideDetails === true) return null
+      if (!this.showDetails) return null
 
       const messagesNode = VInput.options.methods.genMessages.call(this)
       const counterNode = this.genCounter()
-
-      if (this.hideDetails === 'auto' && !messagesNode && !counterNode) return null
 
       return this.$createElement('div', {
         staticClass: 'v-text-field__details',
@@ -421,7 +434,7 @@ export default baseMixins.extend<options>().extend({
       e && this.$nextTick(() => this.$emit('blur', e))
     },
     onClick () {
-      if (this.isFocused || this.disabled || !this.$refs.input) return
+      if (this.isFocused || this.isDisabled || !this.$refs.input) return
 
       this.$refs.input.focus()
     },
@@ -462,9 +475,11 @@ export default baseMixins.extend<options>().extend({
       VInput.options.methods.onMouseUp.call(this, e)
     },
     setLabelWidth () {
-      if (!this.outlined || !this.$refs.label) return
+      if (!this.outlined) return
 
-      this.labelWidth = Math.min(this.$refs.label.scrollWidth * 0.75 + 6, (this.$el as HTMLElement).offsetWidth - 24)
+      this.labelWidth = this.$refs.label
+        ? Math.min(this.$refs.label.scrollWidth * 0.75 + 6, (this.$el as HTMLElement).offsetWidth - 24)
+        : 0
     },
     setPrefixWidth () {
       if (!this.$refs.prefix) return
@@ -475,6 +490,18 @@ export default baseMixins.extend<options>().extend({
       if (!this.outlined || !this.$refs['prepend-inner']) return
 
       this.prependWidth = this.$refs['prepend-inner'].offsetWidth
+    },
+    tryAutofocus () {
+      if (
+        !this.autofocus ||
+        typeof document === 'undefined' ||
+        !this.$refs.input ||
+        document.activeElement === this.$refs.input
+      ) return false
+
+      this.$refs.input.focus()
+
+      return true
     },
     updateValue (val: boolean) {
       // Sets validationState from validatable

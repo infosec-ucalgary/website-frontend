@@ -1,0 +1,67 @@
+{
+	"data": [
+		{
+			"id": 0,
+			"date": "2020/01/27",
+			"title": "Virtual Machines and Terminal Commands",
+			"author": "Jeremy and Braydon",
+			"location": "ICT 102"
+		},
+		{
+			"id": 1,
+			"date": "2020/02/03",
+			"title": "Intro to Web Exploitation",
+			"author": "Alex",
+			"location": "ENG 60"
+		},
+		{
+			"id": 2,
+			"date": "2020/02/10",
+			"title": "Intro to Binary Exploitation - Buffer Overflows",
+			"author": "Jeremy",
+			"location": "ENG 60"
+		},
+		{
+			"id": 3,
+			"date": "2020/02/24",
+			"title": "Intro to Crypto and Modular Arithmatic",
+			"author": "Himika",
+			"location": "ENG 60"
+		},
+		{
+			"id": 4,
+			"date": "2020/03/02",
+			"title": "Intro to Reverse Engineering",
+			"author": "Jeremy",
+			"location": "ENG 60"
+		},
+		{
+			"id": 5,
+			"date": "2020/03/09",
+			"title": "Intro to Forensics",
+			"author": "Braydon",
+			"location": "ENG 60"
+		},
+		{
+			"id": 6,
+			"date": "2020/03/16",
+			"title": "Cross Site Scripting (XSS)",
+			"author": "Josh",
+			"location": "Online"
+		},
+		{
+			"id": 7,
+			"date": "2020/03/23",
+			"title": "SQL and SQL Injections",
+			"author": "Alex",
+			"location": "Online"
+		},
+		{
+			"id": 8,
+			"date": "2020/03/30",
+			"title": "Binary Exploitation Part II - Electric Boogaloo",
+			"author": "Jeremy",
+			"location": "Online"
+		}
+	]
+}

@@ -88,10 +88,16 @@ export default baseMixins.extend<options>().extend({
       return (this.radioGroup || {}).hasState
     },
     isDisabled (): boolean {
-      return this.disabled || !!(this.radioGroup || {}).disabled
+      return this.disabled || (
+        !!this.radioGroup &&
+        this.radioGroup.isDisabled
+      )
     },
     isReadonly (): boolean {
-      return this.readonly || !!(this.radioGroup || {}).readonly
+      return this.readonly || (
+        !!this.radioGroup &&
+        this.radioGroup.isReadonly
+      )
     },
     computedName (): string {
       if (this.name || !this.radioGroup) {
@@ -99,6 +105,9 @@ export default baseMixins.extend<options>().extend({
       }
 
       return this.radioGroup.name || `radio-${this.radioGroup._uid}`
+    },
+    rippleState (): string | undefined {
+      return Selectable.options.computed.rippleState.call(this)
     },
     validationState (): string | undefined {
       return (this.radioGroup || {}).validationState || this.computedColor
@@ -139,17 +148,17 @@ export default baseMixins.extend<options>().extend({
       return this.$createElement('div', {
         staticClass: 'v-input--selection-controls__input',
       }, [
-        this.genInput({
-          name: this.computedName,
-          value: this.value,
-          ...this.attrs$,
-        }),
-        this.genRipple(this.setTextColor(this.validationState)),
         this.$createElement(VIcon, this.setTextColor(this.validationState, {
           props: {
             dense: this.radioGroup && this.radioGroup.dense,
           },
         }), this.computedIcon),
+        this.genInput({
+          name: this.computedName,
+          value: this.value,
+          ...this.attrs$,
+        }),
+        this.genRipple(this.setTextColor(this.rippleState)),
       ])
     },
     onFocus (e: Event) {

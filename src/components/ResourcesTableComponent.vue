@@ -2,12 +2,12 @@
   <section class="py-8 w-full">
     <div class="shadow overflow-x-auto scrolling-touch rounded border-b border-gray-200">
       <table id="resources" class="min-w-full">
-        <thead class="bg-bar text-white">
+        <thead class="bg-primary text-white">
           <tr>
-            <th class="hidden md:table-cell w-1/6 text-left py-3 px-4 uppercase font-semibold text-sm">Category</th>
-            <th class="w-1/6 text-left py-3 px-4 uppercase font-semibold text-sm">Title</th>
-            <th class="hidden md:table-cell w-1/3 text-left py-3 px-4 uppercase font-semibold text-sm">Link</th>
-            <th class="hidden md:table-cell w-1/3 text-left py-3 px-4 uppercase font-semibold text-sm">Description</th>
+            <th class="hidden md:table-cell w-1/6 text-center py-3 px-4 uppercase font-semibold text-sm">Category</th>
+            <th class="w-1/6 text-center py-3 px-4 uppercase font-semibold text-sm">Title</th>
+            <th class="hidden md:table-cell w-1/3 text-center py-3 px-4 uppercase font-semibold text-sm">Link</th>
+            <th class="hidden md:table-cell w-1/3 text-center py-3 px-4 uppercase font-semibold text-sm">Description</th>
           </tr>
         </thead>
         <tbody class="text-gray-700 font-display">
@@ -31,7 +31,7 @@ tbody tr:hover {
 }
 
 #resources thead {
-  background-color: #12418f !important;
+  /* background-color: #12418f !important; */
   color: #FFF !important;
 }
 #resources tbody {
