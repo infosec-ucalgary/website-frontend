@@ -4,8 +4,7 @@
 To make a simple web app to help manage club operations, such as: member management, resources, annoucement management and calendar, information on the club, executive list, etc...
 - - -
 ## Built with Vue.JS
-I've decided to use VueJS to build this web app. It's a really easy to use web framework and I've wanted an excuse to use it.  
-On top of Vue, I chose [Inkline](https://inkline.io) as frontend framework. I also wanted to use something other than BS4.
+I've decided to use VueJS to build this web app. On top of Vue, I chose [TailwindCSS](https://tailwindcss.com) as my CSS framework of choice.
 - - -
 ## Project setup
 ```
