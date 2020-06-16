@@ -1,9 +1,7 @@
 <template>
-  <div class="text-center w-3/4 mx-auto">
+  <div class="py-8 text-center w-3/4 mx-auto">
     <br>
-    <span class="h1">Resources List</span>
-    <br>
-    <br>
+    <p class="font-display text-4xl">Resources List</p>
     <ResourcesTableComponent />
   </div>
 </template>
