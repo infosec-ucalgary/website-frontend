@@ -1,5 +1,5 @@
 <template>
-  <div class="_text-center _width-75" style="margin: auto;">
+  <div class="text-center w-3/4 mx-auto">
     <br>
     <span class="h1">Resources List</span>
     <br>

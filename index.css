@@ -1,0 +1,57 @@
+@tailwind base;
+
+.bg-primary {
+  --bg-opacity: 1;
+  background-color: #06239F;
+  background-color: rgba(6, 35, 159, var(--bg-opacity));
+}
+
+.bg-accent-1 {
+  --bg-opacity: 1;
+  background-color: #497fe7;
+  background-color: rgba(73, 127, 231, var(--bg-opacity));
+}
+
+.bg-accent-2 {
+  --bg-opacity: 1;
+  background-color: #78afde;
+  background-color: rgba(120, 175, 222, var(--bg-opacity));
+}
+
+.bg-accent-3 {
+  --bg-opacity: 1;
+  background-color: #9289b8;
+  background-color: rgba(146, 137, 184, var(--bg-opacity));
+}
+
+.bg-grey {
+  --bg-opacity: 1;
+  background-color: #B7B7B7;
+  background-color: rgba(183, 183, 183, var(--bg-opacity));
+}
+
+.bg-green {
+  -bg-opacity: 1;
+  background-color: #3D645F;
+  background-color: rgba(61, 100, 95, var(--bg-opacity));
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open%20Sans');
+@import url('https://fonts.googleapis.com/css2?family=Open%20Sans:wght@300');
+@import url('https://fonts.googleapis.com/css2?family=Open%20Sans:wght@700');
+
+@font-face {
+  font-family: "Trebuchet-MS";
+  src: url("../fonts/Trebuchet-MS.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Trebuchet-MS";
+  src: url("../fonts/Trebuchet-MS-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@tailwind components;
+@tailwind utilities;

@@ -1,7 +1,16 @@
-import { Application } from '../../../services/application'
+// Components
 import VNavigationDrawer from '../VNavigationDrawer'
-import { resizeWindow, touch } from '../../../../test'
 
+// Services
+import { Application } from '../../../services/application'
+import { Breakpoint } from '../../../services/breakpoint'
+import { preset } from '../../../presets/default'
+
+// Utilities
+import {
+  resizeWindow,
+  touch,
+} from '../../../../test'
 import {
   mount,
   MountOptions,
@@ -24,9 +33,7 @@ describe('VNavigationDrawer', () => { // eslint-disable-line max-statements
             theme: {
               dark: false,
             },
-            breakpoint: {
-              width: 1920,
-            },
+            breakpoint: new Breakpoint(preset),
             application: new Application(),
           },
         },
@@ -182,7 +189,7 @@ describe('VNavigationDrawer', () => { // eslint-disable-line max-statements
     expect(wrapper.vm.$vuetify.application.left).toBe(256)
 
     wrapper.setProps({ miniVariant: true })
-    expect(wrapper.vm.$vuetify.application.left).toBe(80)
+    expect(wrapper.vm.$vuetify.application.left).toBe(56)
 
     wrapper.setProps({ miniVariant: false })
     expect(wrapper.vm.$vuetify.application.left).toBe(256)
@@ -425,7 +432,7 @@ describe('VNavigationDrawer', () => { // eslint-disable-line max-statements
     })
 
     expect(wrapper.vm.isMouseover).toBe(false)
-    expect(wrapper.vm.computedWidth).toBe(80)
+    expect(wrapper.vm.computedWidth).toBe(56)
 
     wrapper.trigger('mouseenter')
     expect(wrapper.vm.isMouseover).toBe(true)
@@ -433,7 +440,7 @@ describe('VNavigationDrawer', () => { // eslint-disable-line max-statements
 
     wrapper.trigger('mouseleave')
     expect(wrapper.vm.isMouseover).toBe(false)
-    expect(wrapper.vm.computedWidth).toBe(80)
+    expect(wrapper.vm.computedWidth).toBe(56)
   })
 
   it('should clip top', () => {
