@@ -1,6 +1,6 @@
 <template>
-  <section class="py-8 md:w-1/2 mx-auto text-center">
-    <h1>Events Calendar</h1>
+  <section class="py-8 md:w-1/3 mx-auto text-center">
+    <p class="font-display text-4xl">Events Calendar</p>
     <div class="inline lg:overflow-x-auto lg:mx-0 lg:flex lg:scrolling-touch">
       <CalendarCard title="TBA" date="??/??/2020" desc="Stay tuned for Fall 2020!" />
       <CalendarCard title="TBA" date="??/??/2020" desc="Stay tuned for Fall 2020!" />
