@@ -7,12 +7,10 @@
         <BioCard name="Alexandra Tenney" title="Vice President" />
         <BioCard name="Britta Den Hoed" title="VP of Communication" />
         <BioCard name="Emily Baird" title="VP of Operations" />
-        <BioCard name="Martha Ibarra" title="Secretary" />
         <BioCard name="Braydon Willms" title="VP of Tech" />
         <BioCard name="Brandon Arenas" title="VP of Tech" />
         <BioCard name="Joshua Novak" title="VP of Tech" />
         <BioCard name="James Lowther" title="Junior Executive" />
-        <BioCard name="Gagan Brar" title="Junior Executive" />
         <BioCard name="Aarti Barakale" title="Junior Executive" />
       </div>
     </div>
