@@ -1,7 +1,7 @@
 <template>
   <section id="home-outer">
     <header class="text-center pb-12">
-      <img src="@/assets/official-logo-transparent.png" style="max-height: 600px;" class="mx-auto"/>
+      <img src="@/assets/magpie-vector-v02.svg" style="max-height: 600px;" class="mx-auto"/>
       <p class="text-center font-display text-4xl">UofC Information Security Club</p>
     </header>
     <div class="home">

@@ -2,7 +2,7 @@
   <nav class="flex items-center justify-center flex-wrap bg-primary">
     <div class="w-5/6 lg:w-2/3 flex items-center justify-between flex-wrap p-2">
       <div class="flex items-center flex-shrink-0 text-white mr-6">
-        <img class="fill-current h-12 w-12 mr-2" width="54" height="54" src="@/assets/logo.svg" alt="SVG Logo">
+        <img class="fill-current h-12 w-12 mr-2" width="54" height="54" src="@/assets/magpie-vector-v02-white.svg" alt="SVG Logo">
         <span class="font-display text-xl tracking-tight">UofC InfoSec Club</span>
       </div>
       <div class="block lg:hidden">
