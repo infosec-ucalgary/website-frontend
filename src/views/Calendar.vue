@@ -29,7 +29,7 @@
         <CalendarCard       date="01/02/2021" title="Meeting" desc="Shellcode" author="Brandon" />
         <CalendarCard       date="08/02/2021" title="Speaker" desc="Threat Intelligence" author="Adam McMath" />
         <CalendarCard       date="19/02/2021" title="CTF" desc="InfoSec CTF" />
-        <CalendarCard       date="22/02/2021" title="Meeting" desc="LMNR Poisoning and NTLM Relay" author="Sunny" />
+        <CalendarCard       date="22/02/2021" title="Meeting" desc="LLMNR Poisoning and NTLM Relay" author="Sunny" />
         <CalendarCard       date="01/03/2021" title="Speaker" desc="Contact Tracing Apps & Security" author=" Dr. Joel Reardon" />
         <CalendarCard       date="08/03/2021" title="Meeting" desc="Malware Analysis Part 1" author="Jeremy" />
         <CalendarCard       date="15/03/2021" title="Meeting" desc="Malware Analysis Part 2" author="Jeremy" />

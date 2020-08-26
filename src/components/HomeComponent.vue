@@ -37,8 +37,7 @@
         <section class="w-full py-12">
           <div class="w-2/3 mx-auto my-4">
             <p class="font-display text-center text-4xl">Where We Meet</p>
-            <p class="font-body text-center text-2xl">Join us every Monday from 6PM to 8PM in ENG60:</p><br>
-            <img src="@/assets/ENG60.png" class="sm:w-full md:w-11/12 lg:w-8/12 xl:w-7/12 mx-auto" style="border-radius: 45px;" />
+            <p class="font-body text-center text-2xl">Join us every Monday from 6PM to 8PM online:</p><br>
           </div>
         </section>
         <div class="w-2/3 mx-auto my-4">
