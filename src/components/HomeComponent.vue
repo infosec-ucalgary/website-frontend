@@ -11,8 +11,27 @@
       <div class="flex flex-col">
         <section class="w-full bg-accent-2 py-12">
           <p class="text-center font-display text-4xl">Who We Are</p>
-          <div class="w-5/6 md:w-2/3 xl:w-1/3 mx-auto py-12">
+          <div class="w-5/6 md:w-2/3 xl:w-2/5 mx-auto py-12">
             <p class="text-center font-body text-lg">The Information Security Club is devoted to the art and science of information security.  We focus on helping students translate the knowledge they learn in courses into skills they can apply in the field of information security.  We are working to train students to compete in capture the flag (CTF) competitions and are working towards representing the University of Calgary on an international stage. We are also working to develop connections to industry professionals with the goal of connecting students to the world of information security outside the university in order to help them transition from the world of academics to a career information security.</p>
+          </div>
+          <div class="w-5/6 md:w-2/3 xl:w-2/5 mx-auto py-12 overflow-hidden">
+            <div class="border-2 bg-gray-800 rounded-full py-2 px-4 text-xl">
+              <span style="color: #9289b8;">root@magpie ~$ </span>
+              <span class="text-white">echo </span>
+              <vue-typer
+                :text='["SQL injection","privilege escalation","University of Calgary","XXS injection","web exploitation","capture the flag", "d34db33f"]'
+                :repeat='Infinity'
+                :shuffle='false'
+                initial-action='typing'
+                :pre-type-delay='70'
+                :type-delay='70'
+                :pre-erase-delay='2200'
+                :erase-delay='250'
+                erase-style='select-all'
+                :erase-on-complete='false'
+                caret-animation='solid'
+              ></vue-typer>
+            </div>
           </div>
         </section>
         <section class="w-full py-12">
@@ -31,8 +50,13 @@
   </section>
 </template>
 <script>
+import { VueTyper } from 'vue-typer'
+
 export default {
   name: 'HomeComponent',
+  components: {
+    VueTyper
+  },
   discordSrc: '@/assets/Discord-Logo+Wordmark-Color.png'
 }
 </script>
