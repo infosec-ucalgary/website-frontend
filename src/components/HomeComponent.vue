@@ -26,8 +26,8 @@
                 :pre-type-delay='70'
                 :type-delay='70'
                 :pre-erase-delay='2200'
-                :erase-delay='250'
-                erase-style='select-all'
+                :erase-delay='65'
+                erase-style='backspace'
                 :erase-on-complete='false'
                 caret-animation='solid'
               ></vue-typer>
