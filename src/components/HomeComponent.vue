@@ -12,7 +12,7 @@
         <section class="w-full bg-accent-2 py-12">
           <p class="text-center font-display text-4xl">Who We Are</p>
           <div class="w-5/6 md:w-2/3 xl:w-2/5 mx-auto py-12">
-            <p class="text-center font-body text-lg">The Information Security Club is devoted to the art and science of information security.  We focus on helping students translate the knowledge they learn in courses into skills they can apply in the field of information security.  We are working to train students to compete in capture the flag (CTF) competitions and are working towards representing the University of Calgary on an international stage. We are also working to develop connections to industry professionals with the goal of connecting students to the world of information security outside the university in order to help them transition from the world of academics to a career information security.</p>
+            <p class="text-center font-body text-lg">The mission of the Information Security Club is to expose and educate university students to the technical and theoretical skills in the field of cybersecurity, and to connect these students with industry professionals.</p>
           </div>
           <div class="w-5/6 md:w-2/3 xl:w-2/5 mx-auto py-12 overflow-hidden">
             <div class="border-2 bg-gray-800 rounded-full py-2 px-4 text-xl">
