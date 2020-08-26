@@ -3,6 +3,9 @@
     <header class="text-center pb-12">
       <img src="@/assets/magpie-vector-v02.svg" style="max-height: 600px;" class="mx-auto"/>
       <p class="text-center font-display text-4xl">UofC Information Security Club</p>
+      <svg class="animate-bounce w-6 h-6 text-gray-900 mx-auto" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
+        <path d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+      </svg>
     </header>
     <div class="home">
       <div class="flex flex-col">
