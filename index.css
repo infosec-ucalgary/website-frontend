@@ -36,6 +36,16 @@
   background-color: rgba(61, 100, 95, var(--bg-opacity));
 }
 
+.vue-typer .custom.caret {
+  width: 10px;
+  background-color: #FFFFFF;
+}
+
+.vue-typer .custom.char {
+  color: #FFFFFF;
+  font-size: 1.25rem;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Open%20Sans');
 @import url('https://fonts.googleapis.com/css2?family=Open%20Sans:wght@300');
 @import url('https://fonts.googleapis.com/css2?family=Open%20Sans:wght@700');
