@@ -1,35 +1,41 @@
 <template>
   <section class="py-8 md:w-1/2 mx-auto text-center">
     <p class="font-display text-4xl">Events Calendar</p>
-    <div class="inline lg:overflow-x-auto lg:mx-0 lg:flex lg:scrolling-touch">
-      <CalendarDoubleCard top_title="Meeting" top_date="28/09/2020" top_desc="Linux Commands and Tools"
-                          bot_title="Meeting" bot_date="28/09/2020" bot_desc="Kali VM setup and Linux Commands" />
-      <CalendarDoubleCard top_title="Meeting" top_date="05/10/2020" top_desc="Breaking into a Box"
-                          bot_title="Meeting" bot_date="05/10/2020" bot_desc="Intro to Web Exploitation" />
-      <CalendarDoubleCard top_title="Meeting" top_date="19/10/2020" top_desc="RSA"
-                          bot_title="Meeting" bot_date="19/10/2020" bot_desc="Intro to Cryptography" />
-      <CalendarCard title="Speaker" date="26/10/2020" desc="Speaker Series Part #1" />
-      <CalendarDoubleCard top_title="Meeting" top_date="02/11/2020" top_desc="ROP Chains"
-                          bot_title="Meeting" bot_date="02/11/2020" bot_desc="Intro to Binary Exploitation" />
-      <CalendarDoubleCard top_title="Meeting" top_date="16/11/2020" top_desc="Wireshark"
-                          bot_title="Meeting" bot_date="16/11/2020" bot_desc="Intro to Forensics" />
-      <CalendarCard title="Speaker" date="23/11/2020" desc="Speaker Series Part #2" />
-      <CalendarDoubleCard top_title="Meeting" top_date="30/11/2020" top_desc="Hex Editing"
-                          bot_title="Meeting" bot_date="30/11/2020" bot_desc="Intro to Reverse Engineering" />
-      <CalendarDoubleCard top_title="Meeting" top_date="18/01/2021" top_desc="TBA"
-                          bot_title="Meeting" bot_date="18/01/2021" bot_desc="SQL Injections" />
-      <CalendarDoubleCard top_title="Meeting" top_date="25/01/2021" top_desc="Block Ciphers"
-                          bot_title="Meeting" bot_date="25/01/2021" bot_desc="RSA" />
-      <CalendarDoubleCard top_title="Meeting" top_date="01/02/2021" top_desc="TBA"
-                          bot_title="Meeting" bot_date="01/02/2021" bot_desc="XSS" />
-      <CalendarCard title="Speaker" date="08/02/2021" desc="Speaker Series #3" />
-      <CalendarCard title="CTF" date="19/02/2021 - 21/02/2021" desc="You've seen some fancy cooking, are you ready for more?" />
-      <CalendarDoubleCard top_title="Meeting" top_date="22/02/2021" top_desc="LMNR Poisoning and NTLM Relay"
-                          bot_title="Meeting" bot_date="22/02/2021" bot_desc="TBA" />
-      <CalendarCard title="Speaker" date="01/03/2021" desc="Speaker Series #4" />
-      <CalendarCard title="Meeting" date="08/03/2021" desc="Malware Analysis" />
-      <CalendarCard title="Speaker" date="22/03/2021" desc="Speaker Series #5" />
-      <CalendarCard title="Meeting" date="29/03/2021" desc="Port Scanning" />
+    <div class="mt-12">
+      <p class="font-display text-2xl">Fall Semester</p>
+      <div class="inline lg:overflow-x-auto lg:mx-0 lg:flex lg:scrolling-touch">
+        <CalendarCard       date="21/09/2020" title="Meeting" desc="Intro to Kali and Linux Commands" />
+        <CalendarDoubleCard date="28/09/2020" top_title="Meeting"  top_desc="Basics of Breaking into a Box" top_author="Josh"
+                            bot_title="Meeting" bot_desc="Intro to Web Exploitation" bot_author="James" />
+        <CalendarDoubleCard date="05/10/2020" top_title="Meeting" top_desc="Linux Privilege Escalation" top_author="James"
+                            bot_title="Meeting" bot_desc="Intro to Cryptography" bot_author="Aarti" />
+        <CalendarDoubleCard date="19/10/2020" top_title="Meeting" top_desc="ROP Chains" top_author="Brandon"
+                            bot_title="Meeting" bot_desc="Intro to Forensics" bot_author="James" />
+        <CalendarCard       date="26/10/2020" title="Speaker" desc="**TO ADD**" author="**TO ADD**" />
+        <CalendarDoubleCard date="02/11/2020" top_title="Meeting" top_desc="Block Ciphers" top_author="Braydon"
+                            bot_title="Meeting" bot_desc="Reverse Engineering" bot_author="Jeremy" />
+        <CalendarDoubleCard date="16/11/2020" top_title="Meeting" top_desc="**TO ADD**" top_author="Alex"
+                            bot_title="Meeting" bot_desc="SQL Code Injection" bot_author="James" />
+        <CalendarCard       date="23/11/2020" title="Speaker" desc="**TO ADD**" author="**TO ADD**" />
+        <CalendarDoubleCard date="30/11/2020" top_title="Meeting" top_desc="RSA" top_author="Braydon"
+                            bot_title="Meeting" bot_desc="Binary Exploitation" bot_author="Jeremy" />
+      </div>
+    </div>
+    <div class="mt-12">
+      <p class="font-display text-2xl">Winter Semester</p>
+      <div class="inline lg:overflow-x-auto lg:mx-0 lg:flex lg:scrolling-touch">
+        <CalendarCard       date="18/01/2021" title="Meeting" desc="Wireshark" author="Braydon" />
+        <CalendarCard       date="25/01/2021" title="Meeting" desc="Cross-Site Scripting" author="Emily" />
+        <CalendarCard       date="01/02/2021" title="Meeting" desc="Shellcode" author="Brandon" />
+        <CalendarCard       date="08/02/2021" title="Speaker" desc="**TO ADD**" author="**TO ADD**" />
+        <CalendarCard       date="19/02/2021" title="CTF" desc="InfoSec CTF" />
+        <CalendarCard       date="22/02/2021" title="Meeting" desc="LMNR Poisoning and NTLM Relay" author="Sunny" />
+        <CalendarCard       date="01/03/2021" title="Speaker" desc="**TO ADD**" author="**TO ADD**" />
+        <CalendarCard       date="08/03/2021" title="Meeting" desc="Malware Analysis Part 1" author="Jeremy" />
+        <CalendarCard       date="15/03/2021" title="Meeting" desc="Malware Analysis Part 2" author="Jeremy" />
+        <CalendarCard       date="22/03/2021" title="Speaker" desc="**TO ADD**" author="**TO ADD**" />
+        <CalendarCard       date="29/03/2021" title="Meeting" desc="Web Traffic Analysis" author="Josh" />
+      </div>
     </div>
   </section>
 

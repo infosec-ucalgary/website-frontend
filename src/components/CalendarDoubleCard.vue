@@ -1,12 +1,13 @@
 <template>
   <section class="mx-auto my-4 py-4 flex-shrink-0 border border-gray-300 shadow rounded-lg w-48 h-64 lg:m-4">
+    <div class="font-display font-medium mb-2">{{ date }}</div>
     <div class="font-display font-bold">{{ top_title }}</div>
-    <div class="font-display font-medium">{{ top_date }}</div>
     <p>{{ top_desc }}</p>
+    <div class="font-display">{{ top_author }}</div>
     <hr>
     <div class="font-display font-bold">{{ bot_title }}</div>
-    <div class="font-display font-medium">{{ bot_date }}</div>
     <p>{{ bot_desc }}</p>
+    <div class="font-display">{{ bot_author }}</div>
   </section>
 </template>
 
@@ -18,6 +19,6 @@ section {
 <script>
 export default {
   name: 'CalendarDoubleCard',
-  props: ['top_title', 'top_date', 'top_desc', 'bot_title', 'bot_date', 'bot_desc']
+  props: ['date', 'top_title', 'top_desc', 'top_author', 'bot_title', 'bot_desc', 'bot_author']
 }
 </script>
