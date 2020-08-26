@@ -19,7 +19,7 @@
               <span style="color: #9289b8;">root@magpie ~$ </span>
               <span class="text-white">echo </span>
               <vue-typer
-                :text='["SQL injection","privilege escalation","University of Calgary","XXS injection","web exploitation","capture the flag", "d34db33f"]'
+                :text='["SQL injection","privilege escalation","University of Calgary","XXS injection","web exploitation","capture the flag", "ROP chain", "cryptography"]'
                 :repeat='Infinity'
                 :shuffle='false'
                 initial-action='typing'
