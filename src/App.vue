@@ -21,7 +21,8 @@
     <router-view />
 
     <!-- FOOTER -->
-    <div id="" class="pb-6 w-full text-center inline-block align-middle"><span>We are a group of students from the University of Calgary who are dedicated to learning cyber security - &copy;2020</span></div>
+    <FooterComponent />
+
   </div>
 </template>
 
@@ -48,11 +49,13 @@
 
 <script>
 import NavbarComponent from './components/NavbarComponent.vue'
+import FooterComponent from './components/FooterComponent.vue'
 
 export default {
   name: 'app',
   components: {
-    NavbarComponent
+    NavbarComponent,
+    FooterComponent
   },
   data () {
     return {

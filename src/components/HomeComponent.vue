@@ -12,22 +12,22 @@
         <section class="w-full bg-accent-2 py-12">
           <p class="text-center font-display text-4xl">Who We Are</p>
           <div class="w-5/6 md:w-2/3 xl:w-2/5 mx-auto py-12">
-            <p class="text-center font-body text-lg">The Information Security Club is devoted to the art and science of information security.  We focus on helping students translate the knowledge they learn in courses into skills they can apply in the field of information security.  We are working to train students to compete in capture the flag (CTF) competitions and are working towards representing the University of Calgary on an international stage. We are also working to develop connections to industry professionals with the goal of connecting students to the world of information security outside the university in order to help them transition from the world of academics to a career information security.</p>
+            <p class="text-center font-body text-lg">The mission of the Information Security Club is to expose and educate university students to the technical and theoretical skills in the field of cybersecurity, and to connect these students with industry professionals.</p>
           </div>
           <div class="w-5/6 md:w-2/3 xl:w-2/5 mx-auto py-12 overflow-hidden">
             <div class="border-2 bg-gray-800 rounded-full py-2 px-4 text-xl">
               <span style="color: #9289b8;">root@magpie ~$ </span>
               <span class="text-white">echo </span>
               <vue-typer
-                :text='["SQL injection","privilege escalation","University of Calgary","XXS injection","web exploitation","capture the flag", "d34db33f"]'
+                :text='["SQL injection","privilege escalation","University of Calgary","XXS injection","web exploitation","capture the flag", "ROP chain", "cryptography"]'
                 :repeat='Infinity'
                 :shuffle='false'
                 initial-action='typing'
                 :pre-type-delay='70'
                 :type-delay='70'
                 :pre-erase-delay='2200'
-                :erase-delay='250'
-                erase-style='select-all'
+                :erase-delay='65'
+                erase-style='backspace'
                 :erase-on-complete='false'
                 caret-animation='solid'
               ></vue-typer>
@@ -37,8 +37,7 @@
         <section class="w-full py-12">
           <div class="w-2/3 mx-auto my-4">
             <p class="font-display text-center text-4xl">Where We Meet</p>
-            <p class="font-body text-center text-2xl">Join us every Monday from 6PM to 8PM in ENG60:</p><br>
-            <img src="@/assets/ENG60.png" class="sm:w-full md:w-11/12 lg:w-8/12 xl:w-7/12 mx-auto" style="border-radius: 45px;" />
+            <p class="font-body text-center text-2xl">Join us every Monday from 6PM to 8PM on our weekly livestream</p><br>
           </div>
         </section>
         <div class="w-2/3 mx-auto my-4">

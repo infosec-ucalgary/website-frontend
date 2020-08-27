@@ -1,8 +1,9 @@
 <template>
-  <section class="mx-auto my-4 flex-shrink-0 border border-gray-300 shadow rounded-lg w-48 h-48 lg:m-4">
+  <section class="mx-auto my-4 py-4 flex-shrink-0 border border-gray-300 shadow rounded-lg w-48 h-auto lg:m-4">
+    <div class="font-display font-medium text-lg mb-2">{{ date }}</div>
     <div class="font-display font-bold">{{ title }}</div>
-    <div class="font-display font-medium">{{ date }}</div>
     <p>{{ desc }}</p>
+    <div class="font-display my-1">{{ author }}</div>
   </section>
 </template>
 
@@ -12,6 +13,6 @@
 <script>
 export default {
   name: 'CalendarCard',
-  props: ['title', 'date', 'desc']
+  props: ['date', 'title', 'desc', 'author']
 }
 </script>
