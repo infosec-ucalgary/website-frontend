@@ -4,7 +4,7 @@
       <div id="mc_embed_signup_scroll">
         <p class="text-lg font-bold mb-2">Subscribe to our mailing list</p>
         <div class="mc-field-group">
-          <input type="email" value="" name="EMAIL" class="required email border border-gray-500 ml-2 placeholder-black placeholder-opacity-100" id="mce-EMAIL" placeholder="Email Address">
+          <input type="email" value="" name="EMAIL" class="required email border border-gray-500 ml-2 p-1 placeholder-black placeholder-opacity-100" id="mce-EMAIL" placeholder="Email Address">
         </div>
         <div id="mce-responses" class="clear">
           <div class="response" id="mce-error-response" style="display:none"></div>
