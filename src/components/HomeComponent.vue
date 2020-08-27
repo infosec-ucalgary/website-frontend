@@ -37,7 +37,7 @@
         <section class="w-full py-12">
           <div class="w-2/3 mx-auto my-4">
             <p class="font-display text-center text-4xl">Where We Meet</p>
-            <p class="font-body text-center text-2xl">Join us every Monday from 6PM to 8PM on our livestream</p><br>
+            <p class="font-body text-center text-2xl">Join us every Monday from 6PM to 8PM on our weekly livestream</p><br>
           </div>
         </section>
         <div class="w-2/3 mx-auto my-4">
