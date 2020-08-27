@@ -3,15 +3,15 @@
     <div class="font-display text-4xl my-4">About Us</div>
     <div class="mx-auto">
       <div class="inline-block lg:mx-0 lg:flex lg:flex-wrap mx-auto w-auto justify-center">
-        <BioCard name="Jeremy Stuart" title="President" />
-        <BioCard name="Alexandra Tenney" title="Vice President" />
+        <BioCard name="Jeremy Stuart" title="President" path="https://infosecucalgary.ca/uploads/jeremy-headshot.jpg" />
+        <BioCard name="Alexandra Tenney" title="Vice President" path="https://infosecucalgary.ca/uploads/alex-headshot.jpg" />
         <BioCard name="Britta Den Hoed" title="VP of Communication" />
-        <BioCard name="Emily Baird" title="VP of Operations" />
-        <BioCard name="Braydon Willms" title="VP of Tech" />
-        <BioCard name="Brandon Arenas" title="VP of Tech" />
-        <BioCard name="Joshua Novak" title="VP of Tech" />
-        <BioCard name="James Lowther" title="Junior Executive" />
-        <BioCard name="Aarti Barakale" title="Junior Executive" />
+        <BioCard name="Emily Baird" title="VP of Operations" path="https://infosecucalgary.ca/uploads/emily-headshot.jpg" />
+        <BioCard name="Braydon Willms" title="VP of Tech" path="https://infosecucalgary.ca/uploads/braydon-headshot.jpg" />
+        <BioCard name="Brandon Arenas" title="VP of Tech" path="https://infosecucalgary.ca/uploads/not-brandon-but-brandon.png" />
+        <BioCard name="Joshua Novak" title="VP of Tech" path="https://infosecucalgary.ca/uploads/josh-headshot.jpg" />
+        <BioCard name="James Lowther" title="Junior Executive" path="https://infosecucalgary.ca/uploads/james-headshot.jpg" />
+        <BioCard name="Aarti Barakale" title="Junior Executive" path="https://infosecucalgary.ca/uploads/aarti-headshot.jpg" />
       </div>
     </div>
   </section>
