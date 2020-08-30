@@ -6,7 +6,7 @@
         <BioCard name="Jeremy Stuart" title="President" path="https://infosecucalgary.ca/uploads/jeremy-headshot.jpg" />
         <BioCard name="Alexandra Tenney" title="Vice President" path="https://infosecucalgary.ca/uploads/alex-headshot.jpg" />
         <BioCard name="Britta Den Hoed" title="VP of Communication" />
-        <BioCard name="Sunny Mangat" title="VP of Finance" />
+        <BioCard name="Sunny Mangat" title="VP of Finance" path="https://infosecucalgary.ca/uploads/sunny-headshot.jpg" />
         <BioCard name="Emily Baird" title="VP of Operations" path="https://infosecucalgary.ca/uploads/emily-headshot.jpg" />
         <BioCard name="Braydon Willms" title="VP of Tech" path="https://infosecucalgary.ca/uploads/braydon-headshot.jpg" />
         <BioCard name="Brandon Arenas" title="VP of Tech" path="https://infosecucalgary.ca/uploads/not-brandon-but-brandon.png" />
