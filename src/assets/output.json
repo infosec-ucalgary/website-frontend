@@ -108,131 +108,138 @@
 		{
 			"id": 15,
 			"category": "Practice Sites", 
+			"title": "TryHackMe",
+			"link": "https://tryhackme.com/",
+			"desc": "A learning-oriented VM box hacking website"
+		},
+		{
+			"id": 16,
+			"category": "Practice Sites", 
 			"title": "HackTheBox",
 			"link": "https://www.hackthebox.eu/",
 			"desc": "A site known for the challenge it provides"
 		},
 		{
-			"id": 16,
+			"id": 17,
 			"category": "CTF Practice", 
 			"title": "PicoCTF",
 			"link": "https://picoctf.com/",
 			"desc": "The site we use to practice in our workshops.  A beginner friendly CTF site, and the largest CTF in the world"
 		},
 		{
-			"id": 17,
+			"id": 18,
 			"category": "CTF Practice", 
 			"title": "CTFLearn",
 			"link": "https://ctflearn.com/",
 			"desc": "A long list of challenges and problems to try"
 		},
 		{
-			"id": 18,
+			"id": 19,
 			"category": "CTF Practice", 
 			"title": "Practice CTF List",
 			"link": "https://captf.com/practice-ctf/",
 			"desc": "a list of sites that host practice CTF challenges"
 		},
 		{
-			"id": 19,
+			"id": 20,
 			"category": "CTF Practice", 
 			"title": "HackMe",
 			"link": "https://hack.me/",
 			"desc": "CTF practice problems"
 		},
 		{
-			"id": 20,
+			"id": 21,
 			"category": "CTF Practice", 
 			"title": "RootMe",
 			"link": "https://www.root-me.org/?lang=en",
 			"desc": "CTF practice problems"
 		},
 		{
-			"id": 21,
+			"id": 22,
 			"category": "CTF Practice", 
 			"title": "OverTheWire",
 			"link": "https://overthewire.org",
 			"desc": "Network and computer security challenges."
 		},
 		{
-			"id": 22,
+			"id": 23,
 			"category": "CTF Tracking", 
 			"title": "CTFtime",
 			"link": "https://ctftime.org/",
 			"desc": "Create a profile and track your progress as you compete in CTFs.  It also tracks upcoming CTFs, teams, and has an archive of past CTFs and writeups for many previous CTFs."
 		},
 		{
-			"id": 23,
+			"id": 24,
 			"category": "CTF Tracking", 
 			"title": "Major League Cyber",
 			"link": "https://www.majorleaguecyber.org/",
 			"desc": "Another great site for creating a profile and tracking your progress as you compete in CTFS."
 		},
 		{
-			"id": 24,
+			"id": 25,
 			"category": "CTF Tracking", 
 			"title": "WeChall",
 			"link": "https://www.wechall.net/",
 			"desc": "Another tracking site for CTFs."
 		},
 		{
-			"id": 25,
+			"id": 26,
 			"category": "Assembly", 
 			"title": "Guide to x86 Assembly",
 			"link": "https://www.cs.yale.edu/flint/cs421/papers/x86-asm/asm.html",
 			"desc": "A good overall guide to assembly, but not an easy or accessible read!"
 		},
 		{
-			"id": 26,
+			"id": 27,
 			"category": "Assembly", 
 			"title": "Jump Guide",
 			"link": "http://www.unixwiz.net/techtips/x86-jumps.html",
 			"desc": "A list of the jump codes for AT&T assembly."
 		},
 		{
-			"id": 27,
+			"id": 28,
 			"category": "Assembly", 
 			"title": "X86 Assembly Wiki",
 			"link": "https://en.wikibooks.org/wiki/X86_Assembly",
 			"desc": "A good book/resource for instructions."
 		},
 		{
-			"id": 28,
+			"id": 29,
 			"category": "Forensics", 
 			"title": "File Signatures List",
 			"link": "https://www.garykessler.net/library/file_sigs.html",
 			"desc": "A good list of the hex signatures"
 		},
 		{
-			"id": 29,
+			"id": 30,
 			"category": "Bug Bounties", 
 			"title": "HackerOne",
 			"link": "https://www.hackerone.com/internet-bug-bounty",
 			"desc": "A site dedicated to providing bug bounties for security vulnerabilities found in popular programming languages."
 		},
 		{
-			"id": 30,
+			"id": 31,
 			"category": "Cryptography", 
 			"title": "Learn Cryptography",
 			"link": "https://privacycanada.net/learn-cryptography-acquired-privacy-canada/",
 			"desc": "A good site for learning cryptography from the ground up"
 		},
 		{
-			"id": 31,
+			"id": 32,
 			"category": "Cryptography", 
 			"title": "Cryptopals",
 			"link": "https://cryptopals.com/",
 			"desc": "A site with a lot of hands on practice for learning basic cryptography"
 		},
 		{
-			"id": 32,
+			"id": 33,
 			"category": "Youtube Channels", 
 			"title": "LiveOverflow",
 			"link": "https://www.youtube.com/channel/UClcE-kVhqyiHCcjYwcpfj9w",
 			"desc": "The youtube side of LiveOverflow.com"
 		},
 		{
-			"id": 33,
+			"id": 34,
 			"category": "Youtube Channels", 
 			"title": "John Hammond",
 			"link": "https://www.youtube.com/channel/UCVeW9qkBjo3zosnqUbG7CFw",
