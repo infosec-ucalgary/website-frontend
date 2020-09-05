@@ -13,7 +13,7 @@
         <BioCard name="Joshua Novak" title="VP of Tech" path="https://infosecucalgary.ca/uploads/josh-headshot.jpg" secret="Webmaster Supreme" />
         <BioCard name="James Lowther" title="Junior Executive" path="https://infosecucalgary.ca/uploads/james-headshot.jpg" secret="Crunchwrap Supreme" />
         <BioCard name="Aarti Barakale" title="Junior Executive" path="https://infosecucalgary.ca/uploads/aarti-headshot.jpg" />
-        <BioCard name="Ejaaz Lakhani" title="Junior Executive" />
+        <BioCard name="Ejaaz Lakhani" title="Junior Executive" path="https://infosecucalgary.ca/uploads/ejaaz-headshot.jpg" />
       </div>
     </div>
   </section>
