@@ -1,5 +1,7 @@
 <template>
   <section class="py-8 md:w-1/2 mx-auto text-center">
+    <NewCalendar />
+    <br>
     <p class="font-display text-4xl">Events Calendar</p>
     <div class="mt-12">
       <p class="font-display text-2xl">Fall Semester</p>
@@ -44,12 +46,14 @@
 <script>
 import CalendarCard from '@/components/CalendarCard.vue'
 import CalendarDoubleCard from '@/components/CalendarDoubleCard.vue'
+import NewCalendar from '@/components/NewCalendarComponent.vue'
 
 export default {
   name: 'calendar',
   components: {
     CalendarCard,
-    CalendarDoubleCard
+    CalendarDoubleCard,
+    NewCalendar
   },
   data () {
     return {
