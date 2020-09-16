@@ -4,72 +4,50 @@
       {{ this.getDateDisplay() }}
     </div>
     <div class="h-8 w-auto grid grid-cols-7 gap-0 bg-black">
-      <strong class="text-white">Sun</strong>
-      <strong class="text-white">Mon</strong>
-      <strong class="text-white">Tue</strong>
-      <strong class="text-white">Wed</strong>
-      <strong class="text-white">Thu</strong>
-      <strong class="text-white">Fri</strong>
-      <strong class="text-white">Sat</strong>
+      <strong class="text-white" v-bind:key="weekdays.indexOf(wd)" v-for="wd in weekdays">{{ wd }}</strong>
     </div>
-    <div class="w-auto grid grid-cols-7 grid-rows-5 gap-0">
-      <div class="h-48 border-solid border-red border-2"></div>
-      <div class="h-48 border-solid border-red border-2"></div>
-      <div class="h-48 border-solid border-red border-2"></div>
-      <div class="h-48 border-solid border-red border-2"></div>
-      <div class="h-48 border-solid border-red border-2"></div>
-      <div class="h-48 border-solid border-red border-2"></div>
-      <div class="h-48 border-solid border-red border-2"></div>
-      <div class="h-48 border-solid border-red border-2"></div>
-      <div class="h-48 border-solid border-red border-2"></div>
-      <div class="h-48 border-solid border-red border-2"></div>
-      <div class="h-48 border-solid border-red border-2"></div>
-      <div class="h-48 border-solid border-red border-2"></div>
-      <div class="h-48 border-solid border-red border-2"></div>
-      <div class="h-48 border-solid border-red border-2"></div>
-      <div class="h-48 border-solid border-red border-2"></div>
-      <div class="h-48 border-solid border-red border-2"></div>
-      <div class="h-48 border-solid border-red border-2"></div>
-      <div class="h-48 border-solid border-red border-2"></div>
-      <div class="h-48 border-solid border-red border-2"></div>
-      <div class="h-48 border-solid border-red border-2"></div>
-      <div class="h-48 border-solid border-red border-2"></div>
-      <div class="h-48 border-solid border-red border-2"></div>
-      <div class="h-48 border-solid border-red border-2"></div>
-      <div class="h-48 border-solid border-red border-2"></div>
-      <div class="h-48 border-solid border-red border-2"></div>
-      <div class="h-48 border-solid border-red border-2"></div>
-      <div class="h-48 border-solid border-red border-2"></div>
-      <div class="h-48 border-solid border-red border-2"></div>
-      <div class="h-48 border-solid border-red border-2"></div>
-      <div class="h-48 border-solid border-red border-2"></div>
-      <div class="h-48 border-solid border-red border-2"></div>
-      <div class="h-48 border-solid border-red border-2"></div>
-      <div class="h-48 border-solid border-red border-2"></div>
-      <div class="h-48 border-solid border-red border-2"></div>
-      <div class="h-48 border-solid border-red border-2"></div>
+    <div class="w-auto grid grid-cols-7 grid-rows-5 gap-0 divide-x divide-y">
+      <NewCalendarBlankBox v-for="n in getFirstDayOfWeek()" v-bind:key="n" />
+      <NewCalendarBox v-for="m in getDaysInMonth()" v-bind:key="m" :dayOfMonth="m" />
+      <NewCalendarBlankBox v-for="o in getRemainingBlanks()" v-bind:key="o" />
     </div>
   </section>
 </template>
 
 <script>
+import NewCalendarBox from '@/components/NewCalendarBoxComponent.vue'
+import NewCalendarBlankBox from '@/components/NewCalendarBlankBox.vue'
+
 export default {
   name: 'NewCalendar',
+  components: {
+    NewCalendarBox,
+    NewCalendarBlankBox
+  },
   data () {
     return {
+      weekdays: [
+        'Sunday',
+        'Monday',
+        'Tuesday',
+        'Wednesday',
+        'Thursday',
+        'Friday',
+        'Saturday'
+      ],
       months: [
-        'January', // : 31,
-        'February', // : 28,
-        'March', // : 31,
-        'April', // : 30,
-        'May', // : 31,
-        'June', // : 30,
-        'July', // : 31,
-        'August', // : 31,
-        'September', // : 30,
-        'October', // : 31,
-        'November', // : 30,
-        'December'// : 31
+        'January', //  31,
+        'February', //  28,
+        'March', //  31,
+        'April', //  30,
+        'May', //  31,
+        'June', //  30,
+        'July', //  31,
+        'August', //  31,
+        'September', //  30,
+        'October', //  31,
+        'November', //  30,
+        'December' //  31
       ]
     }
   },
@@ -77,8 +55,10 @@ export default {
     checkIfLeapyear: function (year) {
       return year % 100 === 0 ? year % 400 === 0 : year % 4 === 0
     },
-    getDaysInMonth: function (monthNum) {
-      switch (monthNum) {
+    getDaysInMonth: function () {
+      let currDate = new Date()
+      let currMonth = currDate.getMonth()
+      switch (currMonth) {
         case 0:
         case 2:
         case 4:
@@ -102,10 +82,31 @@ export default {
       let currDate = new Date()
       let currMonth = currDate.getMonth()
       return this.months[currMonth] + ' ' + currDate.getFullYear()
+    },
+    // Returns the day of the week of the first day of the month
+    // there is 100% a betteer way to do this, but w/e
+    getFirstDayOfWeek: function () {
+      let currDate = new Date()
+      let currDOW = currDate.getDay()
+      let currDOM = currDate.getDate()
+      while (currDOM > 7) {
+        currDOM -= 7
+      }
+      while (currDOM > 1) {
+        currDOM -= 1
+        if (currDOW === 0) currDOW = 6
+        else currDOW--
+      }
+      return currDOW
+    },
+    // Return the remaining amount of boxes needed to fill the empty spots of the calendar
+    getRemainingBlanks: function () {
+      return 35 - this.getDaysInMonth() - this.getFirstDayOfWeek()
     }
   },
   mounted: {
     loadDayNumbers: function () {
+      // let firstWeekDayMonth = this.getFirstDayOfWeek()
       return ''
     }
   }
