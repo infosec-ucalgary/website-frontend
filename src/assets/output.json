@@ -244,6 +244,13 @@
 			"title": "John Hammond",
 			"link": "https://www.youtube.com/channel/UCVeW9qkBjo3zosnqUbG7CFw",
 			"desc": "Some really great beginner guides for CTFs.  John does a great job at taking his time to explain what is happening and how it works."
+		},
+		{
+			"id": 35,
+			"category": "Youtube Channels", 
+			"title": "Network Chuck",
+			"link": "https://www.youtube.com/c/NetworkChuck",
+			"desc": "A channel that focuses on networking in the field of information security."
 		}
 	]
 }
