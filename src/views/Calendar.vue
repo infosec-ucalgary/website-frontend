@@ -8,7 +8,7 @@
         <CalendarDoubleCard date="28/09/2020" top_title="Workshop"  top_desc="Basics of Breaking into a Box" top_author="Josh"
                             bot_title="Workshop" bot_desc="Intro to Web Exploitation" bot_author="James" />
         <CalendarDoubleCard date="05/10/2020" top_title="Workshop" top_desc="Linux Privilege Escalation" top_author="James"
-                            bot_title="Workshop" bot_desc="Intro to Cryptography" bot_author="Aarti" />
+                            bot_title="Workshop" bot_desc="Intro to Cryptography" bot_author="Britta" />
         <CalendarDoubleCard date="19/10/2020" top_title="Workshop" top_desc="ROP Chains" top_author="Brandon"
                             bot_title="Workshop" bot_desc="Intro to Forensics" bot_author="James" />
         <CalendarCard       date="26/10/2020" title="Speaker" desc="Penetration Testing" author="Saminah Amin" />
