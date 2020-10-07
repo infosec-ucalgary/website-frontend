@@ -9,11 +9,11 @@
       <p class="font-display font-bold text-3xl">Access to the speaker series is restricted to paying club members</p>
     </div>
     <div>
-      <SpeakerBioCard name="Saminah Amin" bio="" topic="Penetration Testing" date="26/10/2020" />
-      <SpeakerBioCard name="Kathy Macdonald" bio="" topic="Practical Cybersecurity & Cybercrime Prevention" date="23/11/2020" />
-      <SpeakerBioCard name="Adam McMath" bio="" topic="Threat Intelligence" date="08/02/2021" />
-      <SpeakerBioCard name="Dr. Joel Reardon" bio="" topic="Contact Tracing Apps & Security" date="01/03/2021" />
-      <SpeakerBioCard name="Emilie Vincent" bio="" topic="The Hiring Process" date="22/03/2021" />
+      <SpeakerBioCard name="Saminah Amin" bio="Cybersecurity Consultant at PwC Canada" topic="Penetration Testing" date="26/10/2020" path="https://infosecucalgary.ca/uploads/speakers/saminah-amin.jpg" />
+      <SpeakerBioCard name="Kathy Macdonald" bio="Author of Cybercrime: Awareness, Prevention and Response" topic="Practical Cybersecurity & Cybercrime Prevention" date="23/11/2020" path="https://infosecucalgary.ca/uploads/speakers/kathy-macdonald.png" />
+      <SpeakerBioCard name="Adam McMath" bio="Cybersecurity General Manager at the Calgary Airport Authority" topic="Threat Intelligence" date="08/02/2021" path="https://infosecucalgary.ca/uploads/speakers/adam-mcmath.jpg" />
+      <SpeakerBioCard name="Dr. Joel Reardon" bio="Professor of Computer Science at the University of Calgary" topic="Contact Tracing Apps & Security" date="01/03/2021" path="https://infosecucalgary.ca/uploads/speakers/joel-reardon.jpg"/>
+      <SpeakerBioCard name="Emilie Vincent" bio="Corporate Recruiter at Trimac Transportation" topic="The Hiring Process" date="22/03/2021" path="https://infosecucalgary.ca/uploads/speakers/emilie-vincent.jpg" />
     </div>
   </section>
 </template>
