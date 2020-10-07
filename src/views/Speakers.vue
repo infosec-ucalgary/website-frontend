@@ -3,7 +3,7 @@
     <p class="font-bold text-5xl">Speaker Series</p>
     <div class="mt-12">
       <p class="font-display text-2xl">Join our speaker series and learn information security topics from real-world industry professionals</p>
-      <p class="font-display text-2xl mt-2">View the <router-link id="nav-item" class="" to="/calendar">calendar</router-link> for workshop and speaker dates</p>
+      <p class="font-display text-2xl mt-2">View the <router-link id="nav-item" class="underline" to="/calendar">calendar</router-link> for workshop and speaker dates</p>
     </div>
     <div class="mt-10">
       <p class="font-body font-bold text-3xl text-red-800">Access to the speaker series is restricted to paying club members</p>
