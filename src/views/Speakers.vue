@@ -1,13 +1,17 @@
 <template>
   <section class="py-8 md:w-1/2 mx-auto text-center">
-    <p class="font-display text-4xl">Speaker Series</p>
+    <p class="font-bold text-5xl">Speaker Series</p>
     <div class="mt-12">
       <p class="font-display text-2xl">Join our speaker series and learn information security topics from real-world industry professionals</p>
       <p class="font-display text-2xl mt-2">View the <router-link id="nav-item" class="" to="/calendar">calendar</router-link> for workshop and speaker dates</p>
     </div>
     <div class="mt-10">
-      <p class="font-display font-bold text-3xl">Access to the speaker series is restricted to paying club members</p>
+      <p class="font-body font-bold text-3xl text-red-800">Access to the speaker series is restricted to paying club members</p>
     </div>
+    <div class="mt-8">
+      <p class="font-display font-normal text-2xl">To pay club fees, transfer $10 to infosec.ucalgary@gmail.com. Please include your name, email and Discord username (if you have one) in the message.  Make sure to include your four-digit Discord identifier.</p>
+    </div>
+    <hr class="mt-12 mb-16 border-2 border-gray-700 border-dashed">
     <div>
       <SpeakerBioCard name="Saminah Amin" bio="Cybersecurity Consultant at PwC Canada" topic="Penetration Testing" date="26/10/2020" path="https://infosecucalgary.ca/uploads/speakers/saminah-amin.jpg" />
       <SpeakerBioCard name="Kathy Macdonald" bio="Author of Cybercrime: Awareness, Prevention and Response" topic="Practical Cybersecurity & Cybercrime Prevention" date="23/11/2020" path="https://infosecucalgary.ca/uploads/speakers/kathy-macdonald.png" />
