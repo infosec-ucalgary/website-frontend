@@ -34,7 +34,10 @@
             </div>
           </div>
         </section>
-        <section class="w-full py-12">
+        <div class="mx-auto mt-8">
+          <PaymentModal />
+        </div>
+        <section class="w-full py-10">
           <div class="w-2/3 mx-auto my-4">
             <p class="font-display text-center text-4xl">Where We Meet</p>
             <p class="font-body text-center text-2xl">Join us every Monday from 6PM to 8PM on our weekly livestream</p><br>
@@ -54,11 +57,13 @@
 </template>
 <script>
 import { VueTyper } from 'vue-typer'
+import PaymentModal from '@/components/PaymentModal.vue'
 
 export default {
   name: 'HomeComponent',
   components: {
-    VueTyper
+    VueTyper,
+    PaymentModal
   },
   discordSrc: '@/assets/Discord-Logo+Wordmark-Color.png'
 }
