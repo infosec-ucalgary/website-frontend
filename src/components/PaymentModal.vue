@@ -11,7 +11,7 @@
       :minHeight="350">
       <p class="font-bold text-2xl my-4">Paying Club Fees<p>
       <p class="text-xl mx-6 mb-6">
-        To pay club fees, transfer $10 to infosec.ucalgary@gmail.com
+        To pay club fees, transfer $10 to <span class="text-purple-700">infosec.ucalgary@gmail.com</span>
       </p>
       <p class="text-xl mx-6">
         Please include your name, email and Discord username (if you have one) in the message.  Make sure to include your four-digit Discord identifier.
