@@ -6,6 +6,7 @@ import App from './App.vue'
 import './registerServiceWorker'
 import router from './router'
 import store from './store'
+import VModal from 'vue-js-modal'
 
 import Calendar from 'primevue/calendar'
 import DataTable from 'primevue/datatable'
@@ -15,6 +16,7 @@ import ColumnGroup from 'primevue/columngroup'
 Vue.config.productionTip = false
 
 Vue.use(Inkline)
+Vue.use(VModal)
 
 Vue.component('Calendar', Calendar)
 Vue.component('DataTable', DataTable)

@@ -10,13 +10,13 @@
         <CalendarDoubleCard date="28/09/2020" top_title="Workshop"  top_desc="Basics of Breaking into a Box" top_author="Josh"
                             bot_title="Workshop" bot_desc="Intro to Web Exploitation" bot_author="James" />
         <CalendarDoubleCard date="05/10/2020" top_title="Workshop" top_desc="Linux Privilege Escalation" top_author="James"
-                            bot_title="Workshop" bot_desc="Intro to Cryptography" bot_author="Aarti" />
+                            bot_title="Workshop" bot_desc="Intro to Cryptography" bot_author="Britta" />
         <CalendarDoubleCard date="19/10/2020" top_title="Workshop" top_desc="ROP Chains" top_author="Brandon"
                             bot_title="Workshop" bot_desc="Intro to Forensics" bot_author="James" />
         <CalendarCard       date="26/10/2020" title="Speaker" desc="Penetration Testing" author="Saminah Amin" />
         <CalendarDoubleCard date="02/11/2020" top_title="Workshop" top_desc="Block Ciphers" top_author="Braydon"
                             bot_title="Workshop" bot_desc="Reverse Engineering" bot_author="Jeremy" />
-        <CalendarDoubleCard date="16/11/2020" top_title="Workshop" top_desc="TBD" top_author="Alex"
+        <CalendarDoubleCard date="16/11/2020" top_title="Workshop" top_desc="Docker and its Exploitation" top_author="Alex"
                             bot_title="Workshop" bot_desc="SQL Code Injection" bot_author="James" />
         <CalendarCard       date="23/11/2020" title="Speaker" desc="Practical Cybersecurity & Cybercrime Prevention" author="Kathy Macdonald" />
         <CalendarDoubleCard date="30/11/2020" top_title="Workshop" top_desc="RSA" top_author="Braydon"

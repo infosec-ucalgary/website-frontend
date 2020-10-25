@@ -34,7 +34,10 @@
             </div>
           </div>
         </section>
-        <section class="w-full py-12">
+        <div class="mx-auto mt-8">
+          <PaymentModal />
+        </div>
+        <section class="w-full py-10">
           <div class="w-2/3 mx-auto my-4">
             <p class="font-display text-center text-4xl">Where We Meet</p>
             <p class="font-body text-center text-2xl">Join us every Monday from 6PM to 8PM on our weekly livestream</p><br>
@@ -42,7 +45,11 @@
         </section>
         <div class="w-2/3 mx-auto my-4">
           <p class="text-center font-display text-4xl">Find Us On Discord</p>
-          <a href="https://discord.gg/wVwv5Pw"><img class="mx-auto" src="@/assets/Discord-Logo+Wordmark-Color.png" style="width: 40%" /></a>
+          <a href="https://discord.gg/wVwv5Pw" target="_blank"><img class="mx-auto" src="@/assets/Discord-Logo+Wordmark-Color.png" style="width: 40%" /></a>
+        </div>
+        <div class="w-2/3 mx-auto my-4">
+          <p class="text-center font-display text-4xl my-6">Check Out Our CTF</p>
+          <a href="http://magpiectf.ca" target="_blank"><img class="mx-auto rounded-full" src="@/assets/ctf-logo-v3.png" style="width: 45%" /></a>
         </div>
       </div>
     </div>
@@ -50,11 +57,13 @@
 </template>
 <script>
 import { VueTyper } from 'vue-typer'
+import PaymentModal from '@/components/PaymentModal.vue'
 
 export default {
   name: 'HomeComponent',
   components: {
-    VueTyper
+    VueTyper,
+    PaymentModal
   },
   discordSrc: '@/assets/Discord-Logo+Wordmark-Color.png'
 }

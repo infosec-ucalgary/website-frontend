@@ -5,7 +5,7 @@
 			"category": "Tools", 
 			"title": "Pwntools",
 			"link": "https://github.com/Gallopsled/pwntools",
-			"desc": "A set of tools used extensively for CTFs"
+			"desc": "A set of tools used extensively for CTFs."
 		},
 		{
 			"id": 1,
@@ -40,7 +40,7 @@
 			"category": "Tools", 
 			"title": "Linux Subsystem For Windows",
 			"link": "https://www.howtogeek.com/265900/everything-you-can-do-with-windows-10s-new-bash-shell/",
-			"desc": "A good tool for getting a linux terminal in any Windows 10 machine"
+			"desc": "A good tool for getting a linux terminal in any Windows 10 machine."
 		},
 		{
 			"id": 6,
@@ -89,7 +89,7 @@
 			"category": "Guides", 
 			"title": "LiveOverflow",
 			"link": "https://www.liveoverflow.com",
-			"desc": "A guy who started a youtube channel devoted to hacking/pen testing/CTFs, now a great site and resource for learning about infosec skills"
+			"desc": "A guy who started a youtube channel devoted to hacking/pen testing/CTFs, now a great site and resource for learning about infosec skills."
 		},
 		{
 			"id": 13,
@@ -110,49 +110,49 @@
 			"category": "Practice Sites", 
 			"title": "TryHackMe",
 			"link": "https://tryhackme.com/",
-			"desc": "A learning-oriented VM box hacking website"
+			"desc": "A learning-oriented VM box hacking website."
 		},
 		{
 			"id": 16,
 			"category": "Practice Sites", 
 			"title": "HackTheBox",
 			"link": "https://www.hackthebox.eu/",
-			"desc": "A site known for the challenge it provides"
+			"desc": "A site known for the challenge it provides."
 		},
 		{
 			"id": 17,
 			"category": "CTF Practice", 
 			"title": "PicoCTF",
 			"link": "https://picoctf.com/",
-			"desc": "The site we use to practice in our workshops.  A beginner friendly CTF site, and the largest CTF in the world"
+			"desc": "The site we use to practice in our workshops.  A beginner friendly CTF site, and the largest CTF in the world."
 		},
 		{
 			"id": 18,
 			"category": "CTF Practice", 
 			"title": "CTFLearn",
 			"link": "https://ctflearn.com/",
-			"desc": "A long list of challenges and problems to try"
+			"desc": "A long list of challenges and problems to try."
 		},
 		{
 			"id": 19,
 			"category": "CTF Practice", 
 			"title": "Practice CTF List",
 			"link": "https://captf.com/practice-ctf/",
-			"desc": "a list of sites that host practice CTF challenges"
+			"desc": "a list of sites that host practice CTF challenges."
 		},
 		{
 			"id": 20,
 			"category": "CTF Practice", 
 			"title": "HackMe",
 			"link": "https://hack.me/",
-			"desc": "CTF practice problems"
+			"desc": "CTF practice problems."
 		},
 		{
 			"id": 21,
 			"category": "CTF Practice", 
 			"title": "RootMe",
 			"link": "https://www.root-me.org/?lang=en",
-			"desc": "CTF practice problems"
+			"desc": "CTF practice problems."
 		},
 		{
 			"id": 22,
@@ -208,7 +208,7 @@
 			"category": "Forensics", 
 			"title": "File Signatures List",
 			"link": "https://www.garykessler.net/library/file_sigs.html",
-			"desc": "A good list of the hex signatures"
+			"desc": "A good list of the hex signatures."
 		},
 		{
 			"id": 30,
@@ -222,21 +222,21 @@
 			"category": "Cryptography", 
 			"title": "Learn Cryptography",
 			"link": "https://privacycanada.net/learn-cryptography-acquired-privacy-canada/",
-			"desc": "A good site for learning cryptography from the ground up"
+			"desc": "A good site for learning cryptography from the ground up."
 		},
 		{
 			"id": 32,
 			"category": "Cryptography", 
 			"title": "Cryptopals",
 			"link": "https://cryptopals.com/",
-			"desc": "A site with a lot of hands on practice for learning basic cryptography"
+			"desc": "A site with a lot of hands on practice for learning basic cryptography."
 		},
 		{
 			"id": 33,
 			"category": "Youtube Channels", 
 			"title": "LiveOverflow",
 			"link": "https://www.youtube.com/channel/UClcE-kVhqyiHCcjYwcpfj9w",
-			"desc": "The youtube side of LiveOverflow.com"
+			"desc": "The youtube side of LiveOverflow.com."
 		},
 		{
 			"id": 34,
@@ -244,6 +244,13 @@
 			"title": "John Hammond",
 			"link": "https://www.youtube.com/channel/UCVeW9qkBjo3zosnqUbG7CFw",
 			"desc": "Some really great beginner guides for CTFs.  John does a great job at taking his time to explain what is happening and how it works."
+		},
+		{
+			"id": 35,
+			"category": "Youtube Channels", 
+			"title": "Network Chuck",
+			"link": "https://www.youtube.com/c/NetworkChuck",
+			"desc": "A channel that focuses on networking in the field of information security."
 		}
 	]
 }
