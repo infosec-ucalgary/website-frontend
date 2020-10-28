@@ -12,7 +12,19 @@
         <BioCard name="Brandon Arenas" title="VP of Tech" path="https://infosecucalgary.ca/uploads/not-brandon-but-brandon.png" />
         <BioCard name="Joshua Novak" title="VP of Tech" path="https://infosecucalgary.ca/uploads/josh-headshot.jpg" secret="Webmaster Supreme" />
         <BioCard name="Ejaaz Lakhani" title="Secretary" path="https://infosecucalgary.ca/uploads/ejaaz-headshot.jpg" />
-        <BioCard name="James Lowther" title="Technical Director" path="https://infosecucalgary.ca/uploads/james-headshot.jpg" secret="Crunchwrap Supreme" />
+        <BioCard name="James Lowther" title="Technical Director" path="https://infosecucalgary.ca/uploads/james-headshot.jpg" secret="Crunchwrap 
+        Supreme" />
+        <BioCard name="Amna Adnan" title="Junior Executive" path="" />
+        <BioCard name="Joshua Corderio-Zebkowitz" title="Junior Executive" path="" />
+        <BioCard name="Zachary Gilchrist" title="Junior Executive" path="" />
+        <BioCard name="Khoa Nguyen" title="Junior Executive" path="" />
+        <BioCard name="Pratham Pandey" title="Junior Executive" path="" />
+        <BioCard name="Ethan Sengsavang" title="Junior Executive" path="" />
+        <BioCard name="Delara Shamanian" title="Junior Executive" path="" />
+        <BioCard name="Greg Vance" title="Junior Executive" path="" />
+        <BioCard name="Raymond Vong" title="Junior Executive" path="" />
+        <BioCard name="Justin Yu" title="Junior Executive" path="" />
+
       </div>
     </div>
   </section>
