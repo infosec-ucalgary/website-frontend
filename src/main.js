@@ -1,6 +1,5 @@
 import Vue from 'vue'
 import './assets/css/output.css'
-import '@inkline/inkline/dist/inkline.css'
 import App from './App.vue'
 import './registerServiceWorker'
 import router from './router'
