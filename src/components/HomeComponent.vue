@@ -48,6 +48,14 @@
           <a href="https://discord.gg/wVwv5Pw" target="_blank"><img class="mx-auto" src="@/assets/Discord-Logo+Wordmark-Color.png" style="width: 40%" /></a>
         </div>
         <div class="w-2/3 mx-auto my-4">
+          <p class="text-center font-display text-4xl">Subscribe on YouTube</p>
+          <a href="https://www.youtube.com/channel/UCiDL68PDJUyX-CvoP6FHVcw" target="_blank"><img class="mx-auto" src="@/assets/youtube-logo.png" style="width: 40%" /></a>
+        </div>
+        <div class="w-2/3 mx-auto my-4">
+          <p class="text-center font-display text-4xl">Follow us on Twitch</p>
+          <a href="https://www.twitch.tv/infosecucalgary" target="_blank"><img class="mx-auto" src="@/assets/twitch-logo.png" style="width: 35%" /></a>
+        </div>
+        <div class="w-2/3 mx-auto my-4">
           <p class="text-center font-display text-4xl my-6">Check Out Our CTF</p>
           <a href="http://magpiectf.ca" target="_blank"><img class="mx-auto rounded-full" src="@/assets/ctf-logo-v3.png" style="width: 45%" /></a>
         </div>
