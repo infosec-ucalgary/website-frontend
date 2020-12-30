@@ -26,4 +26,4 @@ jobs:
         username: ${{ secrets.USERNAME }}
         key: ${{ secrets.KEY }}
         port: 22
-        script: /home/bin/update-infosec-app.sh
+        script: ./bin/update-infosec-app.sh
