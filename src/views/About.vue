@@ -16,7 +16,6 @@
         <BioCard name="Amna Adnan" title="Junior Executive" path="https://infosecucalgary.ca/uploads/amna-headshot.jpg" />
         <BioCard name="Joshua Cordeiro-Zebkowitz" title="Junior Executive" path="https://infosecucalgary.ca/uploads/josh-cz-headshot.jpg" />
         <BioCard name="Zachary Gilchrist" title="Junior Executive" path="https://infosecucalgary.ca/uploads/zachary-headshot.jpg" />
-        <BioCard name="Khoa Nguyen" title="Junior Executive" path="https://infosecucalgary.ca/uploads/khoa-headshot.jpg" />
         <BioCard name="Pratham Pandey" title="Junior Executive" path="https://infosecucalgary.ca/uploads/pratham-headshot.jpg" />
         <BioCard name="Ethan Sengsavang" title="Junior Executive" path="https://infosecucalgary.ca/uploads/ethan-headshot.jpg" />
         <BioCard name="Delara Shamanian" title="Junior Executive" path="https://infosecucalgary.ca/uploads/delara-headshot.jpg" />
