@@ -89,9 +89,10 @@ export default {
       let currDate = new Date()
       let currDOW = currDate.getDay()
       let currDOM = currDate.getDate()
-      while (currDOM > 7) {
-        currDOM -= 7
-      }
+      /* while (currDOM > 7) { */
+      /* currDOM -= 7 */
+      /* } */
+      currDOM = currDOM % 7
       while (currDOM > 1) {
         currDOM -= 1
         if (currDOW === 0) currDOW = 6
@@ -101,7 +102,11 @@ export default {
     },
     // Return the remaining amount of boxes needed to fill the empty spots of the calendar
     getRemainingBlanks: function () {
-      return 35 - this.getDaysInMonth() - this.getFirstDayOfWeek()
+      let blanks = 35 - this.getDaysInMonth() - this.getFirstDayOfWeek()
+      // Just a note on this return value. I default to use a 7x5 grid. However, sometimes
+      // the calendar uses six rows rather than five. In those cases 'blanks' is negative
+      // can be returned after adding seven
+      return (blanks < 0) ? (7 + blanks) : blanks
     }
   },
   mounted: {

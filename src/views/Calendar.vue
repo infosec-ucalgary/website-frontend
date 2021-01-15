@@ -1,5 +1,5 @@
 <template>
-  <section class="py-8 md:w-1/2 mx-auto text-center">
+  <section class="py-8 xs:w-full xl:w-2/3 mx-auto text-center">
     <NewCalendar />
     <br>
     <p class="font-display text-4xl">Events Calendar</p>
