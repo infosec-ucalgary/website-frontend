@@ -13,6 +13,15 @@
         <BioCard name="Joshua Novak" title="VP of Tech" path="https://infosecucalgary.ca/uploads/josh-headshot.jpg" secret="Webmaster Supreme" />
         <BioCard name="Ejaaz Lakhani" title="Secretary" path="https://infosecucalgary.ca/uploads/ejaaz-headshot.jpg" />
         <BioCard name="James Lowther" title="Technical Director" path="https://infosecucalgary.ca/uploads/james-headshot.jpg" secret="Crunchwrap Supreme" />
+        <BioCard name="Amna Adnan" title="Junior Executive" path="https://infosecucalgary.ca/uploads/amna-headshot.jpg" />
+        <BioCard name="Joshua Cordeiro-Zebkowitz" title="Junior Executive" path="https://infosecucalgary.ca/uploads/josh-cz-headshot.jpg" />
+        <BioCard name="Zachary Gilchrist" title="Junior Executive" path="https://infosecucalgary.ca/uploads/zachary-headshot.jpg" />
+        <BioCard name="Pratham Pandey" title="Junior Executive" path="https://infosecucalgary.ca/uploads/pratham-headshot.jpg" />
+        <BioCard name="Ethan Sengsavang" title="Junior Executive" path="https://infosecucalgary.ca/uploads/ethan-headshot.jpg" />
+        <BioCard name="Delara Shamanian" title="Junior Executive" path="https://infosecucalgary.ca/uploads/delara-headshot.jpg" />
+        <BioCard name="Greg Vance" title="Junior Executive" path="https://infosecucalgary.ca/uploads/greg-headshot.jpg" secret="Junior Supreme"/>
+        <BioCard name="Raymond Vong" title="Junior Executive" path="https://infosecucalgary.ca/uploads/raymond-headshot.jpg" />
+        <BioCard name="Justin Yu" title="Junior Executive" path="https://infosecucalgary.ca/uploads/justin-headshot.jpg" />
       </div>
     </div>
   </section>
