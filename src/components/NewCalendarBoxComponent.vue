@@ -1,5 +1,5 @@
 <template>
-  <div :class="checkIfCurrentDate() ? 'underline font-bold' : ''" class="h-48 bg-white">{{ this.dayOfMonth }}</div>
+  <div :class="checkIfCurrentDate() ? 'underline font-bold' : ''" class="h-16 md:h-48 bg-white">{{ this.dayOfMonth }}</div>
 </template>
 
 <style scoped>
