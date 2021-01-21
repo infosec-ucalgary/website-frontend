@@ -2,7 +2,7 @@
   <section class="py-8 md:w-1/2 mx-auto text-center">
     <p class="font-bold text-5xl">Speaker Series</p>
     <div class="mt-12">
-      <p class="font-display text-2xl">Join our speaker series and learn information security topics from real-world industry professionals</p>
+      <p class="font-display text-2xl">Join our speaker series and learn information security topics from real-world industry professionals.</p>
       <p class="font-display text-2xl mt-2">View the <router-link id="nav-item" class="underline" to="/calendar">calendar</router-link> for workshop and speaker dates</p>
     </div>
     <div class="mt-10">

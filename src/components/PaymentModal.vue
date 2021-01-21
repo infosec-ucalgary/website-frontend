@@ -14,7 +14,7 @@
         To pay club fees, transfer $10 (or $5 if joining from the winter semester) to <span class="text-purple-700">infosec.ucalgary@gmail.com</span>
       </p>
       <p class="text-xl mx-6">
-        Please include your name, email and Discord username (if you have one) in the message.  Make sure to include your four-digit Discord identifier.
+        Please include your name, email, and Discord username (if you have one) in the message.  Make sure to include your four-digit Discord identifier.
       </p>
       <button class="my-6 bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded" @click="hideModal">
         Close
