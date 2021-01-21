@@ -9,7 +9,7 @@
       <p class="font-body font-bold text-3xl text-red-800">Access to the speaker series is restricted to paying club members</p>
     </div>
     <div class="mt-8">
-      <p class="font-display font-normal text-2xl">To pay club fees, transfer $10 to infosec.ucalgary@gmail.com. Please include your name, email, and Discord username (if you have one) in the message.  Make sure to include your four-digit Discord identifier.</p>
+      <p class="font-display font-normal text-2xl">To pay club fees, transfer $10 (or $5 if joining from the winter semester) to infosec.ucalgary@gmail.com. Please include your name, email and Discord username (if you have one) in the message.  Make sure to include your four-digit Discord identifier.</p>
     </div>
     <hr class="mt-12 mb-16 border-2 border-gray-700 border-dashed">
     <div>
