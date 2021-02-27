@@ -16,12 +16,12 @@
       </div>
       <div :class="isOpen ? 'block' : 'hidden'" class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
         <div class="text-sm lg:flex-grow">
-          <router-link id="nav-item" class="block mt-4 lg:inline-block lg:mt-0 text-gray-400 hover:text-white font-display text-lg mr-4" to="/">Home</router-link>
-          <router-link id="nav-item" class="block mt-4 lg:inline-block lg:mt-0 text-gray-400 hover:text-white font-display text-lg mr-4" to="/about">About Us</router-link>
-          <router-link id="nav-item" class="block mt-4 lg:inline-block lg:mt-0 text-gray-400 hover:text-white font-display text-lg mr-4" to="/calendar">Calendar</router-link>
-          <router-link id="nav-item" class="block mt-4 lg:inline-block lg:mt-0 text-gray-400 hover:text-white font-display text-lg mr-4" to="/speakers">Speakers</router-link>
-          <router-link id="nav-item" class="block mt-4 lg:inline-block lg:mt-0 text-gray-400 hover:text-white font-display text-lg mr-4" to="/resources">Resources</router-link>
-          <router-link id="nav-item" class="block mt-4 lg:inline-block lg:mt-0 text-gray-400 hover:text-white font-display text-lg " to="/contact">Contact</router-link>
+          <router-link id="nav-item" :class="this.$route.name == 'home' ? 'underline' : ''" class="block mt-4 lg:inline-block lg:mt-0 text-gray-400 hover:text-white font-display text-lg mr-4" to="/">Home</router-link>
+          <router-link id="nav-item" :class="this.$route.name == 'about' ? 'underline' : ''" class="block mt-4 lg:inline-block lg:mt-0 text-gray-400 hover:text-white font-display text-lg mr-4" to="/about">About Us</router-link>
+          <router-link id="nav-item" :class="this.$route.name == 'calendar' ? 'underline' : ''" class="block mt-4 lg:inline-block lg:mt-0 text-gray-400 hover:text-white font-display text-lg mr-4" to="/calendar">Calendar</router-link>
+          <router-link id="nav-item" :class="this.$route.name == 'speakers' ? 'underline' : ''" class="block mt-4 lg:inline-block lg:mt-0 text-gray-400 hover:text-white font-display text-lg mr-4" to="/speakers">Speakers</router-link>
+          <router-link id="nav-item" :class="this.$route.name == 'resources' ? 'underline' : ''" class="block mt-4 lg:inline-block lg:mt-0 text-gray-400 hover:text-white font-display text-lg mr-4" to="/resources">Resources</router-link>
+          <router-link id="nav-item" :class="this.$route.name == 'contact' ? 'underline' : ''" class="block mt-4 lg:inline-block lg:mt-0 text-gray-400 hover:text-white font-display text-lg " to="/contact">Contact Us</router-link>
         </div>
       </div>
     </div>
