@@ -20,7 +20,8 @@
           <router-link id="nav-item" class="block mt-4 lg:inline-block lg:mt-0 text-gray-400 hover:text-white font-display text-lg mr-4" to="/about">About Us</router-link>
           <router-link id="nav-item" class="block mt-4 lg:inline-block lg:mt-0 text-gray-400 hover:text-white font-display text-lg mr-4" to="/calendar">Calendar</router-link>
           <router-link id="nav-item" class="block mt-4 lg:inline-block lg:mt-0 text-gray-400 hover:text-white font-display text-lg mr-4" to="/speakers">Speakers</router-link>
-          <router-link id="nav-item" class="block mt-4 lg:inline-block lg:mt-0 text-gray-400 hover:text-white font-display text-lg " to="/resources">Resources</router-link>
+          <router-link id="nav-item" class="block mt-4 lg:inline-block lg:mt-0 text-gray-400 hover:text-white font-display text-lg mr-4" to="/resources">Resources</router-link>
+          <router-link id="nav-item" class="block mt-4 lg:inline-block lg:mt-0 text-gray-400 hover:text-white font-display text-lg " to="/contact">Contact</router-link>
         </div>
       </div>
     </div>
