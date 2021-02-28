@@ -1,6 +1,6 @@
 <template>
   <section class="w-11/12 lg:w-1/2 my-auto mx-auto box-shadow">
-    <div class="bg-accent-2 px-2 md:px-16 py-32 border rounded-3xl text-black text-center">
+    <div class="bg-accent-2 px-2 md:px-16 py-32 border rounded-lg text-black text-center">
       <div class="flex flex-wrap justify-center w-full">
         <svg class="my-auto mx-2" width="40" height="40" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
           <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
