@@ -14,7 +14,7 @@
     </div>
     <div class="w-auto grid grid-cols-7 grid-rows-5 gap-0 divide-x divide-y">
       <NewCalendarBlankBox v-for="n in getFirstDayOfWeek()" :key="'pre' + n" />
-      <NewCalendarBox v-for="m in getDaysInMonth()" :key="m" :dayOfMonth="m" />
+      <NewCalendarBox v-for="d in getDaysInMonth()" :key="d" :day="d" :month="getCurrentDate().m" :year="getCurrentDate().y" :events="getEventsOnDate(d, getCurrentDate().m, getCurrentDate().y)" />
       <NewCalendarBlankBox v-for="o in getRemainingBlanks()" :key="'post' + o" />
     </div>
   </section>
@@ -32,6 +32,7 @@ export default {
   },
   data () {
     return {
+      selectedMonthYear: this.getCurrentDate(),
       weekdays: [
         'Sun',
         'Mon',
@@ -42,57 +43,103 @@ export default {
         'Sat'
       ],
       months: [
-        { name: 'January', days: 31 }, //  31,
-        { name: 'February', days: 28 }, //  28,
-        { name: 'March', days: 31 }, //  31,
-        { name: 'April', days: 30 }, //  30,
-        { name: 'May', days: 31 }, //  31,
-        { name: 'June', days: 30 }, //  30,
-        { name: 'July', days: 31 }, //  31,
-        { name: 'August', days: 31 }, //  31,
-        { name: 'September', days: 30 }, //  30,
-        { name: 'October', days: 31 }, //  31,
-        { name: 'November', days: 30 }, //  30,
-        { name: 'December', days: 31 } //  31
+        'January',
+        'February',
+        'March',
+        'April',
+        'May',
+        'June',
+        'July',
+        'August',
+        'September',
+        'October',
+        'November',
+        'December'
+      ],
+      events: [
+        {
+          eventName: 'Threat Intelligence',
+          eventAuthor: 'Adam McMath',
+          eventType: 'speaker',
+          eventDate: {
+            d: 8,
+            m: 1,
+            y: 2021
+          }
+        },
+        {
+          eventName: 'magpieCTF',
+          eventAuthor: 'UofC Infosec Club',
+          eventType: 'ctf',
+          eventDate: {
+            d: 19,
+            m: 1,
+            y: 2021
+          }
+        },
+        {
+          eventName: 'magpieCTF',
+          eventAuthor: 'UofC Infosec Club',
+          eventType: 'ctf',
+          eventDate: {
+            d: 20,
+            m: 1,
+            y: 2021
+          }
+        },
+        {
+          eventName: 'magpieCTF',
+          eventAuthor: 'UofC Infosec Club',
+          eventType: 'ctf',
+          eventDate: {
+            d: 21,
+            m: 1,
+            y: 2021
+          }
+        },
+        {
+          eventName: 'NTLM and Lanman Poisoning',
+          eventAuthor: 'Sunny',
+          eventType: 'workshop',
+          eventDate: {
+            d: 22,
+            m: 1,
+            y: 2021
+          }
+        }
       ]
     }
   },
   methods: {
+    getCurrentDate: function () {
+      let curr = new Date()
+      return {
+        d: curr.getDate(),
+        m: curr.getMonth(),
+        y: curr.getUTCFullYear()
+      }
+    },
     checkIfLeapyear: function (year) {
       return year % 100 === 0 ? year % 400 === 0 : year % 4 === 0
     },
 
     getDaysInMonth: function () {
       let currDate = new Date()
-      let currMonth = currDate.getMonth()
-      if (currMonth === 1) {
-        if (this.checkIfLeapyear(currDate.getFullYear())) return 29
-        else return 28
-      } else {
-        return this.months[currMonth].days
-      }
+      return new Date(currDate.getUTCFullYear(), currDate.getMonth() + 1, 0).getDate()
     },
 
     // Return a string of the current month, a comma, then the year
     getDateDisplay: function () {
       let currDate = new Date()
       let currMonth = currDate.getMonth()
-      return this.months[currMonth].name + ', ' + currDate.getFullYear()
+      return this.months[currMonth] + ', ' + currDate.getFullYear()
     },
 
-    // Returns the day of the week of the first day of the month
-    // there is 100% a better way to do this, but w/e
+    // Return the day of the week for the current months first day
+    // Yes, this is a better way, checkout the commits lol
     getFirstDayOfWeek: function () {
       let currDate = new Date()
-      let currDOW = currDate.getDay()
-      let currDOM = currDate.getDate()
-      currDOM = currDOM % 7
-      while (currDOM > 1) {
-        currDOM -= 1
-        if (currDOW === 0) currDOW = 6
-        else currDOW--
-      }
-      return currDOW
+      return new Date(currDate.getUTCFullYear(), currDate.getMonth(), 1).getDay()
     },
 
     // Return the remaining amount of boxes needed to fill the empty spots of the calendar
@@ -103,6 +150,12 @@ export default {
       // the calendar uses six rows rather than five. In those cases 'blanks' is negative
       // can be returned after adding seven
       return (blanks < 0) ? (7 + blanks) : blanks
+    },
+
+    getEventsOnDate: function (day, month, year) {
+      return this.events.filter(ev =>
+        ev.eventDate.d === day && ev.eventDate.m === month && ev.eventDate.y === year
+      )
     }
   }
 }
