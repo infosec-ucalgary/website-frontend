@@ -1,37 +1,37 @@
 <template>
-  <section class="mx-auto border-solid border-black border-2">
-    <div class="w-auto bg-black p-2 flex">
-      <svg @click="this.decrementMonth" class="flex-none text-white h-12" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+  <section class="mx-auto border-black border-2">
+    <div class="mx-auto w-full bg-black px-2 py-1 flex">
+      <svg @click="this.decrementMonth" class="flex-none text-white h-10" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 15l-3-3m0 0l3-3m-3 3h8M3 12a9 9 0 1118 0 9 9 0 01-18 0z" />
       </svg>
       <div class="text-white text-2xl flex-grow">{{ this.getDateDisplay() }}</div>
-      <svg @click="this.incrementMonth" class="flex-none text-white h-12" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+      <svg @click="this.incrementMonth" class="flex-none text-white h-10" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z" />
       </svg>
     </div>
-    <div class="h-8 w-auto grid grid-cols-7 gap-0 bg-black">
+    <div class="mx-auto h-8 w-full grid grid-cols-7 bg-black">
       <strong class="text-white text-xs md:text-md" :key="weekdays.indexOf(wd)" v-for="wd in weekdays">{{ wd }}</strong>
     </div>
-    <div class="w-auto grid grid-cols-7 grid-rows-5 gap-0 divide-x divide-y">
-      <NewCalendarBlankBox v-for="n in getFirstDayOfWeek()" :key="'pre' + n" />
-      <NewCalendarBox v-for="d in getDaysInMonth()" :key="d" :day="d" :month="selectedMonthYear.m" :year="selectedMonthYear.y" :events="getEventsOnDate(d, selectedMonthYear.m+1, selectedMonthYear.y)" />
-      <NewCalendarBlankBox v-for="o in getRemainingBlanks()" :key="'post' + o" />
+    <div class="mx-auto w-full grid grid-cols-7 grid-rows-5 divide-x divide-y">
+      <CalendarBlankBox v-for="n in getFirstDayOfWeek()" :key="'pre' + n" />
+      <CalendarBox v-for="d in getDaysInMonth()" :key="d" :day="d" :month="selectedMonthYear.m" :year="selectedMonthYear.y" :events="getEventsOnDate(d, selectedMonthYear.m+1, selectedMonthYear.y)" />
+      <CalendarBlankBox v-for="o in getRemainingBlanks()" :key="'post' + o" />
     </div>
   </section>
 </template>
 
 <script>
-import NewCalendarBox from '@/components/NewCalendarBoxComponent.vue'
-import NewCalendarBlankBox from '@/components/NewCalendarBlankBox.vue'
+import CalendarBox from '@/components/CalendarBoxComponent.vue'
+import CalendarBlankBox from '@/components/CalendarBlankBox.vue'
 import eventlist from '@/eventlist.json'
 
 export default {
-  name: 'NewCalendar',
+  name: 'CalendarComponent',
   props: ['month', 'year'],
   event: ['inc', 'dec'],
   components: {
-    NewCalendarBox,
-    NewCalendarBlankBox
+    CalendarBox,
+    CalendarBlankBox
   },
   data () {
     return {

@@ -3,6 +3,6 @@
 </template>
 <script>
 export default {
-  name: 'NewCalendarBlankBox'
+  name: 'CalendarBlankBox'
 }
 </script>

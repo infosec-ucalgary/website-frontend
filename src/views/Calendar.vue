@@ -1,30 +1,28 @@
 <template>
   <section class="py-8 w-full xl:w-2/3 mx-auto text-center">
-    <NewCalendar :key="this.calKey" @inc="this.incrementSelectedMonthYear" @dec="this.decrementSelectedMonthYear" :month="this.selectedMonthYear.m" :year="this.selectedMonthYear.y" />
+    <CalendarComponent :key="this.calKey" @inc="this.incrementSelectedMonthYear" @dec="this.decrementSelectedMonthYear" :month="this.selectedMonthYear.m" :year="this.selectedMonthYear.y" />
   </section>
 
 </template>
 
 <script>
-import NewCalendar from '@/components/NewCalendarComponent.vue'
+import CalendarComponent from '@/components/CalendarComponent.vue'
 
 export default {
   name: 'calendar',
   components: {
-    NewCalendar
+    CalendarComponent
   },
   data () {
     return {
       value: null,
       selectedMonthYear: { m: new Date().getMonth(), y: new Date().getUTCFullYear() },
-      calKey: 0,
-      updateKey: 0
+      calKey: 0
     }
   },
   methods: {
     keyUp: function () {
       this.calKey++
-      this.updateKey++
     },
 
     incrementSelectedMonthYear: function () {

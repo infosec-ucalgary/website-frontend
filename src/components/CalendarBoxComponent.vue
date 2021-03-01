@@ -72,7 +72,7 @@
 <script>
 import Event from '@/components/Event.vue'
 export default {
-  name: 'NewCalendarBox',
+  name: 'CalendarBox',
   components: {
     Event
   },
