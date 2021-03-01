@@ -1,0 +1,274 @@
+{
+	"eventlist": [
+		{
+			"eventName": "Intro to Kali and Linux Commands",
+			"eventAuthor": "Infosec Club",
+			"eventType": "workshop",
+			"eventDate": {
+				"d": 21,
+				"m": 9,
+				"y": 2020
+			}
+		},
+		{
+			"eventName": "Basics of Breaking into a Box",
+			"eventAuthor": "Josh",
+			"eventType": "workshop",
+			"eventDate": {
+				"d": 28,
+				"m": 9,
+				"y": 2020
+			}
+		},
+		{
+			"eventName": "Intro to Web Exploitation",
+			"eventAuthor": "James",
+			"eventType": "workshop",
+			"eventDate": {
+				"d": 28,
+				"m": 9,
+				"y": 2020
+			}
+		},
+		{
+			"eventName": "Linux Privilege Escalation",
+			"eventAuthor": "James",
+			"eventType": "workshop",
+			"eventDate": {
+				"d": 5,
+				"m": 10,
+				"y": 2020
+			}
+		},
+		{
+			"eventName": "Intro to Cryptography",
+			"eventAuthor": "Britta",
+			"eventType": "workshop",
+			"eventDate": {
+				"d": 5,
+				"m": 10,
+				"y": 2020
+			}
+		},
+		{
+			"eventName": "ROP Chains",
+			"eventAuthor": "Brandon",
+			"eventType": "workshop",
+			"eventDate": {
+				"d": 19,
+				"m": 10,
+				"y": 2020
+			}
+		},
+		{
+			"eventName": "Intro to Forensics",
+			"eventAuthor": "James",
+			"eventType": "workshop",
+			"eventDate": {
+				"d": 19,
+				"m": 10,
+				"y": 2020
+			}
+		},
+		{
+			"eventName": "Penetration Testing",
+			"eventAuthor": "Saminah Amin",
+			"eventType": "speaker",
+			"eventDate": {
+				"d": 26,
+				"m": 10,
+				"y": 2020
+			}
+		},
+		{
+			"eventName": "Block Ciphers",
+			"eventAuthor": "Braydon",
+			"eventType": "workshop",
+			"eventDate": {
+				"d": 2,
+				"m": 11,
+				"y": 2020
+			}
+		},
+		{
+			"eventName": "Reverse Engineering",
+			"eventAuthor": "Jeremy",
+			"eventType": "workshop",
+			"eventDate": {
+				"d": 2,
+				"m": 11,
+				"y": 2020
+			}
+		},
+		{
+			"eventName": "Docker and its Exploitation",
+			"eventAuthor": "Alex",
+			"eventType": "workshop",
+			"eventDate": {
+				"d": 16,
+				"m": 11,
+				"y": 2020
+			}
+		},
+		{
+			"eventName": "SQL Injection",
+			"eventAuthor": "James",
+			"eventType": "workshop",
+			"eventDate": {
+				"d": 16,
+				"m": 11,
+				"y": 2020
+			}
+		},
+		{
+			"eventName": "Practical Cybersecurity & Cybercrime Prevention",
+			"eventAuthor": "Kathy Macdonald",
+			"eventType": "speaker",
+			"eventDate": {
+				"d": 23,
+				"m": 11,
+				"y": 2020
+			}
+		},
+		{
+			"eventName": "RSA",
+			"eventAuthor": "Braydon",
+			"eventType": "workshop",
+			"eventDate": {
+				"d": 30,
+				"m": 11,
+				"y": 2020
+			}
+		},
+		{
+			"eventName": "Binary Exploitation",
+			"eventAuthor": "Jeremy",
+			"eventType": "workshop",
+			"eventDate": {
+				"d": 30,
+				"m": 11,
+				"y": 2020
+			}
+		},
+		{
+			"eventName": "Wireshark",
+			"eventAuthor": "Braydon",
+			"eventType": "workshop",
+			"eventDate": {
+				"d": 18,
+				"m": 1,
+				"y": 2021
+			}
+		},
+		{
+			"eventName": "Cross-Site Scripting",
+			"eventAuthor": "Emily",
+			"eventType": "workshop",
+			"eventDate": {
+				"d": 25,
+				"m": 1,
+				"y": 2021
+			}
+		},
+		{
+			"eventName": "Shellcode",
+			"eventAuthor": "Brandon",
+			"eventType": "workshop",
+			"eventDate": {
+				"d": 1,
+				"m": 2,
+				"y": 2021
+			}
+		},
+		{
+			"eventName": "Threat Intelligence",
+			"eventAuthor": "Adam McMath",
+			"eventType": "speaker",
+			"eventDate": {
+				"d": 8,
+				"m": 2,
+				"y": 2021
+			}
+		},
+		{
+			"eventName": "magpieCTF",
+			"eventAuthor": "Infosec Club",
+			"eventType": "ctf",
+			"eventDate": {
+				"d": 19,
+				"m": 2,
+				"y": 2021
+			}
+		},
+		{
+			"eventName": "magpieCTF",
+			"eventAuthor": "Infosec Club",
+			"eventType": "ctf",
+			"eventDate": {
+				"d": 20,
+				"m": 2,
+				"y": 2021
+			}
+		},
+		{
+			"eventName": "magpieCTF",
+			"eventAuthor": "Infosec Club",
+			"eventType": "ctf",
+			"eventDate": {
+				"d": 21,
+				"m": 2,
+				"y": 2021
+			}
+		},
+		{
+			"eventName": "Contact Tracing Apps & Security",
+			"eventAuthor": "Dr. Joel Reardon",
+			"eventType": "speaker",
+			"eventDate": {
+				"d": 1,
+				"m": 3,
+				"y": 2021
+			}
+		},
+		{
+			"eventName": "Malware Analysis: Part 1",
+			"eventAuthor": "Jeremy",
+			"eventType": "workshop",
+			"eventDate": {
+				"d": 8,
+				"m": 3,
+				"y": 2021
+			}
+		},
+		{
+			"eventName": "Malware Analysis: Part 2",
+			"eventAuthor": "Jeremy",
+			"eventType": "workshop",
+			"eventDate": {
+				"d": 15,
+				"m": 3,
+				"y": 2021
+			}
+		},
+		{
+			"eventName": "The Hiring Process",
+			"eventAuthor": "Emilie Vincent",
+			"eventType": "speaker",
+			"eventDate": {
+				"d": 22,
+				"m": 3,
+				"y": 2021
+			}
+		},
+		{
+			"eventName": "LLMNR Poisoning and NTLM Relay",
+			"eventAuthor": "Sunny",
+			"eventType": "workshop",
+			"eventDate": {
+				"d": 29,
+				"m": 3,
+				"y": 2021
+			}
+		}
+	]
+}
