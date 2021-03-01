@@ -23,7 +23,7 @@
 <script>
 import CalendarBox from '@/components/CalendarBoxComponent.vue'
 import CalendarBlankBox from '@/components/CalendarBlankBox.vue'
-import eventlist from '@/eventlist.json'
+import eventlist from '@/assets/eventlist.json'
 
 export default {
   name: 'CalendarComponent',
