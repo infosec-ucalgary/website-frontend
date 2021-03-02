@@ -1,5 +1,5 @@
 <template>
-  <div @click="modal = !modal" class="h-16 md:h-48 bg-white px-2 text-left">
+  <div @click="modal = !modal" :class="checkIfCurrentDate() ? 'bg-green-100' : ''" class="h-16 md:h-48 bg-white px-2 text-left">
     <div :class="checkIfCurrentDate() ? 'underline font-bold' : ''">{{ this.day }}</div>
     <div class="flex flex-col">
       <Event v-for="e in events" :key="events.indexOf(e)" :eventName="e.eventName" :eventAuthor="e.eventAuthor" :eventType="e.eventType"/>
@@ -51,7 +51,7 @@
                   </p>
                   <ul v-else class="text-sm text-gray-700">
                     <li v-for="e in events" :key="events.indexOf(e)">
-                      <b>{{ printType(e.eventType) }}</b>: {{ e.eventName }} - {{ e.eventAuthor }}
+                      <i v-if="e.eventTime">{{ e.eventTime }} - </i><b>{{ printType(e.eventType) }}</b>: {{ e.eventName }} - {{ e.eventAuthor }}
                     </li>
                   </ul>
                 </div>
@@ -86,7 +86,6 @@ export default {
     checkIfCurrentDate: function () {
       let currentDate = new Date()
       return this.day === currentDate.getDate() && this.month === currentDate.getMonth() && this.year === currentDate.getUTCFullYear()
-      /* return this.day.toString().localeCompare(currentDate.getDate().toString().trim()) === 0 */
     },
     printType: function (t) {
       return (t !== 'workshop') ? (t === 'ctf') ? 'CTF' : 'Speaker' : 'Workshop'

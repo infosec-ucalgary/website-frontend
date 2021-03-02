@@ -4,6 +4,7 @@
 			"eventName": "Intro to Kali and Linux Commands",
 			"eventAuthor": "Infosec Club",
 			"eventType": "workshop",
+			"eventTime": "18:00",
 			"eventDate": {
 				"d": 21,
 				"m": 9,
@@ -14,6 +15,7 @@
 			"eventName": "Basics of Breaking into a Box",
 			"eventAuthor": "Josh",
 			"eventType": "workshop",
+			"eventTime": "18:00",
 			"eventDate": {
 				"d": 28,
 				"m": 9,
@@ -24,6 +26,7 @@
 			"eventName": "Intro to Web Exploitation",
 			"eventAuthor": "James",
 			"eventType": "workshop",
+			"eventTime": "18:00",
 			"eventDate": {
 				"d": 28,
 				"m": 9,
@@ -34,6 +37,7 @@
 			"eventName": "Linux Privilege Escalation",
 			"eventAuthor": "James",
 			"eventType": "workshop",
+			"eventTime": "18:00",
 			"eventDate": {
 				"d": 5,
 				"m": 10,
@@ -44,6 +48,7 @@
 			"eventName": "Intro to Cryptography",
 			"eventAuthor": "Britta",
 			"eventType": "workshop",
+			"eventTime": "18:00",
 			"eventDate": {
 				"d": 5,
 				"m": 10,
@@ -54,6 +59,7 @@
 			"eventName": "ROP Chains",
 			"eventAuthor": "Brandon",
 			"eventType": "workshop",
+			"eventTime": "18:00",
 			"eventDate": {
 				"d": 19,
 				"m": 10,
@@ -64,6 +70,7 @@
 			"eventName": "Intro to Forensics",
 			"eventAuthor": "James",
 			"eventType": "workshop",
+			"eventTime": "18:00",
 			"eventDate": {
 				"d": 19,
 				"m": 10,
@@ -74,6 +81,7 @@
 			"eventName": "Penetration Testing",
 			"eventAuthor": "Saminah Amin",
 			"eventType": "speaker",
+			"eventTime": "18:00",
 			"eventDate": {
 				"d": 26,
 				"m": 10,
@@ -84,6 +92,7 @@
 			"eventName": "Block Ciphers",
 			"eventAuthor": "Braydon",
 			"eventType": "workshop",
+			"eventTime": "18:00",
 			"eventDate": {
 				"d": 2,
 				"m": 11,
@@ -94,6 +103,7 @@
 			"eventName": "Reverse Engineering",
 			"eventAuthor": "Jeremy",
 			"eventType": "workshop",
+			"eventTime": "18:00",
 			"eventDate": {
 				"d": 2,
 				"m": 11,
@@ -104,6 +114,7 @@
 			"eventName": "Docker and its Exploitation",
 			"eventAuthor": "Alex",
 			"eventType": "workshop",
+			"eventTime": "18:00",
 			"eventDate": {
 				"d": 16,
 				"m": 11,
@@ -114,6 +125,7 @@
 			"eventName": "SQL Injection",
 			"eventAuthor": "James",
 			"eventType": "workshop",
+			"eventTime": "18:00",
 			"eventDate": {
 				"d": 16,
 				"m": 11,
@@ -124,6 +136,7 @@
 			"eventName": "Practical Cybersecurity & Cybercrime Prevention",
 			"eventAuthor": "Kathy Macdonald",
 			"eventType": "speaker",
+			"eventTime": "18:00",
 			"eventDate": {
 				"d": 23,
 				"m": 11,
@@ -134,6 +147,7 @@
 			"eventName": "RSA",
 			"eventAuthor": "Braydon",
 			"eventType": "workshop",
+			"eventTime": "18:00",
 			"eventDate": {
 				"d": 30,
 				"m": 11,
@@ -144,6 +158,7 @@
 			"eventName": "Binary Exploitation",
 			"eventAuthor": "Jeremy",
 			"eventType": "workshop",
+			"eventTime": "18:00",
 			"eventDate": {
 				"d": 30,
 				"m": 11,
@@ -154,6 +169,7 @@
 			"eventName": "Wireshark",
 			"eventAuthor": "Braydon",
 			"eventType": "workshop",
+			"eventTime": "18:00",
 			"eventDate": {
 				"d": 18,
 				"m": 1,
@@ -164,6 +180,7 @@
 			"eventName": "Cross-Site Scripting",
 			"eventAuthor": "Emily",
 			"eventType": "workshop",
+			"eventTime": "18:00",
 			"eventDate": {
 				"d": 25,
 				"m": 1,
@@ -174,6 +191,7 @@
 			"eventName": "Shellcode",
 			"eventAuthor": "Brandon",
 			"eventType": "workshop",
+			"eventTime": "18:00",
 			"eventDate": {
 				"d": 1,
 				"m": 2,
@@ -184,6 +202,7 @@
 			"eventName": "Threat Intelligence",
 			"eventAuthor": "Adam McMath",
 			"eventType": "speaker",
+			"eventTime": "18:00",
 			"eventDate": {
 				"d": 8,
 				"m": 2,
@@ -224,6 +243,7 @@
 			"eventName": "Contact Tracing Apps & Security",
 			"eventAuthor": "Dr. Joel Reardon",
 			"eventType": "speaker",
+			"eventTime": "18:00",
 			"eventDate": {
 				"d": 1,
 				"m": 3,
@@ -234,6 +254,7 @@
 			"eventName": "Malware Analysis: Part 1",
 			"eventAuthor": "Jeremy",
 			"eventType": "workshop",
+			"eventTime": "18:00",
 			"eventDate": {
 				"d": 8,
 				"m": 3,
@@ -244,6 +265,7 @@
 			"eventName": "Malware Analysis: Part 2",
 			"eventAuthor": "Jeremy",
 			"eventType": "workshop",
+			"eventTime": "18:00",
 			"eventDate": {
 				"d": 15,
 				"m": 3,
@@ -254,6 +276,7 @@
 			"eventName": "The Hiring Process",
 			"eventAuthor": "Emilie Vincent",
 			"eventType": "speaker",
+			"eventTime": "18:00",
 			"eventDate": {
 				"d": 22,
 				"m": 3,
@@ -264,6 +287,7 @@
 			"eventName": "LLMNR Poisoning and NTLM Relay",
 			"eventAuthor": "Sunny",
 			"eventType": "workshop",
+			"eventTime": "18:00",
 			"eventDate": {
 				"d": 29,
 				"m": 3,
