@@ -2,7 +2,6 @@
   <section class="py-8 w-full xl:w-2/3 mx-auto text-center">
     <CalendarComponent :key="this.calKey" @cur="this.setToCurrentDate" @inc="this.incrementSelectedMonthYear" @dec="this.decrementSelectedMonthYear" :month="this.selectedMonthYear.m" :year="this.selectedMonthYear.y" />
   </section>
-
 </template>
 
 <script>

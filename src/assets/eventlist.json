@@ -284,10 +284,21 @@
 			}
 		},
 		{
+			"eventName": "AGM",
+			"eventAuthor": "Infosec Club",
+			"eventType": "agm",
+			"eventTime": "18:00",
+			"eventDate": {
+				"d": 29,
+				"m": 3,
+				"y": 2021
+			}
+		},
+		{
 			"eventName": "LLMNR Poisoning and NTLM Relay",
 			"eventAuthor": "Sunny",
 			"eventType": "workshop",
-			"eventTime": "18:00",
+			"eventTime": "18:30",
 			"eventDate": {
 				"d": 29,
 				"m": 3,

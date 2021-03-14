@@ -80,30 +80,20 @@ export default {
       }
     },
 
-    // Deprecated?
-    checkIfLeapyear: function (year) {
-      return year % 100 === 0 ? year % 400 === 0 : year % 4 === 0
-    },
-
     getDaysInMonth: function () {
-      /* let currDate = new Date() */
       let selDate = new Date(this.selectedMonthYear.y, this.selectedMonthYear.m)
       return new Date(selDate.getUTCFullYear(), selDate.getMonth() + 1, 0).getDate()
     },
 
     // Return a string of the current month, a comma, then the year
     getDateDisplay: function () {
-      /* let currDate = new Date() */
       let selDate = new Date(this.selectedMonthYear.y, this.selectedMonthYear.m)
-      /* let currMonth = currDate.getMonth() */
       let selMonth = selDate.getMonth()
       return this.months[selMonth] + ', ' + selDate.getFullYear()
     },
 
     // Return the day of the week for the current months first day
-    // Yes, this is a better way, checkout the commits lol
     getFirstDayOfWeek: function () {
-      /* let currDate = new Date() */
       let selDate = new Date(this.selectedMonthYear.y, this.selectedMonthYear.m)
       return new Date(selDate.getUTCFullYear(), selDate.getMonth(), 1).getDay()
     },
