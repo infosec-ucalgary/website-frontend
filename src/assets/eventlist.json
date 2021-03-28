@@ -295,8 +295,8 @@
 			}
 		},
 		{
-			"eventName": "LLMNR Poisoning and NTLM Relay",
-			"eventAuthor": "Sunny",
+			"eventName": "Azure Active Directory",
+			"eventAuthor": "Alex",
 			"eventType": "workshop",
 			"eventTime": "18:30",
 			"eventDate": {
