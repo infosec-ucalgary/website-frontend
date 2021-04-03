@@ -15,7 +15,8 @@
         <a target="_blank" href="https://facebook.com/infosecucalgary"><img src="@/assets/fb-icon.png" width="50" class="mx-auto my-auto"></a>
         <a target="_blank" href="https://instagram.com/infosecucalgary"><img src="@/assets/instagram-circle-logo.png" width="50" class="mx-auto my-auto"></a>
         <a target="_blank" href="https://twitter.com/infosecucalgary"><img src="@/assets/twitter-icon.png" width="50" class="mx-auto my-auto"></a>
-        <a target="_blank" href="https://www.youtube.com/channel/UCiDL68PDJUyX-CvoP6FHVcw/" class="my-auto"><img src="@/assets/yt-circle-logo.png" width="50" class="mx-auto my-auto"></a>
+        <a target="_blank" href="https://www.youtube.com/InformationSecurityClubUCalgary" class="my-auto"><img src="@/assets/yt-circle-logo.png" width="50" class="mx-auto my-auto"></a>
+        <a target="_blank" href="https://www.twitch.tv/infosecucalgary" class="my-auto"><img src="@/assets/twitch-icon.png" width="50" class="mx-auto my-auto"></a>
       </div>
     </div>
   </section>
