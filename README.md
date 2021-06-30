@@ -4,7 +4,15 @@
 To make a simple web app to help manage club operations, such as: member management, resources, annoucement management and calendar, information on the club, executive list, etc...
 - - -
 ## Built with Vue.JS
-I've decided to use VueJS to build this web app. On top of Vue, I chose [TailwindCSS](https://tailwindcss.com) as my CSS framework of choice.
+This app is built with [VueJS](https://vuejs.org) and [TailwindCSS](https://tailwindcss.com) as the CSS framework.
+- - -
+## Completed
+- [x] Basic information for the club (execs, events calendar, links)  
+- [x] Updated calendar  
+- [ ] Membership management (incl. backend)  
+- [x] Resources page (w/ static resources)  
+- [ ] Pull resources from backend  
+
 - - -
 ## Project setup
 ```
