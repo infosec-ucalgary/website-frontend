@@ -11,6 +11,7 @@ module.exports = {
     fontFamily: {
       'display': ['Trebuchet-MS'],
       'body': ['Open Sans', 'sans-serif'],
+      'mono': ['FiraCode']
     },
   },
   variants: {},

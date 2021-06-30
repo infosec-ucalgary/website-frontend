@@ -16,10 +16,10 @@
           </div>
           <div class="w-5/6 md:w-2/3 xl:w-2/5 mx-auto py-12 overflow-hidden">
             <div class="border-2 bg-gray-800 rounded-full py-2 px-4 text-xl">
-              <span style="color: #9289b8;">root@magpie ~$ </span>
-              <span class="text-white">echo </span>
+              <span style="color: #9289b8; font-family: monospace;">root@magpie ~$ </span>
+              <span class="text-white" style="font-family: monospace;">echo </span>
               <vue-typer
-                :text='["SQL injection","privilege escalation","University of Calgary","XXS injection","web exploitation","capture the flag", "ROP chain", "cryptography"]'
+                :text='["SQL Injection","Privilege Escalation","University of Calgary","XXS Injection","Web Exploitation","Capture the Flag", "ROP Chain", "Cryptography"]'
                 :repeat='Infinity'
                 :shuffle='false'
                 initial-action='typing'
@@ -67,6 +67,13 @@
     </div>
   </section>
 </template>
+
+<style scoped>
+ .vue-typer {
+     font-family: monospace;
+ }
+</style>
+
 <script>
 import { VueTyper } from 'vue-typer'
 import PaymentModal from '@/components/PaymentModal.vue'
