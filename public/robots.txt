@@ -1,2 +1,3 @@
 User-agent: *
 Disallow:
+# ucsec{4lw4y5_ch3ck_r0b0t5}
