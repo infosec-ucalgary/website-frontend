@@ -43,9 +43,9 @@
             <p class="font-body text-center text-2xl">Join us every Monday from 6PM to 8PM on our weekly livestream</p><br>
           </div>
         </section>
-        <div class="w-2/3 mx-auto my-4">
+        <div class="w-2/3 mx-auto my-4 text-center">
           <p class="text-center font-display text-4xl">Email us at:</p>
-          <p class="text-center font-display text-5xl font-bold">infosec.ucalgary@gmail.com</p>
+          <p class="text-center font-display text-3xl md:text-5xl font-bold break-all">infosec.ucalgary@gmail.com</p>
         </div>
         <div class="w-2/3 mx-auto my-4">
           <p class="text-center font-display text-4xl">Find Us On Discord</p>
