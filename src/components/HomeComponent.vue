@@ -61,7 +61,7 @@
         </div>
         <div class="w-2/3 mx-auto my-4">
           <p class="text-center font-display text-4xl my-6">Check Out Our CTF</p>
-          <a href="http://magpiectf.ca" target="_blank"><img class="mx-auto rounded-full" src="@/assets/ctf-logo-v3.png" style="width: 45%" /></a>
+          <a href="http://magpiectf.ca" target="_blank"><img class="mx-auto rounded-full" src="@/assets/CTF2022.png" style="width: 45%" /></a>
         </div>
       </div>
     </div>
