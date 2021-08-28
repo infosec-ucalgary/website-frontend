@@ -49,7 +49,7 @@
         </div>
         <div class="w-2/3 mx-auto my-4">
           <p class="text-center font-display text-4xl">Find Us On Discord</p>
-          <a href="https://discord.gg/wVwv5Pw" target="_blank"><img class="mx-auto" src="@/assets/Discord-Logo+Wordmark-Color.png" style="width: 40%" /></a>
+          <a href="https://discord.gg/dRTqKPatTv" target="_blank"><img class="mx-auto" src="@/assets/Discord-Logo+Wordmark-Color.png" style="width: 40%" /></a>
         </div>
         <div class="w-2/3 mx-auto my-4">
           <p class="text-center font-display text-4xl">Subscribe on YouTube</p>
