@@ -6,7 +6,7 @@
     <NavbarComponent />
 
     <!-- ALERT -->
-    <Alert type="New" message="Join our <a class='underline' href='https://discord.gg/wVwv5Pw' target='_blank'>Discord</a> to learn about meetings. Need to download Kali? Click <a class='underline' href='https://kali.org/downloads/' target='_blank'>here</a>!" />
+    <Alert type="New" message="Join our <a class='underline' href='https://discord.gg/dRTqKPatTv' target='_blank'>Discord</a> to learn about meetings. Need to download Kali? Click <a class='underline' href='https://kali.org/downloads/' target='_blank'>here</a>!" />
 
     <!-- PAGE RENDER -->
     <router-view />
