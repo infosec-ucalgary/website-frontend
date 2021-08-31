@@ -21,6 +21,7 @@
           <router-link id="nav-item" :class="this.$route.name == 'calendar' ? 'underline' : ''" class="block mt-4 lg:inline-block lg:mt-0 text-gray-400 hover:text-white font-display text-lg mr-4" to="/calendar">Calendar</router-link>
           <router-link id="nav-item" :class="this.$route.name == 'speakers' ? 'underline' : ''" class="block mt-4 lg:inline-block lg:mt-0 text-gray-400 hover:text-white font-display text-lg mr-4" to="/speakers">Speakers</router-link>
           <router-link id="nav-item" :class="this.$route.name == 'resources' ? 'underline' : ''" class="block mt-4 lg:inline-block lg:mt-0 text-gray-400 hover:text-white font-display text-lg mr-4" to="/resources">Resources</router-link>
+          <router-link id="nav-item" :class="this.$route.name == 'News' ? 'underline' : ''" class="block mt-4 lg:inline-block lg:mt-0 text-gray-400 hover:text-white font-display text-lg mr-4" to="/news">News</router-link>
           <router-link id="nav-item" :class="this.$route.name == 'contact' ? 'underline' : ''" class="block mt-4 lg:inline-block lg:mt-0 text-gray-400 hover:text-white font-display text-lg " to="/contact">Contact Us</router-link>
         </div>
       </div>
