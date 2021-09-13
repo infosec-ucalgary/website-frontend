@@ -306,6 +306,17 @@
 			}
 		},
 		{
+			"eventName": "Welcome & Intro to the Linux Terminal",
+			"eventAuthor": "Alex and Josh CZ",
+			"eventType": "workshop",
+			"eventTime": "18:00",
+			"eventDate": {
+				"d": 20,
+				"m": 9,
+				"y": 2021
+			}
+		},
+		{
 			"eventName": "Intro to Web Exploitation",
 			"eventAuthor": "Greg",
 			"eventType": "workshop",
