@@ -13,11 +13,11 @@
     </div>
     <hr class="mt-12 mb-16 border-2 border-gray-700 border-dashed">
     <div>
-      <SpeakerBioCard name="Chris Shepherd, OSCP" bio="Pentester" topic="Open Source Intelligence" date="18/10/2021" path="" />
-      <SpeakerBioCard name="Ruth Promislow" bio="Partner at Bennett Jones" topic="Cyberlaw" date="15/11/2021" path="" />
-      <SpeakerBioCard name="Dr. Jason Jaskolka" bio="Assistant Professor at Carlton University" topic="Security of Multi-Agent Systems" date="24/01/2022" path="" />
-      <SpeakerBioCard name="TBA" bio="" topic="TBA" date="14/02/2022" path=""/>
-      <SpeakerBioCard name="TBA" bio="" topic="TBA" date="21/03/2022" path="" />
+      <SpeakerBioCard name="Chris Shepherd, OSCP" bio="Pentester" topic="Open Source Intelligence" date="18/10/2021" path="https://infosecucalgary.ca/uploads/speakers/Chris-Shepherd.jpg" />
+      <SpeakerBioCard name="Ruth Promislow" bio="Partner at Bennet Jones" topic="Cyberlaw" date="15/11/2021" path="https://infosecucalgary.ca/uploads/speakers/Ruth_Promislow.png" />
+      <SpeakerBioCard name="Dr. Jason Jaskolka" bio="Assistant Professor at Carlton" topic="Security of Multi-Agent Systems" date="24/01/2022" path="https://infosecucalgary.ca/uploads/speakers/jason-Jaskolka.jpg"/>
+      <SpeakerBioCard name="TBA" bio="" topic="TBA" date="14/02/2022" />
+      <SpeakerBioCard name="TBA" bio="" topic="TBA" date="21/03/2022" />
     </div>
   </section>
 </template>
