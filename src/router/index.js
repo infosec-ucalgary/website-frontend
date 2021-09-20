@@ -7,6 +7,7 @@ import Speakers from '../views/Speakers.vue'
 import Resources from '../views/Resources.vue'
 import NotFound from '../views/NotFound.vue'
 import Contact from '../views/Contact.vue'
+import Winners from '../views/Winners.vue'
 
 Vue.use(VueRouter)
 
@@ -40,6 +41,11 @@ const routes = [
     path: '/contact',
     name: 'contact',
     component: Contact
+  },
+  {
+    path: '/winners',
+    name: 'winners',
+    component: Winners
   },
   {
     path: '*',
