@@ -19,6 +19,7 @@
         <BioCard name="Jeremy Stuart" title="Director" path="https://infosecucalgary.ca/uploads/jeremy-headshot.jpg" secret="Hot Ginger and Dynamite"/>
         <BioCard name="Greg Vance" title="Director" path="https://infosecucalgary.ca/uploads/greg-headshot.jpg" secret="Junior Supreme"/>
         <BioCard name="Raymond Vong" title="Director" path="https://infosecucalgary.ca/uploads/raymond-headshot.jpg" />
+        <BioCard name="Dan Sabourov" title="Junior Executive" path="https://infosecucalgary.ca/uploads/daniel-headshot.png"  />
       </div>
     </div>
   </section>

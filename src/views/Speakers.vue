@@ -13,11 +13,11 @@
     </div>
     <hr class="mt-12 mb-16 border-2 border-gray-700 border-dashed">
     <div>
-      <SpeakerBioCard name="Saminah Amin" bio="Cybersecurity Consultant at PwC Canada" topic="Penetration Testing" date="26/10/2020" path="https://infosecucalgary.ca/uploads/speakers/saminah-amin.jpg" />
-      <SpeakerBioCard name="Kathy Macdonald" bio="Author of Cybercrime: Awareness, Prevention and Response" topic="Practical Cybersecurity & Cybercrime Prevention" date="23/11/2020" path="https://infosecucalgary.ca/uploads/speakers/kathy-macdonald.png" />
-      <SpeakerBioCard name="Adam McMath" bio="Cybersecurity General Manager at the Calgary Airport Authority" topic="Threat Intelligence" date="08/02/2021" path="https://infosecucalgary.ca/uploads/speakers/adam-mcmath.jpg" />
-      <SpeakerBioCard name="Dr. Joel Reardon" bio="Professor of Computer Science at the University of Calgary" topic="Contact Tracing Apps & Security" date="01/03/2021" path="https://infosecucalgary.ca/uploads/speakers/joel-reardon.jpg"/>
-      <SpeakerBioCard name="Emilie Vincent" bio="Corporate Recruiter at Trimac Transportation" topic="The Hiring Process" date="22/03/2021" path="https://infosecucalgary.ca/uploads/speakers/emilie-vincent.jpg" />
+      <SpeakerBioCard name="Chris Shepherd, OSCP" bio="Pentester" topic="Open Source Intelligence" date="18/10/2021" path="https://infosecucalgary.ca/uploads/speakers/Chris-Shepherd.jpg" />
+      <SpeakerBioCard name="Ruth Promislow" bio="Partner at Bennet Jones" topic="Cyberlaw" date="15/11/2021" path="https://infosecucalgary.ca/uploads/speakers/Ruth_Promislow.png" />
+      <SpeakerBioCard name="Dr. Jason Jaskolka" bio="Director of the Cyber Security Evaluation and Assurance (CyberSEA) Research Lab at Carleton University" topic="Security of Multi-Agent Systems" date="24/01/2022" path="https://infosecucalgary.ca/uploads/speakers/jason-Jaskolka.jpg"/>
+      <SpeakerBioCard name="TBA" bio="" topic="TBA" date="14/02/2022" />
+      <SpeakerBioCard name="TBA" bio="" topic="TBA" date="21/03/2022" />
     </div>
   </section>
 </template>
