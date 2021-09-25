@@ -3,7 +3,7 @@
     <div class="w-48 mx-auto md:m-4 flex-shrink-0">
       <div v-if="path==null" class="bg-gray-300 border rounded-full h-48">
       </div>
-      <img v-if="path != null" :src="path" class="h-48 w-48 rounded-full" />
+      <img v-if="path != null" :src="path" class="h-48 w-48 rounded-full object-cover" />
     </div>
     <div class="text-center sm:text-left ml-4 mt-4 sm:my-auto">
       <div class="font-display font-bold text-3xl">{{ name }}</div>
