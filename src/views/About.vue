@@ -13,12 +13,10 @@
         <BioCard name="Joshua Novak" title="VP Tech" path="https://infosecucalgary.ca/uploads/josh-headshot.jpg" secret="Webmaster Supreme" />
         <BioCard name="Amna Adnan" title="Secretary" path="https://infosecucalgary.ca/uploads/amna-headshot.jpg" />
         <BioCard name="Zachary Gilchrist" title="Director" path="https://infosecucalgary.ca/uploads/zachary-headshot.jpg" />
-        <BioCard name="Pratham Pandey" title="Director" path="https://infosecucalgary.ca/uploads/pratham-headshot.jpg" />
         <BioCard name="Ethan Sengsavang" title="Director" path="https://infosecucalgary.ca/uploads/ethan-headshot.jpg" />
         <BioCard name="Delara Shamanian" title="Director" path="https://infosecucalgary.ca/uploads/delara-headshot.jpg" />
         <BioCard name="Jeremy Stuart" title="Director" path="https://infosecucalgary.ca/uploads/jeremy-headshot.jpg" secret="Hot Ginger and Dynamite"/>
         <BioCard name="Greg Vance" title="Director" path="https://infosecucalgary.ca/uploads/greg-headshot.jpg" secret="Junior Supreme"/>
-        <BioCard name="Raymond Vong" title="Director" path="https://infosecucalgary.ca/uploads/raymond-headshot.jpg" />
         <BioCard name="Dan Sabourov" title="Junior Executive" path="https://infosecucalgary.ca/uploads/daniel-headshot.png"  />
       </div>
     </div>
