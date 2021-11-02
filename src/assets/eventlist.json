@@ -416,9 +416,9 @@
 			}
 		},
 		{
-			"eventName": "Cyber Law",
-			"eventAuthor": "Ruth Promislow",
-			"eventType": "speaker",
+			"eventName": "Intro to Cryptography",
+			"eventAuthor": "Ejaaz",
+			"eventType": "workshop",
 			"eventTime": "18:00",
 			"eventDate": {
 				"d": 15,
@@ -427,20 +427,20 @@
 			}
 		},
 		{
-			"eventName": "Intro to Cryptography",
-			"eventAuthor": "Ejaaz",
+			"eventName": "Hash Cracking",
+			"eventAuthor": "Sunny",
 			"eventType": "workshop",
 			"eventTime": "18:00",
 			"eventDate": {
-				"d": 22,
+				"d": 15,
 				"m": 11,
 				"y": 2021
 			}
 		},
 		{
-			"eventName": "Kerberoasting",
-			"eventAuthor": "Jeremy",
-			"eventType": "workshop",
+			"eventName": "Cyber Law",
+			"eventAuthor": "Ruth Promislow",
+			"eventType": "speaker",
 			"eventTime": "18:00",
 			"eventDate": {
 				"d": 22,
@@ -460,8 +460,8 @@
 			}
 		},
 		{
-			"eventName": "Hash Cracking",
-			"eventAuthor": "Sunny",
+			"eventName": "Kerberoasting",
+			"eventAuthor": "Jeremy",
 			"eventType": "workshop",
 			"eventTime": "18:00",
 			"eventDate": {
