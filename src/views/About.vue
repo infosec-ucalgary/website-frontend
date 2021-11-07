@@ -1,6 +1,6 @@
 <template>
   <section class="text-center md:w-2/3 mx-auto">
-    <div class="font-display text-4xl my-4">About Us</div>
+    <div class="font-display text-4xl my-4">About Us </div>
     <div class="font-display text-3xl my-4"><u>Executives</u></div>
       <div class="inline-block lg:mx-0 lg:flex lg:flex-wrap mx-auto w-auto justify-center">
         <BioCard name="Alexandra Tenney" title="President" path="https://infosecucalgary.ca/uploads/alex-headshot.jpg" />
