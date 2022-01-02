@@ -16,8 +16,8 @@
       <SpeakerBioCard name="Chris Shepherd, OSCP" bio="Pentester" topic="Open Source Intelligence" date="18/10/2021" path="https://infosecucalgary.ca/uploads/speakers/Chris-Shepherd.jpg" />
       <SpeakerBioCard name="Ruth Promislow" bio="Partner at Bennet Jones" topic="Cyberlaw" date="22/11/2021" path="https://infosecucalgary.ca/uploads/speakers/Ruth_Promislow.png" />
       <SpeakerBioCard name="Dr. Jason Jaskolka" bio="Director of the Cyber Security Evaluation and Assurance (CyberSEA) Research Lab at Carleton University" topic="Security of Multi-Agent Systems" date="24/01/2022" path="https://infosecucalgary.ca/uploads/speakers/jason-Jaskolka.jpg"/>
-      <SpeakerBioCard name="TBA" bio="" topic="TBA" date="14/02/2022" />
-      <SpeakerBioCard name="TBA" bio="" topic="TBA" date="21/03/2022" />
+      <SpeakerBioCard name="Henry Maphosa" bio="Director of Technology at Kudos Inc." topic="IT Governance" date="14/02/2022" />
+      <SpeakerBioCard name="Dr. Dima Alhadidi" bio="Assistant Professor in the School of Computer Science at the University of Windsor" topic="Security of Cloud and Health Data" date="21/03/2022" path="https://infosecucalgary.ca/uploads/speakers/dimaHeadshot.jpg"/>
     </div>
   </section>
 </template>
