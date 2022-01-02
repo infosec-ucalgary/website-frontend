@@ -504,7 +504,7 @@
 			}
 		},
 		{
-			"eventName": "Malware",
+			"eventName": "Malware Hunting With Memory Forensics",
 			"eventAuthor": "Jeremy",
 			"eventType": "workshop",
 			"eventTime": "18:00",
