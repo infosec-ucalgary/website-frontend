@@ -469,6 +469,148 @@
 				"m": 11,
 				"y": 2021
 			}
+		},
+		{
+			"eventName": "Scripting and Pwntools",
+			"eventAuthor": "Josh N",
+			"eventType": "workshop",
+			"eventTime": "18:00",
+			"eventDate": {
+				"d": 10,
+				"m": 1,
+				"y": 2021
+			}
+		},
+		{
+			"eventName": "Advanced Privledge Escalation",
+			"eventAuthor": "Brandon",
+			"eventType": "workshop",
+			"eventTime": "18:00",
+			"eventDate": {
+				"d": 17,
+				"m": 1,
+				"y": 2022
+			}
+		},
+		{
+			"eventName": "Cybersecurity of Multiagent Systems",
+			"eventAuthor": "Jason Jaskolka",
+			"eventType": "speaker",
+			"eventTime": "18:00",
+			"eventDate": {
+				"d": 24,
+				"m": 1,
+				"y": 2022
+			}
+		},
+		{
+			"eventName": "Malware",
+			"eventAuthor": "Jeremy",
+			"eventType": "workshop",
+			"eventTime": "18:00",
+			"eventDate": {
+				"d": 31,
+				"m": 1,
+				"y": 2022
+			}
+		},
+		{
+			"eventName": "Securing Web Apps with JWT",
+			"eventAuthor": "Josh N",
+			"eventType": "workshop",
+			"eventTime": "18:00",
+			"eventDate": {
+				"d": 7,
+				"m": 2,
+				"y": 2022
+			}
+		},
+		{
+			"eventName": "TBC",
+			"eventAuthor": "TBC",
+			"eventType": "speaker",
+			"eventTime": "18:00",
+			"eventDate": {
+				"d": 14,
+				"m": 2,
+				"y": 2022
+			}
+		},
+		{
+			"eventName": "magpieCTF",
+			"eventAuthor": "Infosec Club",
+			"eventType": "ctf",
+			"eventDate": {
+				"d": 25,
+				"m": 2,
+				"y": 2022
+			}
+		},
+		{
+			"eventName": "magpieCTF",
+			"eventAuthor": "Infosec Club",
+			"eventType": "ctf",
+			"eventDate": {
+				"d": 27,
+				"m": 2,
+				"y": 2022
+			}
+		},
+		{
+			"eventName": "Basics of Blue Teaming: Logging and Monitoring",
+			"eventAuthor": "Alex",
+			"eventType": "workshop",
+			"eventTime": "18:00",
+			"eventDate": {
+				"d": 7,
+				"m": 3,
+				"y": 2023
+			}
+		},
+		{
+			"eventName": "Hash Functions",
+			"eventAuthor": "Braydon",
+			"eventType": "workshop",
+			"eventTime": "18:00",
+			"eventDate": {
+				"d": 14,
+				"m": 3,
+				"y": 2022
+			}
+		},
+		{
+			"eventName": "Cloud/Health Security",
+			"eventAuthor": "Dima Alhadidi",
+			"eventType": "speaker",
+			"eventTime": "18:00",
+			"eventDate": {
+				"d": 21,
+				"m": 3,
+				"y": 2022
+			}
+		},
+		
+		{
+			"eventName": "Advanced Binary Exploitation: Heap Exploitation",
+			"eventAuthor": "Brandon",
+			"eventType": "workshop",
+			"eventTime": "18:00",
+			"eventDate": {
+				"d": 28,
+				"m": 3,
+				"y": 2022
+			}
+		},
+		{
+			"eventName": "File Inclusion Exploitation",
+			"eventAuthor": "Jeremy",
+			"eventType": "workshop",
+			"eventTime": "18:00",
+			"eventDate": {
+				"d": 4,
+				"m": 4,
+				"y": 2022
+			}
 		}
 	]
 }
