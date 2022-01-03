@@ -551,6 +551,16 @@
 			"eventAuthor": "Infosec Club",
 			"eventType": "ctf",
 			"eventDate": {
+				"d": 26,
+				"m": 2,
+				"y": 2022
+			}
+		},
+		{
+			"eventName": "magpieCTF",
+			"eventAuthor": "Infosec Club",
+			"eventType": "ctf",
+			"eventDate": {
 				"d": 27,
 				"m": 2,
 				"y": 2022
