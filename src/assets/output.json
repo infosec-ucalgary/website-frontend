@@ -136,117 +136,110 @@
 		{
 			"id": 19,
 			"category": "CTF Practice", 
-			"title": "Practice CTF List",
-			"link": "https://captf.com/practice-ctf/",
-			"desc": "a list of sites that host practice CTF challenges."
-		},
-		{
-			"id": 20,
-			"category": "CTF Practice", 
 			"title": "HackMe",
 			"link": "https://hack.me/",
 			"desc": "CTF practice problems."
 		},
 		{
-			"id": 21,
+			"id": 20,
 			"category": "CTF Practice", 
 			"title": "RootMe",
 			"link": "https://www.root-me.org/?lang=en",
 			"desc": "CTF practice problems."
 		},
 		{
-			"id": 22,
+			"id": 21,
 			"category": "CTF Practice", 
 			"title": "OverTheWire",
 			"link": "https://overthewire.org",
 			"desc": "Network and computer security challenges."
 		},
 		{
-			"id": 23,
+			"id": 22,
 			"category": "CTF Tracking", 
 			"title": "CTFtime",
 			"link": "https://ctftime.org/",
 			"desc": "Create a profile and track your progress as you compete in CTFs.  It also tracks upcoming CTFs, teams, and has an archive of past CTFs and writeups for many previous CTFs."
 		},
 		{
-			"id": 24,
+			"id": 23,
 			"category": "CTF Tracking", 
 			"title": "Major League Cyber",
 			"link": "https://www.majorleaguecyber.org/",
 			"desc": "Another great site for creating a profile and tracking your progress as you compete in CTFS."
 		},
 		{
-			"id": 25,
+			"id": 24,
 			"category": "CTF Tracking", 
 			"title": "WeChall",
 			"link": "https://www.wechall.net/",
 			"desc": "Another tracking site for CTFs."
 		},
 		{
-			"id": 26,
+			"id": 25,
 			"category": "Assembly", 
 			"title": "Guide to x86 Assembly",
 			"link": "https://www.cs.yale.edu/flint/cs421/papers/x86-asm/asm.html",
 			"desc": "A good overall guide to assembly, but not an easy or accessible read!"
 		},
 		{
-			"id": 27,
+			"id": 26,
 			"category": "Assembly", 
 			"title": "Jump Guide",
 			"link": "http://www.unixwiz.net/techtips/x86-jumps.html",
 			"desc": "A list of the jump codes for AT&T assembly."
 		},
 		{
-			"id": 28,
+			"id": 27,
 			"category": "Assembly", 
 			"title": "X86 Assembly Wiki",
 			"link": "https://en.wikibooks.org/wiki/X86_Assembly",
 			"desc": "A good book/resource for instructions."
 		},
 		{
-			"id": 29,
+			"id": 28,
 			"category": "Forensics", 
 			"title": "File Signatures List",
 			"link": "https://www.garykessler.net/library/file_sigs.html",
 			"desc": "A good list of the hex signatures."
 		},
 		{
-			"id": 30,
+			"id": 29,
 			"category": "Bug Bounties", 
 			"title": "HackerOne",
 			"link": "https://www.hackerone.com/internet-bug-bounty",
 			"desc": "A site dedicated to providing bug bounties for security vulnerabilities found in popular programming languages."
 		},
 		{
-			"id": 31,
+			"id": 30,
 			"category": "Cryptography", 
 			"title": "Learn Cryptography",
 			"link": "https://privacycanada.net/learn-cryptography-acquired-privacy-canada/",
 			"desc": "A good site for learning cryptography from the ground up."
 		},
 		{
-			"id": 32,
+			"id": 31,
 			"category": "Cryptography", 
 			"title": "Cryptopals",
 			"link": "https://cryptopals.com/",
 			"desc": "A site with a lot of hands on practice for learning basic cryptography."
 		},
 		{
-			"id": 33,
+			"id": 32,
 			"category": "Youtube Channels", 
 			"title": "LiveOverflow",
 			"link": "https://www.youtube.com/channel/UClcE-kVhqyiHCcjYwcpfj9w",
 			"desc": "The youtube side of LiveOverflow.com."
 		},
 		{
-			"id": 34,
+			"id": 33,
 			"category": "Youtube Channels", 
 			"title": "John Hammond",
 			"link": "https://www.youtube.com/channel/UCVeW9qkBjo3zosnqUbG7CFw",
 			"desc": "Some really great beginner guides for CTFs.  John does a great job at taking his time to explain what is happening and how it works."
 		},
 		{
-			"id": 35,
+			"id": 34,
 			"category": "Youtube Channels", 
 			"title": "Network Chuck",
 			"link": "https://www.youtube.com/c/NetworkChuck",
