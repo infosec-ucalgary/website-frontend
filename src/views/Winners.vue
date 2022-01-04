@@ -1,6 +1,6 @@
 <template>
  <section class="text-center w-10/12 md:w-5/6 lg:w-3/5 mx-auto">
-  <div class="font-display text-4xl my-4">Magpie CTF 2020 Winners</div>
+  <div class="font-display text-4xl my-4">magpieCTF 2021 Winners</div>
   <div class="mx-auto">
     <table class="w-full">
      <tr class="text-center">
