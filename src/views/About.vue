@@ -23,13 +23,13 @@
       </div>
     <div class="font-display text-3xl my-4" style="text-decoration:underline">Junior Executives</div>
       <div class="inline-block lg:mx-0 lg:flex lg:flex-wrap mx-auto w-auto justify-center">
+        <BioCard name="Marianna Ferreira" path="https://infosecucalgary.ca/uploads/marianna-headshot.jpg"  />
+        <BioCard name="Yasmin Samantar" path="https://infosecucalgary.ca/uploads/yasmin-headshot.jpg"  />
+        <BioCard name="Maryam Bouh" path="https://infosecucalgary.ca/uploads/maryam-headshot.jpg"  />
         <BioCard name="Dan Sabourov" path="https://infosecucalgary.ca/uploads/daniel-headshot.png" />
         <BioCard name="Nicholas Cervania" path="https://infosecucalgary.ca/uploads/nich-headshot.png"  />
         <BioCard name="Ned Liu" path="https://infosecucalgary.ca/uploads/ned-headshot.jpg"  />
         <BioCard name="Christopher Schultze" path="https://infosecucalgary.ca/uploads/chris-headshot.jpg"  />
-        <BioCard name="Marianna Ferreira" path="https://infosecucalgary.ca/uploads/marianna-headshot.jpg"  />
-        <BioCard name="Yasmin Samantar" path="https://infosecucalgary.ca/uploads/yasmin-headshot.jpg"  />
-        <BioCard name="Maryam Bouh" path="https://infosecucalgary.ca/uploads/maryam-headshot.jpg"  />
       </div>
     <div class="font-display text-4xl my-4"></div>
   </section>
