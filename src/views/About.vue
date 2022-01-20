@@ -16,19 +16,20 @@
     <div class="font-display text-3xl my-4" style="text-decoration:underline">Directors</div>
       <div class="inline-block lg:mx-0 lg:flex lg:flex-wrap mx-auto w-auto justify-center">
         <BioCard name="Zachary Gilchrist" path="https://infosecucalgary.ca/uploads/zachary-headshot.jpg" />
+        <BioCard name="Pratham Pandey" path="https://infosecucalgary.ca/uploads/pratham-headshot.jpg" />
         <BioCard name="Ethan Sengsavang" path="https://infosecucalgary.ca/uploads/ethan-headshot.jpg" />
         <BioCard name="Delara Shamanian" path="https://infosecucalgary.ca/uploads/delara-headshot.jpg" secret="DevOps Supreme" />
         <BioCard name="Jeremy Stuart" path="https://infosecucalgary.ca/uploads/jeremy-headshot.jpg" secret="Hot Ginger and Dynamite"/>
-        <BioCard name="Greg Vance" path="https://infosecucalgary.ca/uploads/greg-headshot.jpg" secret="Junior Supreme"/>
+        <BioCard name="Greg Vance" path="https://infosecucalgary.ca/uploads/greg-headshot.jpg" secret="Something Something Supreme"/>
       </div>
     <div class="font-display text-3xl my-4" style="text-decoration:underline">Junior Executives</div>
       <div class="inline-block lg:mx-0 lg:flex lg:flex-wrap mx-auto w-auto justify-center">
-        <BioCard name="Marianna Ferreira" path="https://infosecucalgary.ca/uploads/marianna-headshot.jpg"  />
-        <BioCard name="Yasmin Samantar" path="https://infosecucalgary.ca/uploads/yasmin-headshot.jpg"  />
         <BioCard name="Maryam Bouh" path="https://infosecucalgary.ca/uploads/maryam-headshot.jpg"  />
-        <BioCard name="Dan Sabourov" path="https://infosecucalgary.ca/uploads/daniel-headshot.png" />
         <BioCard name="Nicholas Cervania" path="https://infosecucalgary.ca/uploads/nich-headshot.png" secret="Lookin' handsome"  />
+        <BioCard name="Marianna Ferreira" path="https://infosecucalgary.ca/uploads/marianna-headshot.jpg"  />
         <BioCard name="Ned Liu" path="https://infosecucalgary.ca/uploads/ned-headshot.jpg"  />
+        <BioCard name="Dan Sabourov" path="https://infosecucalgary.ca/uploads/daniel-headshot.png" />
+        <BioCard name="Yasmin Samantar" path="https://infosecucalgary.ca/uploads/yasmin-headshot.jpg"  />
         <BioCard name="Christopher Schultze" path="https://infosecucalgary.ca/uploads/chris-headshot.jpg"  />
       </div>
     <div class="font-display text-4xl my-4"></div>
