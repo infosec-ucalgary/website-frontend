@@ -515,8 +515,8 @@
 			}
 		},
 		{
-			"eventName": "Basics of Blue Teaming: Logging and Monitoring",
-			"eventAuthor": "Alex",
+			"eventName": "Hash Functions",
+			"eventAuthor": "Braydon",
 			"eventType": "workshop",
 			"eventTime": "18:00",
 			"eventDate": {
@@ -578,15 +578,15 @@
 			}
 		},
 		{
-			"eventName": "Hash Functions",
-			"eventAuthor": "Braydon",
-			"eventType": "workshop",
-			"eventTime": "18:00",
-			"eventDate": {
-				"d": 14,
-				"m": 3,
-				"y": 2022
-			}
+		"eventName": "Basics of Blue Teaming: Logging and Monitoring",
+		"eventAuthor": "Alex",
+		"eventType": "workshop",
+		"eventTime": "18:00",
+		"eventDate": {
+			"d": 14,
+			"m": 3,
+			"y": 2022
+		}
 		},
 		{
 			"eventName": "Cloud/Health Security",
