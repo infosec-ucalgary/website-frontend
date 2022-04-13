@@ -12,7 +12,7 @@ The purpose of the club website is to act as a public face for all things club r
 * A Speaker's page containing the information on the current Speaker Series for the semester
 * A resources page with links to all kinds of tools, platforms, and other things we find useful
 * A CTF Winners page with the winners of the CTF's we've hosted
-* And finally a Contact Us page with all necessary links and our email
+* And finally a Contact Us page with all necessary links and our email  
 However, this list is not necessarily all that is needed or wanted. In future semesters there may be more pages needed (aside from required
 changes to the site, e.g., personnel changes) or perhaps some might need to be removed. Whatever the current executive body decides, so it shall be.
 
@@ -32,14 +32,14 @@ watch (or attend) one of our git basics workshops (or watch it on Youtube or Goo
 
 ## Josh's Step-by-Step Guide to Making a Contribution
 Congratulations! You've been tasked to make the calendar less janky! (Even though its my pride and joy, its far from perfect). Lets start making changes!
-1. Clone the repository from Github
+1. Clone the repository from Github  
 `git clone https://github.com/infosec-ucalgary/website-frontend.git`  
 You are required to have an account and be a part of the InfoSec UCalgary organization on Github. 
 **AS SOON AS YOU CLONE IT MAKE A NEW BRANCH WITH A NAME RELATED TO THE CHANGE YOU'RE MAKING**
 2. `cd ./website-frontend` then `git checkout -b "<NAME OF NEW BRANCH HERE>"` e.g., `git checkout -b "calendartext-fix"`  
 Make sure you move into the directory you just cloned, then branch. The name can be whatever you like, as long as it tells anyone who is reading the name
-what the purpose of the branch is. I recommend using a naming scheme like so:
-`<feature_name>-<fix|add|delete|test>`
+what the purpose of the branch is. I recommend using a naming scheme like so:  
+`<feature_name>-<fix|add|delete|test>`  
 Of course, you future generations can use whatever you want, just **keep it consistent**. At the time of writing, our branches are a MESS. I'll try to clean
 up most of them before I graduate.  
 3. Now you've created your own branch, its time to make changes. This requires working knowledge of HTML, TailwindCSS, and JavaScript  
@@ -47,13 +47,14 @@ The JS you're using is based on the framework in use, right now its Vue 2 but ma
 4. Commit often and with **good commit messages**.  
 Don't be like me in CPSC 559 where I was losing my patience and made these [horrendous](https://github.com/jdjnovak/CPSC559_Project/commits/main) commits. 
 Make commit messages with actual useful meaning. Some examples from our theme of fixing the calendar page might include:  
-* `Removed unused weekdays and months arrays from CalendarComponent component`
-* `Removed local var in getDateDisplay function and used it directly`
+  * `Removed unused weekdays and months arrays from CalendarComponent component`
+  * `Removed local var in getDateDisplay function and used it directly`  
 Etc... Of course, you can read up online what makes good commit messages since I'm no commit-saint.
 5. Push your changes to your upstream branch.  
-When creating a branch locally you need to tell github to create one on its side when you push. This is done by: `git push --set-upstream origin <name of branch>`.
+When creating a branch locally you need to tell github to create one on its side when you push. This is done by:  
+`git push --set-upstream origin <name of branch>`  
 After this is done, you should be able to push your changes without the `--set-upstream` flag.
-6. When done making the necessary changes, make a pull request.
+6. When done making the necessary changes, make a pull request.  
 To do this, I like doing it on the web interface. You can wait for the popup that says: "X branch was pushed 2 mins ago, create a pull request!" or you can hit the 
 "Pull Requests" tab under the repo name and select the base as (usually) main and compare as the branch you're working on. Write any comments and then hit Create
  Pull Request.
