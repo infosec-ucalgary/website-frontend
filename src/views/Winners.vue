@@ -29,7 +29,7 @@
      </tr>
      <tr>
       <td>3</td>
-      <td>The Yellow Mellows</td>
+      <td>The Mellow Yellows</td>
       <td class="text-center">UU-Matter, sussywussy, VictorL000, uyxela</td>
       <td class="hidden md:table-cell">27</td>
       <td class="hidden md:table-cell">11667</td>
