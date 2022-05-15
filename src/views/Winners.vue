@@ -37,7 +37,9 @@
      </tr>
     </table>
   </div>
-  <div class="font-display text-4xl my-4">magpieCTF 2021 Winners</div>
+  <div class="font-display text-4xl mt-8">Previous Winners</div>
+  <!-- note: change text-4xl to text-2xl when copying to here to keep consistency -->
+  <div class="font-display text-2xl my-4">magpieCTF 2021 Winners</div>
   <div class="mx-auto">
     <table class="w-full">
      <tr class="text-center">
