@@ -18,7 +18,6 @@
         <BioCard name="Brandon Arenas" path="https://infosecucalgary.ca/uploads/not-brandon-but-brandon.png" />
         <BioCard name="Christopher Schultze" path="https://infosecucalgary.ca/uploads/chris-headshot.jpg"  />
         <BioCard name="Ejaaz Lakhani" path="https://infosecucalgary.ca/uploads/ejaaz-headshot.jpg" secret="Supreme Beard" />
-        <BioCard name="Nicholas Cervania" path="https://infosecucalgary.ca/uploads/nich-headshot.png" secret="Lookin' handsome"  />
         <BioCard name="Pratham Pandey" path="https://infosecucalgary.ca/uploads/pratham-headshot.jpg" />
         <BioCard name="Zachary Gilchrist" path="https://infosecucalgary.ca/uploads/zachary-headshot.jpg" />
       </div>
