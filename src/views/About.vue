@@ -20,7 +20,7 @@
         <BioCard name="Ejaaz Lakhani" path="https://infosecucalgary.ca/uploads/ejaaz-headshot.jpg" secret="Supreme Beard" />
         <BioCard name="Pratham Pandey" path="https://infosecucalgary.ca/uploads/pratham-headshot.jpg" />
       </div>
-    <!-- div class="font-display text-3xl my-4" style="text-decoration:underline">Junior Executives</div>
+    <div class="font-display text-3xl my-4" style="text-decoration:underline">Junior Executives</div>
       <div class="inline-block lg:mx-0 lg:flex lg:flex-wrap mx-auto w-auto justify-center">
         <BioCard name="Amna Shiekh" path="https://infosecucalgary.ca/uploads/amna-s-headshot.jpg" />
         <BioCard name="Artemy Gavrilov" path="https://infosecucalgary.ca/uploads/artemy-headshot.jpg" />
@@ -32,7 +32,7 @@
         <BioCard name="Julie Kim" path="https://infosecucalgary.ca/uploads/julie-headshot.jpg" />
         <BioCard name="Kimih Yan" path="https://infosecucalgary.ca/uploads/kimih-headshot.jpg" />
       </div>
-    <div class="font-display text-4xl my-4"></div -->
+    <div class="font-display text-4xl my-4"></div>
   </section>
 </template>
 
