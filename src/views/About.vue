@@ -8,7 +8,7 @@
         <BioCard name="Greg Vance" title="VP Finance" path="https://infosecucalgary.ca/uploads/greg-headshot.jpg" secret="Something Something Supreme"/>
         <BioCard name="Maryam Bouh" title="VP Operations" path="https://infosecucalgary.ca/uploads/maryam-headshot.jpg"  />
         <BioCard name="Marianna Ferreira" title="VP Communications" path="https://infosecucalgary.ca/uploads/marianna-headshot.jpg"  />
-        <BioCard name="Waleed Ghumman" title="VP Secretary" path="https://infosecucalgary.ca/uploads/marianna-headshot.jpg"  />
+        <BioCard name="Waleed Ghumman" title="VP Secretary" path="https://infosecucalgary.ca/uploads/waleed-headshot.jpg"  />
         <BioCard name="Delara Shamanian" title="VP Tech" path="https://infosecucalgary.ca/uploads/delara-headshot.jpg" secret="DevOps Supreme" />
         <BioCard name="Ethan Sengsavang" title="VP Tech" path="https://infosecucalgary.ca/uploads/ethan-headshot.jpg" secret="just supremely tired" />
         <BioCard name="Ned Liu" title="VP Tech" path="https://infosecucalgary.ca/uploads/ned-headshot.jpg"  />
