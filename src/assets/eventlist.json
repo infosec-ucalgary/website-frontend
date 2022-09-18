@@ -621,6 +621,94 @@
 				"m": 4,
 				"y": 2022
 			}
+		},
+		{
+			"eventName": "First General Meeting",
+			"eventAuthor": "Yasmin and Dan",
+			"eventType": "workshop",
+			"eventTime": "18:00",
+			"eventDate": {
+				"d": 19,
+				"m": 9,
+				"y": 2022
+			}
+		},
+		{
+			"eventName": "Social Engineering",
+			"eventAuthor": "Amna",
+			"eventType": "workshop",
+			"eventTime": "18:00",
+			"eventDate": {
+				"d": 26,
+				"m": 9,
+				"y": 2022
+			}
+		},
+		{
+			"eventName": "Intro to Networks",
+			"eventAuthor": "Marianna",
+			"eventType": "workshop",
+			"eventTime": "18:00",
+			"eventDate": {
+				"d": 17,
+				"m": 10,
+				"y": 2022
+			}
+		},
+		{
+			"eventName": "Intro to Binary Exploitation",
+			"eventAuthor": "Christina",
+			"eventType": "workshop",
+			"eventTime": "18:00",
+			"eventDate": {
+				"d": 24,
+				"m": 10,
+				"y": 2022
+			}
+		},
+		{
+			"eventName": "Speaker Series",
+			"eventAuthor": "Dr. Joel Reardon",
+			"eventType": "speaker",
+			"eventTime": "18:00",
+			"eventDate": {
+				"d": 31,
+				"m": 10,
+				"y": 2022
+			}
+		},
+		{
+			"eventName": "Intro to Reverse Engineering",
+			"eventAuthor": "Ethan",
+			"eventType": "workshop",
+			"eventTime": "18:00",
+			"eventDate": {
+				"d": 14,
+				"m": 11,
+				"y": 2022
+			}
+		},
+		{
+			"eventName": "Intro to Cryptography",
+			"eventAuthor": "Christina",
+			"eventType": "workshop",
+			"eventTime": "18:00",
+			"eventDate": {
+				"d": 21,
+				"m": 11,
+				"y": 2022
+			}
+		},
+		{
+			"eventName": "Intro to Forensics",
+			"eventAuthor": "Greg",
+			"eventType": "workshop",
+			"eventTime": "18:00",
+			"eventDate": {
+				"d": 28,
+				"m": 11,
+				"y": 2022
+			}
 		}
 	]
 }
