@@ -645,6 +645,28 @@
 			}
 		},
 		{
+			"eventName": "Speaker Series",
+			"eventAuthor": "TBA",
+			"eventType": "speaker",
+			"eventTime": "18:00",
+			"eventDate": {
+				"d": 3,
+				"m": 10,
+				"y": 2022
+			}
+		},
+		{
+			"eventName": "Intro to Web Exploitation",
+			"eventAuthor": "Artemy",
+			"eventType": "workshop",
+			"eventTime": "18:00",
+			"eventDate": {
+				"d": 10,
+				"m": 10,
+				"y": 2022
+			}
+		},
+		{
 			"eventName": "Intro to Networks",
 			"eventAuthor": "Marianna",
 			"eventType": "workshop",
