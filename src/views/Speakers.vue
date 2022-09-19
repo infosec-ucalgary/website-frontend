@@ -5,19 +5,12 @@
       <p class="font-display text-2xl">Join our speaker series and learn information security topics from real-world industry professionals.</p>
       <p class="font-display text-2xl mt-2">View the <router-link id="nav-item" class="underline" to="/calendar">calendar</router-link> for workshop and speaker dates</p>
     </div>
-    <div class="mt-10">
-      <p class="font-body font-bold text-3xl text-red-800">Access to the speaker series is restricted to paying club members</p>
-    </div>
-    <div class="mt-8">
-      <p class="font-display font-normal text-2xl">To pay club fees, transfer $10 (or $5 if joining from the winter semester) to infosec.ucalgary@gmail.com. Please include your name, email and Discord username (if you have one) in the message.  Make sure to include your four-digit Discord identifier.</p>
-    </div>
     <hr class="mt-12 mb-16 border-2 border-gray-700 border-dashed">
     <div>
-      <SpeakerBioCard name="Chris Shepherd, OSCP" bio="Pentester" topic="Open Source Intelligence" date="18/10/2021" path="https://infosecucalgary.ca/uploads/speakers/Chris-Shepherd.jpg" />
-      <SpeakerBioCard name="Ruth Promislow" bio="Partner at Bennet Jones" topic="Cyberlaw" date="22/11/2021" path="https://infosecucalgary.ca/uploads/speakers/Ruth_Promislow.png" />
-      <SpeakerBioCard name="Dr. Jason Jaskolka" bio="Director of the Cyber Security Evaluation and Assurance (CyberSEA) Research Lab at Carleton University" topic="Security of Multi-Agent Systems" date="24/01/2022" path="https://infosecucalgary.ca/uploads/speakers/jason-Jaskolka.jpg"/>
-      <SpeakerBioCard name="Mani Keerthi Nagothu" bio="Cybersecurity Professional" topic="Cyber Supply Chain Risk" date="14/02/2022" path="https://infosecucalgary.ca/uploads/speakers/mani_headshot.png"/>
-      <SpeakerBioCard name="Dr. Dima Alhadidi" bio="Assistant Professor in the School of Computer Science at the University of Windsor" topic="Security of Cloud and Health Data" date="21/03/2022" path="https://infosecucalgary.ca/uploads/speakers/dimaHeadshot.jpg"/>
+      <SpeakerBioCard name="TBA" bio="" topic="TBA" date="03/10/2021"  />
+      <SpeakerBioCard name="Dr. Joeal Reardon" bio="Aassistant professor in the Computer Science department at the University of Calgary" topic="TBA" date="31/10/2022" path="https://infosecucalgary.ca/uploads/speakers/joel-reardon.jpg"/>
+      <SpeakerBioCard name="TBA" bio="" topic="TBA" date="06/02/2023"  />
+      <SpeakerBioCard name="TBA" bio="" topic="TBA" date="20/03/2022" />
     </div>
   </section>
 </template>
