@@ -645,9 +645,9 @@
 			}
 		},
 		{
-			"eventName": "Speaker Series",
-			"eventAuthor": "TBA",
-			"eventType": "speaker",
+			"eventName": "Intro to Web Exploitation",
+			"eventAuthor": "Artemy",
+			"eventType": "workshop",
 			"eventTime": "18:00",
 			"eventDate": {
 				"d": 3,
@@ -656,19 +656,8 @@
 			}
 		},
 		{
-			"eventName": "Intro to Web Exploitation",
-			"eventAuthor": "Artemy",
-			"eventType": "workshop",
-			"eventTime": "18:00",
-			"eventDate": {
-				"d": 10,
-				"m": 10,
-				"y": 2022
-			}
-		},
-		{
-			"eventName": "Intro to Networks",
-			"eventAuthor": "Marianna",
+			"eventName": "Intro to Forensics",
+			"eventAuthor": "Greg",
 			"eventType": "workshop",
 			"eventTime": "18:00",
 			"eventDate": {
@@ -678,8 +667,8 @@
 			}
 		},
 		{
-			"eventName": "Intro to Binary Exploitation",
-			"eventAuthor": "Christina",
+			"eventName": "Intro to Networks",
+			"eventAuthor": "Marianna",
 			"eventType": "workshop",
 			"eventTime": "18:00",
 			"eventDate": {
@@ -700,8 +689,8 @@
 			}
 		},
 		{
-			"eventName": "Intro to Reverse Engineering",
-			"eventAuthor": "Ethan",
+			"eventName": "Intro to Cryptography",
+			"eventAuthor": "Christina and Fam",
 			"eventType": "workshop",
 			"eventTime": "18:00",
 			"eventDate": {
@@ -711,8 +700,8 @@
 			}
 		},
 		{
-			"eventName": "Intro to Cryptography",
-			"eventAuthor": "Christina",
+			"eventName": "Intro to Reverse Engineering",
+			"eventAuthor": "Ethan",
 			"eventType": "workshop",
 			"eventTime": "18:00",
 			"eventDate": {
@@ -722,8 +711,8 @@
 			}
 		},
 		{
-			"eventName": "Intro to Forensics",
-			"eventAuthor": "Greg",
+			"eventName": "Intro to Binary Exploitation",
+			"eventAuthor": "Christina",
 			"eventType": "workshop",
 			"eventTime": "18:00",
 			"eventDate": {
