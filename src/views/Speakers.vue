@@ -7,7 +7,6 @@
     </div>
     <hr class="mt-12 mb-16 border-2 border-gray-700 border-dashed">
     <div>
-      <SpeakerBioCard name="TBA" bio="" topic="TBA" date="03/10/2021"  />
       <SpeakerBioCard name="Dr. Joel Reardon" bio="Associate professor in the Computer Science department at the University of Calgary" topic="TBA" date="31/10/2022" path="https://infosecucalgary.ca/uploads/speakers/joel-reardon.jpg"/>
       <SpeakerBioCard name="TBA" bio="" topic="TBA" date="06/02/2023"  />
       <SpeakerBioCard name="TBA" bio="" topic="TBA" date="20/03/2022" />
