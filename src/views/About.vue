@@ -18,7 +18,6 @@
       </div>
     <div class="font-display text-3xl my-4" style="text-decoration:underline">Junior Executives</div>
       <div class="inline-block lg:mx-0 lg:flex lg:flex-wrap mx-auto w-auto justify-center">
-        <BioCard name="Amna Sheikh" path="https://infosecucalgary.ca/uploads/amna-s-headshot.jpg" />
         <BioCard name="Artemy Gavrilov" path="https://infosecucalgary.ca/uploads/artemy-headshot.jpg" />
         <BioCard name="Auric Poku" path="https://infosecucalgary.ca/uploads/auric-headshot.jpg" />
         <BioCard name="Christina He" path="https://infosecucalgary.ca/uploads/christina-headshot.jpg" />
