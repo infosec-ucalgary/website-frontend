@@ -720,6 +720,92 @@
 				"m": 11,
 				"y": 2022
 			}
+		},
+		{
+			"eventName": "Basics of Breaking into a Box",
+			"eventAuthor": "Auric",
+			"eventType": "workshop",
+			"eventTime": "18:00",
+			"eventDate": {
+				"d": 23,
+				"m": 1,
+				"y": 2023
+			}
+		},
+		{
+			"eventName": "Speaker Series",
+			"eventAuthor": "TBA",
+			"eventType": "speaker",
+			"eventTime": "18:00",
+			"eventDate": {
+				"d": 6,
+				"m": 2,
+				"y": 2023
+			}
+		},
+		{
+			"eventName": "magpieCTF",
+			"eventAuthor": "Infosec Club",
+			"eventType": "ctf",
+			"eventDate": {
+				"d": 24,
+				"m": 2,
+				"y": 2023
+			}
+		},
+		{
+			"eventName": "magpieCTF",
+			"eventAuthor": "Infosec Club",
+			"eventType": "ctf",
+			"eventDate": {
+				"d": 25,
+				"m": 2,
+				"y": 2023
+			}
+		},
+		{
+			"eventName": "magpieCTF",
+			"eventAuthor": "Infosec Club",
+			"eventType": "ctf",
+			"eventDate": {
+				"d": 26,
+				"m": 2,
+				"y": 2023
+			}
+		},
+		{
+			"eventName": "Log4J",
+			"eventAuthor": "Yasmin",
+			"eventType": "workshop",
+			"eventTime": "18:00",
+			"eventDate": {
+				"d": 6,
+				"m": 3,
+				"y": 2023
+			}
+		},
+		{
+			"eventName": "Speaker Series",
+			"eventAuthor": "TBA",
+			"eventType": "speaker",
+			"eventTime": "18:00",
+			"eventDate": {
+				"d": 20,
+				"m": 3,
+				"y": 2023
+			}
+		},
+		{
+			"eventName": "Network Exploitations",
+			"eventAuthor": "Amna",
+			"eventType": "workshop",
+			"eventTime": "18:00",
+			"eventDate": {
+				"d": 3,
+				"m": 4,
+				"y": 2023
+			}
 		}
+		
 	]
 }
