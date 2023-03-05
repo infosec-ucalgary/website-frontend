@@ -25,7 +25,7 @@
       <td class="text-center">NYUSEC, XxX</td>
       <td class="hidden md:table-cell">23</td>
       <td class="hidden md:table-cell">3873</td>
-      <td class="hidden md:table-cell">NA</td>
+      <td class="hidden md:table-cell">New York University</td>
      </tr>
      <tr>
       <td>3</td>
