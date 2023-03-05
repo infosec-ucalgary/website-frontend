@@ -1,6 +1,45 @@
 <template>
  <section class="text-center w-10/12 md:w-5/6 lg:w-3/5 mx-auto">
-  <div class="font-display text-4xl my-4">magpieCTF 2022 Winners</div>
+  <div class="font-display text-4xl my-4">magpieCTF 2023 Winners</div>
+  <div class="mx-auto">
+    <table class="w-full">
+     <tr class="text-center">
+      <th>Place</th>
+      <th>Team</th>
+      <th>Members</th>
+      <th class="hidden md:table-cell">Challenges Solved</th>
+      <th class="hidden md:table-cell">Points</th>
+      <th class="hidden md:table-cell">School</th>
+     </tr>
+     <tr>
+      <td>1</td>
+      <td>YegSecNC</td>
+      <td class="text-center">steadmanticore, BooMShanKerX, Siachen, litobro, coryleo</td>
+      <td class="hidden md:table-cell">23</td>
+      <td class="hidden md:table-cell">3873</td>
+      <td class="hidden md:table-cell">NA</td>
+     </tr>
+     <tr>
+      <td>2</td>
+      <td>NYUSEC</td>
+      <td class="text-center">NYUSEC, XxX</td>
+      <td class="hidden md:table-cell">23</td>
+      <td class="hidden md:table-cell">3873</td>
+      <td class="hidden md:table-cell">NA</td>
+     </tr>
+     <tr>
+      <td>3</td>
+      <td>Looni𝑒</td>
+      <td class="text-center">Idleless, WonOhSeven, alphawhh, whoareuwhoamiwhatarewe</td>
+      <td class="hidden md:table-cell">22</td>
+      <td class="hidden md:table-cell">3453</td>
+      <td class="hidden md:table-cell">NA</td>
+     </tr>
+    </table>
+  </div>
+  <div class="font-display text-4xl mt-8">Previous Winners</div>
+  <!-- note: change text-4xl to text-2xl when copying to here to keep consistency -->
+  <div class="font-display text-2xl my-4">magpieCTF 2022 Winners</div>
   <div class="mx-auto">
     <table class="w-full">
      <tr class="text-center">
@@ -37,8 +76,6 @@
      </tr>
     </table>
   </div>
-  <div class="font-display text-4xl mt-8">Previous Winners</div>
-  <!-- note: change text-4xl to text-2xl when copying to here to keep consistency -->
   <div class="font-display text-2xl my-4">magpieCTF 2021 Winners</div>
   <div class="mx-auto">
     <table class="w-full">
