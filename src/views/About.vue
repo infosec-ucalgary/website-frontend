@@ -19,7 +19,7 @@
       </div>
     <div class="font-display text-3xl my-4" style="text-decoration:underline">Juniors</div>
       <div class="inline-block lg:mx-0 lg:flex lg:flex-wrap mx-auto w-auto justify-center">
-        <BioCard name="Khushi Choksi" path="https://infosecucalgary.ca/uploads/khushi-headshot.png" />
+        <BioCard name="Khushi Choksi" path="https://infosecucalgary.ca/uploads/khushi-headshot.jpg" />
         <BioCard name="Nick MacKinnon" path="https://infosecucalgary.ca/uploads/nick-headshot.jpg" />
         <BioCard name="Emmanuel Trinidad" path="https://infosecucalgary.ca/uploads/emmanuel-headshot.jpg" />
         <BioCard name="Ramez Halasah" path="https://infosecucalgary.ca/uploads/ramez-headshot.jpg" />
