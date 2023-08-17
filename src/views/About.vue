@@ -25,7 +25,7 @@
         <BioCard name="Ramez Halasah" path="https://infosecucalgary.ca/uploads/ramez-headshot.jpg" />
         <BioCard name="Paige So'Brien" path="https://infosecucalgary.ca/uploads/paige-headshot.jpg"  />
         <BioCard name="Royce K" path="https://infosecucalgary.ca/uploads/royce-headshot.png" />
-        <BioCard name="Khadeeja Abbas" path="https://infosecucalgary.ca/uploads/not-khadeeja-but-khadeeja.jpg" />
+        <BioCard name="Khadeeja Abbas" path="https://infosecucalgary.ca/uploads/khadeeja-headshot.jpg" />
       </div>
     <div class="font-display text-4xl my-4"></div>
   </section>
