@@ -804,6 +804,86 @@
 				"d": 3,
 				"m": 4,
 				"y": 2023
+			},
+			{
+			"eventName": "Installing and Using Kali, linux command line introduction, meet and greet",
+			"eventAuthor": "Christina",
+			"eventType": "practice session",
+			"eventTime": "16:00",
+			"eventDate": {
+				"d": 22,
+				"m": 9,
+				"y": 2023
+			},
+			{
+			"eventName": "Networks/HTB TwoMillion",
+			"eventAuthor": "Khadeeja/Christina",
+			"eventType": "practice session",
+			"eventTime": "16:00",
+			"eventDate": {
+				"d": 29,
+				"m": 9,
+				"y": 2023
+			},
+			{
+			"eventName": "Reverse Engineering/HTB",
+			"eventAuthor": "Paige/Dan",
+			"eventType": "practice session",
+			"eventTime": "16:00",
+			"eventDate": {
+				"d": 13,
+				"m": 10,
+				"y": 2023
+			},
+			{
+			"eventName": "Speaker Series",
+			"eventAuthor": "Dr. Joel Reardon",
+			"eventType": "speaker",
+			"eventTime": "16:00",
+			"eventDate": {
+				"d": 20,
+				"m": 10,
+				"y": 2023
+			},
+			{
+			"eventName": "Speaker Series",
+			"eventAuthor": "Dr. Ryan Henry",
+			"eventType": "speaker",
+			"eventTime": "16:00",
+			"eventDate": {
+				"d": 27,
+				"m": 10,
+				"y": 2023
+			},
+			{
+			"eventName": "Emmanuels Manual to infosec/HTB-Keeper-UserFlag",
+			"eventAuthor": "Emmanuel/Ned",
+			"eventType": "practice session",
+			"eventTime": "16:00",
+			"eventDate": {
+				"d": 3,
+				"m": 11,
+				"y": 2023
+			},
+			{
+			"eventName": "Ramezs promise of security/HTB-Keeper-RootFlag",
+			"eventAuthor": "Ramez/Ned",
+			"eventType": "practice session",
+			"eventTime": "16:00",
+			"eventDate": {
+				"d": 17,
+				"m": 11,
+				"y": 2023
+			},
+			{
+			"eventName": "Speaker Series",
+			"eventAuthor": "Dr. Rei Safavi-Naini",
+			"eventType": "speaker",
+			"eventTime": "16:00",
+			"eventDate": {
+				"d": 24,
+				"m": 11,
+				"y": 2023
 			}
 		}
 		
