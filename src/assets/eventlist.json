@@ -804,7 +804,8 @@
 				"d": 3,
 				"m": 4,
 				"y": 2023
-			},
+			}
+		},
 			{
 			"eventName": "Installing and Using Kali, linux command line introduction, meet and greet",
 			"eventAuthor": "Christina",
@@ -814,7 +815,8 @@
 				"d": 22,
 				"m": 9,
 				"y": 2023
-			},
+			}
+		},
 			{
 			"eventName": "Networks/HTB TwoMillion",
 			"eventAuthor": "Khadeeja/Christina",
@@ -824,7 +826,8 @@
 				"d": 29,
 				"m": 9,
 				"y": 2023
-			},
+			}
+		},
 			{
 			"eventName": "Reverse Engineering/HTB",
 			"eventAuthor": "Paige/Dan",
@@ -834,7 +837,8 @@
 				"d": 13,
 				"m": 10,
 				"y": 2023
-			},
+			}
+		},
 			{
 			"eventName": "Speaker Series",
 			"eventAuthor": "Dr. Joel Reardon",
@@ -844,7 +848,8 @@
 				"d": 20,
 				"m": 10,
 				"y": 2023
-			},
+			}
+		},
 			{
 			"eventName": "Speaker Series",
 			"eventAuthor": "Dr. Ryan Henry",
@@ -854,7 +859,8 @@
 				"d": 27,
 				"m": 10,
 				"y": 2023
-			},
+			}
+		},
 			{
 			"eventName": "Emmanuels Manual to infosec/HTB-Keeper-UserFlag",
 			"eventAuthor": "Emmanuel/Ned",
@@ -864,7 +870,8 @@
 				"d": 3,
 				"m": 11,
 				"y": 2023
-			},
+			}
+		},
 			{
 			"eventName": "Ramezs promise of security/HTB-Keeper-RootFlag",
 			"eventAuthor": "Ramez/Ned",
@@ -874,7 +881,8 @@
 				"d": 17,
 				"m": 11,
 				"y": 2023
-			},
+			}
+		},
 			{
 			"eventName": "Speaker Series",
 			"eventAuthor": "Dr. Rei Safavi-Naini",
