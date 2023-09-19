@@ -1,6 +1,6 @@
 <template>
-  <div :class="this.eventType !== 'practice session' ? this.eventType === 'speaker' ? 'border-blue-400' : 'border-green-400' : 'border-red-500'" class="mb-1 h-2 md:h-8 w-full md:grid md:grid-cols-4 rounded-full border-2 md:border-none">
-    <div :class="this.eventType !== 'practice session' ? this.eventType === 'speaker' ? 'md:border-blue-400 md:bg-blue-400' : 'md:border-green-400 md:bg-green-400' : 'md:border-red-500 md:bg-red-500'" class="hidden h-full md:inline md:py-1 md:border rounded-l-full w-full md:w-auto md:col-span-1 md:h-full">
+  <div :class="this.eventType !== 'workshop' ? this.eventType === 'speaker' ? 'border-blue-400' : 'border-green-400' : 'border-red-500'" class="mb-1 h-2 md:h-8 w-full md:grid md:grid-cols-4 rounded-full border-2 md:border-none">
+    <div :class="this.eventType !== 'workshop' ? this.eventType === 'speaker' ? 'md:border-blue-400 md:bg-blue-400' : 'md:border-green-400 md:bg-green-400' : 'md:border-red-500 md:bg-red-500'" class="hidden h-full md:inline md:py-1 md:border rounded-l-full w-full md:w-auto md:col-span-1 md:h-full">
       <svg v-if="eventType === 'speaker'" class="h-full mx-auto my-auto" height="18" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z" />
       </svg>
