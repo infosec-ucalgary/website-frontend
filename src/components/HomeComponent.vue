@@ -40,7 +40,7 @@
         <section class="w-full py-10">
           <div class="w-2/3 mx-auto my-4">
             <p class="font-display text-center text-4xl">Where We Meet</p>
-            <p class="font-body text-center text-2xl">Join us every Monday at 6PM in-person or online for our weekly workshop</p><br>
+            <p class="font-body text-center text-2xl">Join us every Friday at 4PM in-person for our weekly practice sessions in MS325!</p><br>
           </div>
         </section>
         <div class="w-2/3 mx-auto my-4 text-center">
