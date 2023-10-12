@@ -8,7 +8,6 @@
         <BioCard name="Artemy Gavrilov" title="VP Finance" path="https://infosecucalgary.ca/uploads/artemy-headshot.jpg" />
         <BioCard name="Kimih Yan" title="VP Operations" path="https://infosecucalgary.ca/uploads/kimih-headshot.jpg" />
         <BioCard name="Marianna Ferreira" title="VP Communications" path="https://infosecucalgary.ca/uploads/marianna-headshot.jpg"  />
-        <BioCard name="Auric Poku" title="VP Secretary" path="https://infosecucalgary.ca/uploads/auric-headshot.jpg" />
         <BioCard name="Christina He" title="VP Tech" path="https://infosecucalgary.ca/uploads/christina-headshot.jpg" />
         <BioCard name="Ned Liu" title="VP Tech" path="https://infosecucalgary.ca/uploads/ned-headshot.jpg"  />
         <BioCard name="Amna Adnan" title="VP Tech" path="https://infosecucalgary.ca/uploads/amna-headshot.jpg" />
@@ -25,6 +24,8 @@
         <BioCard name="Paige So'Brien" path="https://infosecucalgary.ca/uploads/paige-headshot.jpg"  />
         <BioCard name="Royce K" path="https://infosecucalgary.ca/uploads/royce-headshot.png" />
         <BioCard name="Khadeeja Abbas" path="https://infosecucalgary.ca/uploads/khadeeja-headshot.jpg" />
+        <BioCard name="Dante Kirsman" path="https://infosecucalgary.ca/uploads/dante-headshot.jpg" />
+        <BioCard name="Sean Robertson" path="https://infosecucalgary.ca/uploads/sean-headshot.jpg" />
       </div>
     <div class="font-display text-4xl my-4"></div>
   </section>
