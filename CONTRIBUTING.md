@@ -61,7 +61,7 @@ To do this, I like doing it on the web interface. You can wait for the popup tha
 7. Do not automatically merge them until they have been Okay'd by one of the VP's or the President.  
 Self-explanatory. Make sure they're happy with the changes. **IF** there are merge conflicts, you are required to fix them when you merge. There are infinite reasons 
 why something may cause a conflict, but read up on it to better understand how to fix them should the situation arise.
-8. Bask in the glory of what you've accomplished.  
+8. Bask in the glory of what you've accomplished. ツ
 And you're done! Well done, you've completed a change!
 
 ## What Next?
@@ -81,3 +81,5 @@ The world is your oyster here, just make sure all changes go through appropriate
 If you have any questions about anything legacy (no not my age but things that have been left over that we haven't documented correctly or things that seem like they 
 shouldn't be there) reach out to me on discord, I should be in the club discord as Josh N, rm -rf, or Admyral. I'll do my best to answer any questions or ~~ignore~~ ease your 
 concerns. Of course, future webmasters can rewrite this as they see fit, especially if they aren't fun and dislike my attempt to make this document not boring.
+
+^ nerd

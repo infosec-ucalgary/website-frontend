@@ -1,4 +1,5 @@
 <template>
+  <div class="xl:flex xl:items-center xl:justify-center">
   <section class="mx-auto w-64 m-4 flex-shrink-0 md:m-4">
     <div @click="showHideSecret" v-if="path==null" class="bg-gray-300 border rounded-full h-64">
     </div>
@@ -9,6 +10,7 @@
       <p v-if="show_secret == true" class="font-body font-light">{{ secret }}</p>
     </div>
   </section>
+</div>
 </template>
 
 <style scoped>
