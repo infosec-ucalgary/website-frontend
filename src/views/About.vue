@@ -14,10 +14,15 @@
       <div class="inline-block lg:mx-0 lg:flex lg:flex-wrap mx-auto w-auto justify-center">
         <BioCard name="Christina He" path="https://infosecucalgary.ca/uploads/christina-headshot.jpg" />
       </div>
-    <!-- <div class="font-display text-3xl my-4" style="text-decoration:underline">Juniors</div>
-      <div class="inline-block lg:mx-0 lg:flex lg:flex-wrap mx-auto w-auto justify-center">
-        <BioCard name="Future Junior" path="" />
-      </div> -->
+    <div class="font-display text-3xl my-4" style="text-decoration:underline">Juniors</div>
+      <div class="inline-block xl:grid xl:grid-cols-3 lg:mx-0 lg:flex lg:flex-wrap mx-auto w-auto justify-center">
+        <BioCard name="Mohammad Hashmi" path="https://infosecucalgary.ca/uploads/mohammad-headshot.png" />
+        <BioCard name="Martin Mosquera" path="https://infosecucalgary.ca/uploads/martin-headshot.png" />
+        <BioCard name="Ayesha Saeed" path="https://infosecucalgary.ca/uploads/ayesha-headshot.jpg" />
+        <BioCard name="Samer Swedan" path="https://infosecucalgary.ca/uploads/samer-headshot.jpg" />
+        <BioCard name="Ananya Jain" path="https://infosecucalgary.ca/uploads/ananya-headshot.jpg" />
+        <BioCard name="Manav Patel" path="https://infosecucalgary.ca/uploads/manav-headshot.jpg" />
+      </div>
     <div class="font-display text-4xl my-4"></div>
   </section>
 </template>
