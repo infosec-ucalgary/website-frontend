@@ -11,6 +11,7 @@ module.exports = {
     fontFamily: {
       'display': ['Trebuchet-MS'],
       'body': ['Open Sans', 'sans-serif'],
+      'exo2': ['"Exo 2"', 'sans-serif'],
     },
   },
   variants: {},
